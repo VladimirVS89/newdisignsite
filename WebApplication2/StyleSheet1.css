@@ -39,6 +39,7 @@ html
     width:100%;
     margin:0 auto;
     min-width:1349px;
+    background-color:#FAFCFA;
 }
 body
 {
@@ -47,12 +48,14 @@ body
    background-color:#FAFCFA;
   /* background:url("bg_body.gif");*/
   /* background-color:#02C435;*/
-   /*width:1345px;*/
+   /*width:1345px;
+       background:url("body1.jpg");*/
    width:100%;
-   height:100%;  background:url("body1.jpg");
+   height:100%;  
 }
 .bodydiv
 {
+    background-color:#FAFCFA;
    margin:0 auto; 
    height:auto;
    margin-top:0px;

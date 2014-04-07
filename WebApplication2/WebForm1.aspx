@@ -30,13 +30,13 @@
         <!-- Add your site or application content here -->
         <p>Hello world! This is HTML5 Boilerplate.</p>
 
-       
+     <form id="form1" runat="server">  
 
     <div id="leftuzor" style="float:left; overflow:visible; width:150px; height:188px;   positition:relative; margin-left:0px; margin-top:0px; "> <img  src="uzor1 copy.png" /></div>
         <div id="rightuzor" style="float:right; width:150px; height:188px;  overflow:visible; positition:relative; margin-right:0px; margin-top:0px; "> <img src="uzor1 copy2.png" /></div>
    
    <div class="bodydiv">
-   <form id="form1" runat="server">
+   
    
         <%--<div id="rightpart">
             <div class="parttop">
@@ -378,7 +378,7 @@
 
    <div id="rasporka"></div>
     
-     </form>
+     
   </div>
    <div id="footer">
     
@@ -400,5 +400,7 @@
             }(window, document, 'script', 'ga'));
             ga('create', 'UA-XXXXX-X'); ga('send', 'pageview');
         </script>
+
+     </form>
 </body>
 </html>
