@@ -32,9 +32,9 @@
 
      <form id="form1" runat="server">  
 
-    <div id="leftuzor" style="float:left; overflow:visible; width:150px; height:188px;   positition:relative; margin-left:0px; margin-top:0px; "> <img  src="uzor1 copy.png" /></div>
+   <%-- <div id="leftuzor" style="float:left; overflow:visible; width:150px; height:188px;   positition:relative; margin-left:0px; margin-top:0px; "> <img  src="uzor1 copy.png" /></div>
         <div id="rightuzor" style="float:right; width:150px; height:188px;  overflow:visible; positition:relative; margin-right:0px; margin-top:0px; "> <img src="uzor1 copy2.png" /></div>
-   
+   --%>
    <div class="bodydiv">
    
    
@@ -58,7 +58,7 @@
 
             <div id="name">
               <div style="font-size:26px; margin-top:17px;"><strong>ОПТОВАЯ КОМПАНИЯ</strong></div><%--font-size:33px;--%>
-              <div style="font-size:20px; margin-top:15px;"><strong>ООО Складской комплес</strong></div><%--font-size:20px;--%> 
+              <div style="font-size:20px; margin-top:15px;"><strong>ООО Складской комплекс</strong></div><%--font-size:20px;--%> 
             </div>
          
          
@@ -84,34 +84,34 @@
             
          </div>
     </div>
-    <div id="maincontent">
 
-    <div class="transparency">
+    <div id="DivOfMainContent">
 
-    <div class="menu">
+ <div class="menu">
         <ul>
             
-            <li class="menu2" id="leftmenubutton" "><%--style="background-image:url(logo3.jpg);--%>
-                <a href="WebForm1.aspx" style="color:white;"><b>Главная</b></a>
+            <li class="delimiter"></li>
+            <li class="menu2" id="leftmenubutton" "><%--style="background-image:url(menu3.jpg);--%>
+                <a href="WebForm1.aspx" style="color:white;"><b>О компании</b></a>
             </li>
             <li class="delimiter"></li>
             <li class="menu2">
-                <a href="New.aspx" class="shadow" ><b>Новинки</b></a></li>
+                <a href="New.aspx" class="shadow" ><b>Каталог товаров</b></a></li>
             <li class="delimiter"></li>
             <li class="menu2">
-                <a href="Pop.aspx"><b>Популярные</b></a></li>
+                <a href="Pop.aspx"><b>Партнерам</b></a></li>
             <li class="delimiter"></li>
             <li class="menu2">
-                <a href="Sale.aspx"><b>Распродажа</b></a></li>
+                <a href="Sale.aspx"><b>Арендаторам</b></a></li>
             <li class="delimiter"></li>
             <li class="menu2">
-                <a href="Luxe.aspx"><b>LUXE</b></a></li>
+                <a href="Luxe.aspx" id="rightmenubutton"><b>Контакты</b></a></li>
             <li class="delimiter"></li>
-            <li class="menu2">
+            <%--<li class="menu2" >
                 <a href="Contacts.aspx"><b>Контакты</b></a></li>
             <li class="delimiter"></li>
             <li class="menu2" id="rightmenubutton">
-                <a href="Basket.aspx"><b>Корзина</b></a></li>
+                <a href="Basket.aspx"><b>Корзина</b></a></li>--%>
            
             <%--<li>
             <div style="width:223px; height:50px; background-color:#FF1F02;">
@@ -122,6 +122,11 @@
 
         </ul>
     </div>
+
+        <div id="maincontent">
+
+  
+   <div>
     <div  id="canva">
        <%-- <canvas id="myCanvas" width="350" height="250">
        Вот так вот
@@ -332,9 +337,9 @@
             asdasd
             </div> 
         </div>--%>
-        </div>
+      </div>
     </div>
-    
+    </div>
 
  <%--       <div id="centerpart">
             <div id="centertop"">
@@ -358,14 +363,14 @@
 
    
 
-   <div id="rasporka"></div>
+   <%--<div id="rasporka"></div>
     
      
-  </div>
+  
    <div id="footer">
     
-    </div>
-
+    </div>--%>
+</div>
      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="sample/js/plugins.js"></script>

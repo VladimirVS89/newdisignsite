@@ -34,18 +34,22 @@ img { border: 0; max-width: 100%; }
 a { text-decoration: none; }
 a:hover { text-decoration: underline; }*/
 
+form
+{height:100%;}
+
 html
 {
     width:100%;
+    height:100%;
     margin:0 auto;
     min-width:1349px;
     background-color:#FAFCFA;
 }
 body
 {
-   margin:0 auto; 
+   /*margin:0 auto; 
    position:inherit;
-   background-color:#FAFCFA;
+   background-color:#FAFCFA;*/
   /* background:url("bg_body.gif");*/
   /* background-color:#02C435;*/
    /*width:1345px;
@@ -82,6 +86,7 @@ body
    white 0 0 3px;
     
     width:972px;/*1298px;*/
+    
     height:120px;/*140px;*/
     /*background:url("lace1.png") no-repeat;*/
     position:static;
@@ -126,7 +131,7 @@ body
 {
     font-size:25px;
     float:left;
-    width:300px;/*370px;*/
+    width:310px;/*370px;*/
     /*height:140px;*/
     vertical-align:middle;
     text-align:center;
@@ -143,7 +148,7 @@ body
     //margin-top:18px;
     float:left;
     vertical-align:middle;
-    width:270px;/*270px;*/
+    width:260px;/*270px;*/
     /*height:130px;*/
     text-align:right; 
     /*color:#0F5AAE; */ 
@@ -171,31 +176,50 @@ position:absolute;
   left:0px;
 
 } */
+#DivOfMainContent{
+  width:100%;
+  height: 100%;
+  background:url("menu1.jpg") repeat-x top;
+  border-top: 1px solid black;
+  -moz-box-shadow:0px -20px 26px -22px #555555;
+    -webkit-box-shadow:0px -20px 26px -22px #555555;
+    box-shadow: 0px -20px 26px -22px #555555;
+}
 #maincontent
 {
-    width:970px;
-    /*height: 800px;*/
-    overflow:hidden;
+    width:964px;
+    height: 100%;
+    min-height:500px;
+    overflow:auto;
     margin:0px auto;
     text-align:center;
-    border: 1px solid black; /* Параметры границы */
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black; /* Параметры границы */
   /*  border-top:none;
   /*  background: url("1.jpg") repeat; /* Цвет фона */
     background-color:#F7F5F0;//#FF9B02;
-    -moz-border-radius:  10px; /* Firefox */
-    -webkit-border-radius:  10px; /* Safari 4 */
-    border-radius:  10px; /* IE 9, Safari 5, Chrome */
+   // background-image:url("menu1.jpg") ;
+
+
+   /* -moz-border-radius:  10px;  Firefox */
+    /* -webkit-border-radius:  10px; Safari 4 */
+   /* border-radius:  10px;  IE 9, Safari 5, Chrome */
     padding: 0px; /* Поля вокруг текста */  
     position:relative;
     color: black;
-    -moz-box-shadow:0 0 10px 3px #555555;
-    -webkit-box-shadow:0 0 10px 3px #555555;
-    box-shadow: 0 0 10px 3px #555555;
+    
+    -moz-box-shadow:0px 5px 8px 0px #555555;
+    -webkit-box-shadow:0px 5px 8px 0px #555555;
+    box-shadow: 0px 5px 8px 0px #555555;
+
     behavior: url(css/PIE.htc);	
+    display:block;
    
 }
 .menu
 {
+    margin:0px auto;
     font-family: MyCustomFont;
     width:970px;
     height:50px;
@@ -207,8 +231,9 @@ position:absolute;
     -webkit-border-top-right-radius: 10px;  
     border-top-right-radius:10px;
     background-image:url("menu1.jpg");
-    float:left;
+   // float:left;
     behavior: url(css/PIE.htc);
+    display:block;
 }
 .delimiter
 {
@@ -235,6 +260,7 @@ position:absolute;
 .menu ul
 {
     margin:0;
+    margin-left:2px;
     width:970px;
     height:50px;
     padding:0px;
@@ -250,11 +276,11 @@ position:absolute;
 }  /*гориз. меню с изменением цвета при наведении */ 
 li.menu2
 {
-    width:136px;
+    width:190px;//136px
 }
 li.menu22
 {
-    width:191px;
+    width:200px;
 }
 .menu #leftmenubutton
 {
@@ -275,7 +301,7 @@ li.menu22
 }             
 .menu li a 
 {
-    width:133px;
+    width:190px;
     height:38px;
     background:none;   /*цвет в норме*/
     /*padding:15px 35px;*/
@@ -287,6 +313,7 @@ li.menu22
     padding-top:12px; 
     font-size:17px;
     text-shadow: 0 1px #000;
+    text-align:center;
 }
 /*.menu li a:link {color:silver; }
 .menu li a:activ {color:silver;}*/
@@ -294,6 +321,7 @@ li.menu22
 {
     color:white;   /*цвет ссылки при наведении*/
     text-decoration:none;
+    margin-top:1px;
 }
 
 #mainpart
@@ -397,15 +425,15 @@ div.divtdtext
     margin-bottom:0;
     background:no-repeat;
     padding:0;
-    border-top:1px solid black;
-    color:silver; 
+   // border-top:1px solid black;
+    //color:silver; 
     /*-moz-border-radius:  3px; /* Firefox */
     /*-webkit-border-radius:  3px; /* Safari 4 */
    /* border-radius:  3px; /* IE 9, Safari 5, Chrome */
     float:left;
-    box-shadow: 0 0 1px 1px #555555;
+    /*box-shadow: 0 0 1px 1px #555555;
     -webkit-box-shadow: 0 0 1px 1px #555555;
-    -moz-box-shadow: 0 0 1px 1px #555555;
+    -moz-box-shadow: 0 0 1px 1px #555555;*/
     behavior: url(css/PIE.htc);  
     
 }
@@ -422,7 +450,7 @@ div.divtdtext
     margin:0; 
     padding:0px;
     /*font-family:"Trebuchet MS";*/
-    background-color:#0E62A6;
+    //background-color:#0E62A6;
     text-align:left;
     font-size:9pt;
     width:170px;
