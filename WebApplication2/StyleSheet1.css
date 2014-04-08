@@ -82,7 +82,7 @@ body
    white 0 0 3px;
     
     width:972px;/*1298px;*/
-    height:130px;/*140px;*/
+    height:120px;/*140px;*/
     /*background:url("lace1.png") no-repeat;*/
     position:static;
     margin:0 auto;
@@ -103,6 +103,25 @@ body
 #contact:visited{color:#0F5AAE;}
 #contact:activ{color:#0F5AAE;}
 #contact:hover{color:#0F5AAE;}
+
+#logo
+{
+    font-size:25px;
+    float:left;
+    width:200px;
+    height:200px;
+    /*370px;*/
+    /*height:140px;*/
+    vertical-align:middle;
+    text-align:center; 
+    background:url(logo2.png) no-repeat ;
+    //z-index:4;
+    background-size:cover;
+    position:relative;
+    top:92px;
+    left:-72px;
+}
+
 #name
 {
     font-size:25px;
@@ -110,8 +129,9 @@ body
     width:300px;/*370px;*/
     /*height:140px;*/
     vertical-align:middle;
-    text-align:center; 
-    background:url(uzor1 copy.png) no-repeat;
+    text-align:center;
+    font-family:'Browallia New';
+   // background:url(logo1.png) no-repeat ;
     //z-index:4;
 }
 
@@ -120,7 +140,7 @@ body
     font-size:15px;
     text-shadow:none;
     /*font-size:20px;*/
-    margin-top:18px;
+    //margin-top:18px;
     float:left;
     vertical-align:middle;
     width:270px;/*270px;*/
@@ -131,7 +151,7 @@ body
 #header2
 {
     font-size:25px;
-    margin-top:5px;
+   // margin-top:5px;
     float:right;
     vertical-align:middle;
     width:400px;/*645px;*/
@@ -161,7 +181,7 @@ position:absolute;
     border: 1px solid black; /* Параметры границы */
   /*  border-top:none;
   /*  background: url("1.jpg") repeat; /* Цвет фона */
-    background-color:#FF9B02;
+    background-color:#F7F5F0;//#FF9B02;
     -moz-border-radius:  10px; /* Firefox */
     -webkit-border-radius:  10px; /* Safari 4 */
     border-radius:  10px; /* IE 9, Safari 5, Chrome */
@@ -241,6 +261,9 @@ li.menu22
     -moz-border-radius-topleft: 10px;   
     -webkit-border-top-left-radius: 10px;  
     border-top-left-radius:10px;
+
+
+
     behavior: url(css/PIE.htc);
 }
 .menu #rightmenubutton

@@ -28,7 +28,7 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+      
 
      <form id="form1" runat="server">  
 
@@ -55,10 +55,13 @@
             </div>
         </div>--%>
           <div id="header">
-         <div id="name">
-              <div style="font-size:28px; margin-top:17px;"><strong>ООО</strong></div><%--font-size:33px;--%>
-            <div style="margin-top:15px;"><strong>Складской комплес</strong></div><%--font-size:20px;--%> 
-         </div>
+
+            <div id="name">
+              <div style="font-size:26px; margin-top:17px;"><strong>ОПТОВАЯ КОМПАНИЯ</strong></div><%--font-size:33px;--%>
+              <div style="font-size:20px; margin-top:15px;"><strong>ООО Складской комплес</strong></div><%--font-size:20px;--%> 
+            </div>
+         
+         
         
         <div id="header2">
         <span style="font-size:15px;">
@@ -70,15 +73,14 @@
         LogoutAction="Redirect" /> </span>
 
         <div style=" margin-top:10px;"><strong>Окуловой, 70</strong></div><%--font-size:33px;--%>
-            <div style="font-size:20px; margin-top:5px;"><strong>_______</strong></div><%--font-size:20px;--%>
+            <%--<div style="font-size:20px; margin-top:5px;"><strong>_______</strong></div>--%><%--font-size:20px;--%>
          </div>
          <div id="header1">
             
-           <strong> ____
-            <br />________<br /> 
-            _______<br />
+            <div style="font-size:15px; margin-top:23px;">
+                <strong>
             Электронная почта: city37@city37.ru<br />
-            <em><a style="" id="contact" href=#>Написать нам</a></em></strong>
+            <em><a style="" id="contact" href=#>Написать нам</a></em></strong></div>
             
          </div>
     </div>
@@ -89,7 +91,7 @@
     <div class="menu">
         <ul>
             
-            <li class="menu2" id="leftmenubutton" style="background-image:url(menu3.jpg);">
+            <li class="menu2" id="leftmenubutton" "><%--style="background-image:url(logo3.jpg);--%>
                 <a href="WebForm1.aspx" style="color:white;"><b>Главная</b></a>
             </li>
             <li class="delimiter"></li>
@@ -226,27 +228,7 @@
 
 
 
-            <div id="divsort">
-            <div class="sort">
-                    <asp:DropDownList class="DropDownList" ID="lstColor" runat="server" 
-                        Width="230px" Height="20px" DataTextField="color" AutoPostBack="True"  >
-                    </asp:DropDownList><%--DataSourceID="SqlDataSource2"--%><%--EnableViewState="true" Enabled="true" ViewStateMode="Enabled"--%>
-                </div>
-                <div class="sort">
-                    <asp:DropDownList class="DropDownList" ID="lstBrand" runat="server"
-                     DataTextField="brand" AutoPostBack="True" Width="230px" Height="20px" >
-                    </asp:DropDownList><%--EnableViewState="true" Enabled="true"--%>
-                </div>
-                <div class="sort">
-                    <asp:DropDownList class="DropDownList" ID="lstSize" runat="server" 
-                    DataTextField="size" AutoPostBack="True" Width="230px" Height="20px" >
-                    </asp:DropDownList>
-                </div>
-                <%--<div class="sort">
-                    <asp:DropDownList class="DropDownList" ID="DropDownList4" runat="server" Width="200px" Height="20px" >
-                    </asp:DropDownList>
-                </div>--%>
-              </div>
+           
                 
                  
                   
