@@ -19,6 +19,15 @@
         <link rel="stylesheet" href="sample/css/normalize.css">
         <link rel="stylesheet" href="sample/css/main.css">
         <link rel="stylesheet" type="text/css" href="StyleSheet1.css"/>
+
+        <link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider/themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider/themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider/themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+
+
         <script src="sample/js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
 <body>
@@ -91,7 +100,7 @@
         <ul>
             
             <li class="delimiter"></li>
-            <li class="menu2" id="leftmenubutton" "><%--style="background-image:url(menu3.jpg);--%>
+            <li class="menu2"  "><%--style="background-image:url(menu3.jpg);id="leftmenubutton"--%>
                 <a href="WebForm1.aspx" style="color:white;"><b>О компании</b></a>
             </li>
             <li class="delimiter"></li>
@@ -128,6 +137,10 @@
         <div id="maincontent">
 
   
+            
+    
+
+
    <div>
     <div  id="canva">
        <%-- <canvas id="myCanvas" width="350" height="250">
@@ -139,9 +152,9 @@
         <%--<asp:UpdatePanel ID="UpdatePanel1" runat="server">
             <ContentTemplate>--%>
            
-        <div class="leftcolumn">
+       <%-- <div class="leftcolumn">
             
-                <div id="leftmenu">
+                <div id="leftmenu">--%>
                <%--     <asp:TreeView ID="TreeView1" runat="server" Height="807px" 
                         onselectednodechanged="TreeView1_SelectedNodeChanged" ForeColor="White" 
                         Width="170px" BorderColor="Black" BorderStyle="Solid" 
@@ -164,12 +177,31 @@
                     <li class="leftmenuli"><a class="leftmenua" href="#">Жилеты</a></li>
 			        <li class="leftmenuli"><a class="leftmenua" href="#">Клубная одежда</a></li>    	
 		        </ul>--%>
-	           </div>
+	   <%--        </div>
                
-        </div>
+        </div>--%>
 
         
         <div id="mainpart">
+
+
+            <div>
+        
+
+        <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="images/toystory.jpg" data-thumb="images/toystory.jpg" alt="" />
+                <a href="http://dev7studios.com"><img src="images/up.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" /></a>
+                <img src="images/walle.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
+                <img src="images/nemo.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />
+                <a href="http://dev7studios.com"><img src="images/royal_canin.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" /></a>
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+            </div>
+        </div>
+
+    </div>
             <%--<asp:SiteMapPath ID="SiteMapPath1" runat="server"> 
                 <PathSeparatorTemplate> 
                  
@@ -373,7 +405,7 @@
     
     </div>--%>
 </div>
-     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="sample/js/plugins.js"></script>
         <script src="sample/js/main.js"></script>
@@ -389,6 +421,15 @@
             }(window, document, 'script', 'ga'));
             ga('create', 'UA-XXXXX-X'); ga('send', 'pageview');
         </script>
+
+    <script type="text/javascript" src="nivo-slider/scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="nivo-slider/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function () {
+            $('#slider').nivoSlider();
+        });
+    </script>
+
 
      </form>
 </body>
