@@ -85,9 +85,9 @@
          </div>
     </div>
 
-    <div id="DivOfMainContent">
 
- <div class="menu">
+     <div id="DivOfMenu">
+     <div class="menu">
         <ul>
             
             <li class="delimiter"></li>
@@ -122,7 +122,9 @@
 
         </ul>
     </div>
-
+     </div>
+       <div id="DivOfMainContent">
+    
         <div id="maincontent">
 
   

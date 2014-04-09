@@ -59,7 +59,7 @@ body
 }
 .bodydiv
 {
-    background-color:#FAFCFA;
+    background-color:#FFFFFF;
    margin:0 auto; 
    height:auto;
    margin-top:0px;
@@ -86,7 +86,8 @@ body
    white 0 0 3px;
     
     width:972px;/*1298px;*/
-    
+    width:964px;
+
     height:120px;/*140px;*/
     /*background:url("lace1.png") no-repeat;*/
     position:static;
@@ -101,7 +102,10 @@ body
     vertical-align:middle;
     behavior: url(css/PIE.htc);
   /*  text-shadow: 2px 3px 1px #0F5AAE;*/
-  
+
+  -moz-box-shadow:0px 0px 44px -10px #0F5AAE;
+    -webkit-box-shadow:0px 0px 44px -10px #0F5AAE;
+    box-shadow: 0px 0px 44px -10px #0F5AAE;
   
 }
 #contact{color:#0F5AAE;}
@@ -129,6 +133,7 @@ body
 
 #name
 {
+    margin-left:15px;
     font-size:25px;
     float:left;
     width:310px;/*370px;*/
@@ -159,7 +164,7 @@ body
    // margin-top:5px;
     float:right;
     vertical-align:middle;
-    width:400px;/*645px;*/
+    width:300px;/*645px;*/
     /*height:140px;*/
     text-align:center;   
 }
@@ -179,11 +184,12 @@ position:absolute;
 #DivOfMainContent{
   width:100%;
   height: 100%;
-  background:url("menu1.jpg") repeat-x top;
-  border-top: 1px solid black;
-  -moz-box-shadow:0px -20px 26px -22px #555555;
+  margin-top:0px;
+  /*background:url("menu1.jpg") repeat-x top;
+  border-top: 1px solid black;*/
+  /*-moz-box-shadow:0px -20px 26px -22px #555555;
     -webkit-box-shadow:0px -20px 26px -22px #555555;
-    box-shadow: 0px -20px 26px -22px #555555;
+    box-shadow: 0px -20px 26px -22px #555555;*/
 }
 #maincontent
 {
@@ -192,13 +198,14 @@ position:absolute;
     min-height:500px;
     overflow:auto;
     margin:0px auto;
+   // margin-top:0px;
     text-align:center;
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
-    border-right: 1px solid black; /* Параметры границы */
+    /*border-bottom: 1px solid #C9B99B;
+    border-left: 1px solid #C9B99B;
+    border-right: 1px solid #C9B99B;*/ /* Параметры границы */
   /*  border-top:none;
   /*  background: url("1.jpg") repeat; /* Цвет фона */
-    background-color:#F7F5F0;//#FF9B02;
+    background-color:#FFFFFF;//#FF9B02;#F7F5F0
    // background-image:url("menu1.jpg") ;
 
 
@@ -209,13 +216,30 @@ position:absolute;
     position:relative;
     color: black;
     
-    -moz-box-shadow:0px 5px 8px 0px #555555;
-    -webkit-box-shadow:0px 5px 8px 0px #555555;
-    box-shadow: 0px 5px 8px 0px #555555;
+    -moz-box-shadow:0px 20px 44px -10px #0F5AAE;
+    -webkit-box-shadow:0px 20px 44px -10px #0F5AAE;
+    box-shadow: 0px 20px 44px -10px #0F5AAE;
 
     behavior: url(css/PIE.htc);	
     display:block;
    
+}
+#DivOfMenu{
+    width:100%;
+    margin-top:0px;
+    margin-bottom:20px;
+    
+    -moz-box-shadow:0px 0px 44px -10px #0F5AAE;
+    -webkit-box-shadow:0px 0px 44px -10px #0F5AAE;
+    box-shadow: 0px 0px 44px -10px #0F5AAE;
+    /*-moz-box-shadow:0px 3px 44px -10px #0F5AAE;
+    -webkit-box-shadow:0px 3px 44px -10px #0F5AAE;
+    box-shadow: 0px 3px 44px -10px #0F5AAE;*/
+    /*-moz-box-shadow:0px 3px 49px -10px #000000;
+    -webkit-box-shadow:0px 3px 49px -10px #000000;
+    box-shadow: 0px 3px 49px -10px #000000;*/
+    background:url("menu1.jpg") repeat-x top;
+    border-top: 1px solid black;
 }
 .menu
 {
@@ -223,14 +247,14 @@ position:absolute;
     font-family: MyCustomFont;
     width:970px;
     height:50px;
-    background-color:#FF1F02;
+    /*background-color:#FF1F02;
     -moz-border-radius-topleft: 10px;   
     -webkit-border-top-left-radius: 10px;  
     border-top-left-radius:10px;
     -moz-border-radius-topright: 10px;   
     -webkit-border-top-right-radius: 10px;  
     border-top-right-radius:10px;
-    background-image:url("menu1.jpg");
+    background-image:url("menu1.jpg");*/
    // float:left;
     behavior: url(css/PIE.htc);
     display:block;
