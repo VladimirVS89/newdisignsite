@@ -66,8 +66,8 @@
           <div id="header">
 
             <div id="name">
-              <div style="font-size:26px; margin-top:17px;"><strong>ОПТОВАЯ КОМПАНИЯ</strong></div><%--font-size:33px;--%>
-              <div style="font-size:20px; margin-top:15px;"><strong>ООО Складской комплекс</strong></div><%--font-size:20px;--%> 
+              <div style="font-size:26px; margin-top:19px;"><strong>ОПТОВАЯ КОМПАНИЯ</strong></div><%--font-size:33px;--%>
+              <div style="font-size:20px; margin-top:12px;"><strong>ООО Складской комплекс</strong></div><%--font-size:20px;--%> 
             </div>
          
          
@@ -81,15 +81,20 @@
         LogoutPageUrl="./WebForm1.aspx" 
         LogoutAction="Redirect" /> </span>
 
-        <div style=" margin-top:10px;"><strong>Окуловой, 70</strong></div><%--font-size:33px;--%>
+        <div style=" margin-top:10px;"> <a href=#><img src="images/job2.jpg" data-thumb="images/job1.jpg" alt="" title="#htmlcaption"/></a></div><%--font-size:33px;--%>
             <%--<div style="font-size:20px; margin-top:5px;"><strong>_______</strong></div>--%><%--font-size:20px;--%>
          </div>
          <div id="header1">
             
-            <div style="font-size:15px; margin-top:23px;">
+              <div id="JobDiv">
+            <a href=#>89088875448</a>
+              </div>
+
+            <div style="font-size:12px; margin-top:23px;">
                 <strong>
-            Электронная почта: city37@city37.ru<br />
-            <em><a style="" id="contact" href=#>Написать нам</a></em></strong></div>
+                    <a style="" id="contact" href=#>city37@city37.ru</a>
+                </strong>
+            </div>
             
          </div>
     </div>
@@ -142,59 +147,23 @@
 
 
    <div>
-    <div  id="canva">
-       <%-- <canvas id="myCanvas" width="350" height="250">
-       Вот так вот
-        </canvas>--%>
-    </div>
-        <asp:ScriptManager ID="ScriptManager1" runat="server">
-        </asp:ScriptManager>
-        <%--<asp:UpdatePanel ID="UpdatePanel1" runat="server">
-            <ContentTemplate>--%>
-           
-       <%-- <div class="leftcolumn">
-            
-                <div id="leftmenu">--%>
-               <%--     <asp:TreeView ID="TreeView1" runat="server" Height="807px" 
-                        onselectednodechanged="TreeView1_SelectedNodeChanged" ForeColor="White" 
-                        Width="170px" BorderColor="Black" BorderStyle="Solid" 
-                        BackColor="#FF9B02" ExpandDepth="0" ShowExpandCollapse="False" 
-                        NodeIndent="0" NodeWrap="True" Font-Underline="False">
-                       <HoverNodeStyle 
-                        BackColor="#0F5AAE" Font-Underline="True" />
-                        
-                            <NodeStyle NodeSpacing="0px" />
-                           
-                    </asp:TreeView>--%>
-
-		        <%--<ul id="leftmenuul" style="list-style-type: none;">
-			        <li class="leftmenuli"><a id="A1" class="leftmenua" href="Shirts.aspx" runat="server">Блузки, рубашки</a></li>
-			        <li class="leftmenuli"><a class="leftmenua" href="Suits.aspx">Костюмы</a></li>
-			        <li class="leftmenuli"><a class="leftmenua" href="#">Туники</a></li>
-			        <li class="leftmenuli"><a class="leftmenua" href="#">Болеро</a></li>
-			        <li class="leftmenuli"><a class="leftmenua" href="#">Водолазки</a></li>
-			        <li class="leftmenuli"><a class="leftmenua" href="#">Джинсы</a></li>
-                    <li class="leftmenuli"><a class="leftmenua" href="#">Жилеты</a></li>
-			        <li class="leftmenuli"><a class="leftmenua" href="#">Клубная одежда</a></li>    	
-		        </ul>--%>
-	   <%--        </div>
-               
-        </div>--%>
+    
 
         
         <div id="mainpart">
 
 
-            <div>
+            <div id="SliderDiv">
         
 
         <div class="slider-wrapper theme-default">
             <div id="slider" class="nivoSlider">
-                <img src="images/toystory.jpg" data-thumb="images/toystory.jpg" alt="" />
+              <%--  <img src="images/toystory.jpg" data-thumb="images/toystory.jpg" alt="" />
                 <a href="http://dev7studios.com"><img src="images/up.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" /></a>
                 <img src="images/walle.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
-                <img src="images/nemo.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />
-                <a href="http://dev7studios.com"><img src="images/royal_canin.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" /></a>
+                <img src="images/nemo.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />--%>
+                <a href="http://dev7studios.com"><img src="images/royal_canin2.jpg" data-thumb="images/royal_canin2.jpg" alt="" title="This is an example of a caption" /></a>
+                <a href="http://dev7studios.com"><img src="images/mars1.jpg" data-thumb="images/mars1.jpg" alt="" title="This is an example of a caption" /></a>
             </div>
             <div id="htmlcaption" class="nivo-html-caption">
                 <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
