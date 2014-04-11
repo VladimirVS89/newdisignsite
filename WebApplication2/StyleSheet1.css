@@ -14,6 +14,31 @@
  font-family: Avenir2;
  src: url("fonts/Avenir/Florsn46.ttf") 
 }
+@font-face {
+ font-family: pspnl;
+ src: url("fonts/PTSansPro/PT Sans Pro Narrow Light.otf") 
+}
+@font-face {
+ font-family: pspneb;
+ src: url("fonts/PTSansPro/PT Sans Pro Narrow Extra Bold.otf") 
+}
+@font-face {
+ font-family: pspnb;
+ src: url("fonts/PTSansPro/PT Sans Pro Narrow Bold.otf") 
+}
+@font-face {
+ font-family: pspn;
+ src: url("fonts/PTSansPro/PT Sans Pro Narrow.otf") 
+}
+@font-face {
+ font-family: pspi;
+ src: url("fonts/PTSansPro/PT Sans Pro Italic.otf") 
+}
+@font-face {
+
+ font-family: pspec;
+ src: url("fonts/PTSansPro/PT Sans Pro Extra Condensed.otf") 
+}
 
 /*html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -143,10 +168,10 @@ body
 
 #name
 {
-    margin-left:25px;
+    margin-left:10px;
     font-size:25px;
     float:left;
-    width:350px;/*370px;*/
+    width:450px;/*370px;*/
     /*height:140px;*/
     vertical-align:middle;
     text-align:center;
@@ -154,10 +179,26 @@ body
     font-family:'MyCustomFont';
     font-family: 'Times New Roman';
     font-family: 'Avenir';
+    /*font-family: 'pspnl';
+    font-family: 'pspneb';
+    font-family: 'pspnb';
+    font-family: 'pspn';
+    font-family: 'pspi';
+    font-family: 'pspec';*/
+    
     //font-family: 'Avenir2';
    // background:url(logo1.png) no-repeat ;
     //z-index:4;
+ //   color: rgba(15,90,174,1);
 
+//text-shadow: 2px 8px 6px rgba(0,0,0,0.2);
+      /*color: rgba(15,90,174,0.9);
+
+    text-shadow: 2px 2px 3px rgba(15,90,174,0.4);*/
+
+    
+    letter-spacing:1px;
+  
 }
 
 #header1
@@ -168,7 +209,7 @@ body
     //margin-top:18px;
     float:left;
     vertical-align:middle;
-    width:260px;/*270px;*/
+    width:150px;/*270px;*/
     /*height:130px;*/
     text-align:right; 
     /*color:#0F5AAE; */ 

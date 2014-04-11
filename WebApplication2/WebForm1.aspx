@@ -66,7 +66,7 @@
           <div id="header">
 
             <div id="name">
-              <div style="font-size:26px; margin-top:19px;"><strong>ОПТОВАЯ КОМПАНИЯ</strong></div><%--font-size:33px;--%>
+              <div style="font-size:24px; margin-top:19px;"><strong>ОПТОВАЯ КОМПАНИЯ</strong></div><%--font-size:33px;--%>
               <div style="font-size:20px; margin-top:12px;"><strong>ООО Складской комплекс</strong></div><%--font-size:20px;--%> 
             </div>
          
@@ -164,6 +164,7 @@
                 <img src="images/nemo.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />--%>
                 <a href="http://dev7studios.com"><img src="images/royal_canin2.jpg" data-thumb="images/royal_canin2.jpg" alt="" title="This is an example of a caption" /></a>
                 <a href="http://dev7studios.com"><img src="images/mars1.jpg" data-thumb="images/mars1.jpg" alt="" title="This is an example of a caption" /></a>
+                 <a href="http://dev7studios.com"><img src="images/MacCoffee2.jpg" data-thumb="images/MacCoffee2.jpg" alt="" title="This is an example of a caption" /></a>
             </div>
             <div id="htmlcaption" class="nivo-html-caption">
                 <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
