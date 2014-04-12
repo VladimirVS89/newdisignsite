@@ -39,6 +39,11 @@
  font-family: pspec;
  src: url("fonts/PTSansPro/PT Sans Pro Extra Condensed.otf") 
 }
+@font-face {
+
+ font-family: botanic;
+ src: url("fonts/Botanic/n3xABLX4.ttf") 
+}
 
 /*html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -121,7 +126,7 @@ body
     width:972px;/*1298px;*/
     width:964px;
 
-    height:120px;/*140px;*/
+    height:135px;/*140px;*/
     /*background:url("lace1.png") no-repeat;*/
     position:static;
     margin:0 auto;
@@ -129,7 +134,7 @@ body
    
    font-size:20px;
     text-align:left;
-    text-transform:uppercase;
+   // text-transform:uppercase;
     /*font-family: 'Bangers';*/
     color:#0F5AAE;/*#0F5AAE;*/
     vertical-align:middle;
@@ -168,17 +173,21 @@ body
 
 #name
 {
-    margin-left:10px;
+    margin-left:0px;
     font-size:25px;
     float:left;
-    width:450px;/*370px;*/
+    width:450px;
+    height:120px;
+    /*370px;*/
     /*height:140px;*/
     vertical-align:middle;
     text-align:center;
     font-family:'Browallia New';
     font-family:'MyCustomFont';
     font-family: 'Times New Roman';
-    font-family: 'Avenir';
+    font-weight: 900;
+    //font-family: 'Avenir';
+    //font-family: 'botanic'; 
     /*font-family: 'pspnl';
     font-family: 'pspneb';
     font-family: 'pspnb';
@@ -197,8 +206,28 @@ body
     text-shadow: 2px 2px 3px rgba(15,90,174,0.4);*/
 
     
-    letter-spacing:1px;
-  
+   // letter-spacing:1px;
+    // color: rgba(15,90,174,0.8);
+
+    //text-shadow: 2px 2px 3px rgba(15,90,174,0.3);
+
+    
+   // letter-spacing:3px;
+
+        color: rgba(15,90,174,1);
+
+ background-color:rgba(15,90,174,1); 
+-webkit-background-clip: text; 
+-moz-background-clip: text; 
+background-clip: text; 
+color: transparent; 
+text-shadow: rgba(255,255,255,0.5) 0px 3px 3px; 
+
+
+
+    -webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
 }
 
 #header1

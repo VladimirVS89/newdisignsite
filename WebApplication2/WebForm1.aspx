@@ -64,12 +64,13 @@
             </div>
         </div>--%>
           <div id="header">
-
+<a href="WebForm1.aspx">
             <div id="name">
-              <div style="font-size:24px; margin-top:19px;"><strong>ОПТОВАЯ КОМПАНИЯ</strong></div><%--font-size:33px;--%>
-              <div style="font-size:20px; margin-top:12px;"><strong>ООО Складской комплекс</strong></div><%--font-size:20px;--%> 
+
+              <div style="font-size:26px; letter-spacing:4px;  margin-top:23px; border-bottom:2px solid maroon #0F5AAE">ОПТОВАЯ КОМПАНИЯ</div><%--font-size:33px;--%>
+              <div style="font-size:20px; letter-spacing:2px; margin-top:12px;  border-bottom:2px solid maroon #0F5AAE">ООО СКЛАДСКОЙ КОМПЛЕКС</div><%--font-size:20px;--%> 
             </div>
-         
+         </a>
          
         
         <div id="header2">
