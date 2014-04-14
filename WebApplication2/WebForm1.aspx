@@ -67,8 +67,11 @@
 <a href="WebForm1.aspx">
             <div id="name">
 
-              <div style="font-size:26px; letter-spacing:4px;  margin-top:23px; border-bottom:2px solid maroon #0F5AAE">ОПТОВАЯ КОМПАНИЯ</div><%--font-size:33px;--%>
-              <div style="font-size:20px; letter-spacing:2px; margin-top:12px;  border-bottom:2px solid maroon #0F5AAE">ООО СКЛАДСКОЙ КОМПЛЕКС</div><%--font-size:20px;--%> 
+              <div style="font-size:22px; letter-spacing:1px; font-style:italic;  margin-top:20px;  border-bottom:2px solid maroon #0F5AAE">оптовая компания</div>
+              <div style="font-size:37px; letter-spacing:1px; line-height:15px;  margin-top:10px; border-bottom:2px solid maroon #0F5AAE">складской комплекс</div>
+              
+    
+            
             </div>
          </a>
          
@@ -87,15 +90,19 @@
          </div>
          <div id="header1">
             
-              <div id="JobDiv">
-            <a href=#>89088875448</a>
+              <div id="PhoneDiv" style="font-size:20px; height:50px; margin-top:25px; margin-left:15px; letter-spacing:1px; line-height:16px;">
+               <div style="float:left;"><img style="width:35px; height:35px;" src="images/phone1.jpg"/></div>
+                  <div >
+                      <div style="float:left; font-size:12px; font-style:italic;"><strong>ПРИЕМ ЗАКАЗОВ</strong></div>
+                      <div style="float:left; font-size:16px;"><strong>89088875448 </strong></div>
+                  </div>
               </div>
 
-            <div style="font-size:12px; margin-top:23px;">
+            <%--<div style="font-size:12px; margin-top:23px;">
                 <strong>
                     <a style="" id="contact" href=#>city37@city37.ru</a>
                 </strong>
-            </div>
+            </div>--%>
             
          </div>
     </div>

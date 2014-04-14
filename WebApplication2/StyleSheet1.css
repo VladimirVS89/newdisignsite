@@ -42,7 +42,7 @@
 @font-face {
 
  font-family: botanic;
- src: url("fonts/Botanic/n3xABLX4.ttf") 
+ src: url("fonts/Botanic/gPLsaYEE.ttf") 
 }
 
 /*html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -126,7 +126,7 @@ body
     width:972px;/*1298px;*/
     width:964px;
 
-    height:135px;/*140px;*/
+    height:120px;/*140px;*/
     /*background:url("lace1.png") no-repeat;*/
     position:static;
     margin:0 auto;
@@ -146,6 +146,16 @@ body
     box-shadow: 0px 0px 44px -10px #0F5AAE;
 
      font-family: 'Avenir';
+     font-family: 'botanic'; 
+
+      color: rgba(15,90,174,1);
+
+ background-color:rgba(15,90,174,1); 
+-webkit-background-clip: text; 
+-moz-background-clip: text; 
+background-clip: text; 
+color: transparent; 
+text-shadow: rgba(255,255,255,0.5) 0px 3px 3px; 
   
 }
 #contact{color:#0F5AAE;}
@@ -176,8 +186,8 @@ body
     margin-left:0px;
     font-size:25px;
     float:left;
-    width:450px;
-    height:120px;
+    width:400px;
+    height:110px;
     /*370px;*/
     /*height:140px;*/
     vertical-align:middle;
@@ -187,7 +197,7 @@ body
     font-family: 'Times New Roman';
     font-weight: 900;
     //font-family: 'Avenir';
-    //font-family: 'botanic'; 
+    font-family: 'botanic'; 
     /*font-family: 'pspnl';
     font-family: 'pspneb';
     font-family: 'pspnb';
@@ -225,9 +235,9 @@ text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
 
 
 
-    -webkit-border-radius: 20px;
+    /*-webkit-border-radius: 20px;
 -moz-border-radius: 20px;
-border-radius: 20px;
+border-radius: 20px;*/
 }
 
 #header1
@@ -238,7 +248,8 @@ border-radius: 20px;
     //margin-top:18px;
     float:left;
     vertical-align:middle;
-    width:150px;/*270px;*/
+    width:250px;
+    height:110px;/*270px;*/
     /*height:130px;*/
     text-align:right; 
     /*color:#0F5AAE; */ 
@@ -340,6 +351,7 @@ position:absolute;
 {
     margin:0px auto;
     font-family: MyCustomFont;
+     font-family: 'botanic'; 
     width:970px;
     height:50px;
     /*background-color:#FF1F02;
