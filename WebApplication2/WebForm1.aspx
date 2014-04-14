@@ -90,11 +90,11 @@
          </div>
          <div id="header1">
             
-              <div id="PhoneDiv" style="font-size:20px; height:50px; margin-top:25px; margin-left:15px; letter-spacing:1px; line-height:16px;">
+             <div id="PhoneDiv" style="font-size:20px; height:50px; margin-top:25px; margin-left:15px; letter-spacing:1px; line-height:16px;">
                <div style="float:left;"><img style="width:35px; height:35px;" src="images/phone1.jpg"/></div>
                   <div >
-                      <div style="float:left; font-size:12px; font-style:italic;"><strong>ПРИЕМ ЗАКАЗОВ</strong></div>
-                      <div style="float:left; font-size:16px;"><strong>89088875448 </strong></div>
+                      <div style="float:left; font-size:12px;"><strong>ПРИЕМ ЗАКАЗОВ</strong></div>
+                      <div style="float:left; font-size:16px;"><strong>89088875448</strong></div>
                   </div>
               </div>
 
@@ -173,6 +173,8 @@
                 <a href="http://dev7studios.com"><img src="images/royal_canin2.jpg" data-thumb="images/royal_canin2.jpg" alt="" title="This is an example of a caption" /></a>
                 <a href="http://dev7studios.com"><img src="images/mars1.jpg" data-thumb="images/mars1.jpg" alt="" title="This is an example of a caption" /></a>
                  <a href="http://dev7studios.com"><img src="images/MacCoffee2.jpg" data-thumb="images/MacCoffee2.jpg" alt="" title="This is an example of a caption" /></a>
+                 <a href="http://dev7studios.com"><img src="images/ozerskiy_suvenir1.jpg" data-thumb="images/ozerskiy_suvenir1.jpg" alt="" title="This is an example of a caption" /></a>
+                <a href="http://dev7studios.com"><img src="images/emarko1.jpg" data-thumb="images/emarko1.jpg" alt="" title="This is an example of a caption" /></a>
             </div>
             <div id="htmlcaption" class="nivo-html-caption">
                 <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
