@@ -77,25 +77,29 @@
          
         
         <div id="header2">
+  <div style=" margin-top:10px; width:200px"> <a href=#><img src="images/job1.png" data-thumb="images/job1.png" alt="" title="#htmlcaption"/></a></div>
         <span style="font-size:15px;">
         <a href="javascript:location.href='Registration.aspx'">Регистрация</a>&#160|&#160
         <asp:LoginStatus ID="LoginStatus1" runat="server"
-        LoginText="Вход" 
-        LogoutText="Выход" 
+        LoginText="Войти" 
+        LogoutText="Выйти" 
         LogoutPageUrl="./WebForm1.aspx" 
         LogoutAction="Redirect" /> </span>
 
-        <div style=" margin-top:10px;"> <a href=#><img src="images/job2.jpg" data-thumb="images/job1.jpg" alt="" title="#htmlcaption"/></a></div><%--font-size:33px;--%>
+        <%--font-size:33px;--%>
             <%--<div style="font-size:20px; margin-top:5px;"><strong>_______</strong></div>--%><%--font-size:20px;--%>
          </div>
          <div id="header1">
             
-             <div id="PhoneDiv" style="font-size:20px; height:50px; margin-top:25px; margin-left:15px; letter-spacing:1px; line-height:16px;">
-               <div style="float:left;"><img style="width:35px; height:35px;" src="images/phone1.jpg"/></div>
-                  <div >
-                      <div style="float:left; font-size:12px;"><strong>ПРИЕМ ЗАКАЗОВ</strong></div>
-                      <div style="float:left; font-size:16px;"><strong>89088875448</strong></div>
+             <div id="PhoneDiv" style="font-size:20px; height:50px; margin-top:15px; margin-left:0px; letter-spacing:0px;">
+               
+               
+                  <div style=" margin-left:10px; margin-top:3px;">
+                      <div style="float:left; height:25px;"><img style="width:25px; height:25px;" src="images/phone1.jpg"/></div>
+                      <div style="float:left; height:25px; font-size:15px;"><strong>89088875448</strong></div>   
                   </div>
+                 
+                 <div style="float:left; font-size:20px; letter-spacing:3px;"><strong></strong></div>
               </div>
 
             <%--<div style="font-size:12px; margin-top:23px;">
