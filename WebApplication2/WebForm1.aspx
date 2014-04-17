@@ -20,7 +20,7 @@
         <link rel="stylesheet" href="sample/css/main.css">
         <link rel="stylesheet" type="text/css" href="StyleSheet1.css"/>
 
-        <link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+      <link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="nivo-slider/themes/light/light.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="nivo-slider/themes/dark/dark.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="nivo-slider/themes/bar/bar.css" type="text/css" media="screen" />
@@ -109,18 +109,15 @@
 
              </div>
 
-             <div id ="SearchDiv">
+             <div id="SearchAndJobDiv" style="">
                  <div>
-                     <div style="float: left; width: 290px; height: 28px; border-left: 1px solid #CCCCCC; border-top: 1px solid #CCCCCC; border-bottom: 1px solid #CCCCCC">
+                     <div id="SearchField" style="margin-top:13px; float: left; width: 287px; height: 28px; ">
                      </div>
-                     <div id="SearchDivButton" style="float: left; width: 60px; height: 30px; background-image: url(images/search.png)">
+                     <div id="SearchDivButton" style="margin-top:13px; float: left; width: 60px; height: 30px; ">
                      </div>
-
                  </div>
-                 <div>
-                     <div>
-                         
-                     </div>
+                 <div style="margin-top:8px; float:left; margin-left:33px;">
+                     <a href=#><img src="images/job3.jpg" data-thumb="images/job1.png" alt="" title="#htmlcaption"/></a>
                  </div>
              </div>
              
@@ -207,14 +204,15 @@
                 <a href="http://dev7studios.com"><img src="images/up.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" /></a>
                 <img src="images/walle.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
                 <img src="images/nemo.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />--%>
-                <a href="http://dev7studios.com"><img src="images/royal_canin2.jpg" data-thumb="images/royal_canin2.jpg" alt="" title="This is an example of a caption" /></a>
-                <a href="http://dev7studios.com"><img src="images/mars1.jpg" data-thumb="images/mars1.jpg" alt="" title="This is an example of a caption" /></a>
-                 <a href="http://dev7studios.com"><img src="images/MacCoffee2.jpg" data-thumb="images/MacCoffee2.jpg" alt="" title="This is an example of a caption" /></a>
-                 <a href="http://dev7studios.com"><img src="images/ozerskiy_suvenir1.jpg" data-thumb="images/ozerskiy_suvenir1.jpg" alt="" title="This is an example of a caption" /></a>
-                <a href="http://dev7studios.com"><img src="images/emarko1.jpg" data-thumb="images/emarko1.jpg" alt="" title="This is an example of a caption" /></a>
+                <a href="http://dev7studios.com"><img src="images/royal_canin2.jpg" data-thumb="images/royal_canin2.jpg" alt="" title="Станьте одним из наших партнеров" /></a>
+                <a href="http://dev7studios.com"><img src="images/mars1.jpg" data-thumb="images/mars1.jpg" alt="" title="Станьте одним из наших партнеров" /></a>
+                 <a href="http://dev7studios.com"><img src="images/MacCoffee2.jpg" data-thumb="images/MacCoffee2.jpg" alt="" title="Станьте одним из наших партнеров" /></a>
+                 <a href="http://dev7studios.com"><img src="images/ozerskiy_suvenir_two1.png" data-thumb="images/ozerskiy_suvenir1.jpg" alt="" title="Станьте одним из наших партнеров" /></a>
+                <a href="http://dev7studios.com"><img src="images/emarko1.jpg" data-thumb="images/emarko1.jpg" alt="" title="Станьте одним из наших партнеров" /></a>
+                 <a href="http://dev7studios.com"><img src="images/rieber1.png" data-thumb="images/rieber1.png" alt="" title="Станьте одним из наших партнеров" /></a>
             </div>
             <div id="htmlcaption" class="nivo-html-caption">
-                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+                <strong>Станьте одним из наших партнеров</strong> <a href="#">a link</a>. 
             </div>
         </div>
 

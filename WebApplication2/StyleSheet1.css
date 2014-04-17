@@ -144,7 +144,7 @@ body
     width:972px;/*1298px;*/
     width:964px;
 
-    height:120px;/*140px;*/
+    height:115px;/*140px;*/
     /*background:url("lace1.png") no-repeat;*/
     position:static;
     margin:0 auto;
@@ -289,17 +289,40 @@ border-radius: 20px;*/
 
 #PhoneDiv {
     font-size: 17px;
-    height: 50px;
+    height: 20px;
     margin-top: 24px;
     margin-left: 0px;
     letter-spacing: 0px;
     text-align:left; 
     line-height:17px;
 }
+#SearchDivButton {    
+    background-image: url(images/search.png)
+}
+
 #SearchDivButton:hover {
     -moz-box-shadow:0px 1px 0px 0px #CCCCCC;
     -webkit-box-shadow:0px 1px 0px 0px #CCCCCC;
     box-shadow: 0px 1px 0px 0px #CCCCCC;
+}
+
+#SearchDivButton:active {
+    -moz-box-shadow:0px 1px 0px 0px #FFFFFF;
+    -webkit-box-shadow:0px 1px 0px 0px #FFFFFF;
+    box-shadow: 0px 1px 0px 0px #FFFFFF;
+    background-image: url(images/searchOnClick.png)
+}
+
+#SearchField {
+    border-left: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+}
+#SearchField:hover {
+    border-left: 1px solid #A8A8A8;
+    border-top: 1px solid #A8A8A8;
+    border-bottom: 1px solid #A8A8A8;
+    cursor:text;
 }
 
 
@@ -377,6 +400,8 @@ position:absolute;
 }
 #SliderDiv{
     position:relative;
+    font-family: 'sochi2014light'; 
+
 }
 #DivOfMenu{
     width:100%;
