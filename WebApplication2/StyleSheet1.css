@@ -85,10 +85,10 @@ strong { font-weight: bold; }
 input { outline: none; }
 
 table { border-collapse: collapse; border-spacing: 0; }
-img { border: 0; max-width: 100%; }
+img { border: 0; max-width: 100%; }*/
 
 a { text-decoration: none; }
-a:hover { text-decoration: underline; }*/
+a:hover { text-decoration: underline; }
 
 form
 {height:100%;}
@@ -203,10 +203,10 @@ text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;*/
 
 #name
 {
-    margin-left:0px;
+    margin-left:10px;
     font-size:25px;
     float:left;
-    width:400px;
+    width:380px;
     height:110px;
     /*370px;*/
     /*height:140px;*/
@@ -273,9 +273,10 @@ border-radius: 20px;*/
     text-shadow:none;
     /*font-size:20px;*/
     //margin-top:18px;
+    margin-left:15px;
     float:left;
     vertical-align:middle;
-    width:250px;
+    width:550px;
     height:110px;/*270px;*/
     /*height:130px;*/
     text-align:right; 
@@ -285,6 +286,23 @@ border-radius: 20px;*/
 
    text-shadow: 1px 1px 1px rgba(15,90,174,0.1);
 }
+
+#PhoneDiv {
+    font-size: 17px;
+    height: 50px;
+    margin-top: 24px;
+    margin-left: 0px;
+    letter-spacing: 0px;
+    text-align:left; 
+    line-height:17px;
+}
+#SearchDivButton:hover {
+    -moz-box-shadow:0px 1px 0px 0px #CCCCCC;
+    -webkit-box-shadow:0px 1px 0px 0px #CCCCCC;
+    box-shadow: 0px 1px 0px 0px #CCCCCC;
+}
+
+
 #header2
 {
     font-size:25px;

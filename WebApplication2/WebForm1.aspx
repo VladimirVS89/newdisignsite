@@ -67,8 +67,8 @@
 <a href="WebForm1.aspx">
             <div id="name">
 
-              <div style="font-size:22px; letter-spacing:1px; font-style:italic;  margin-top:20px;  border-bottom:2px solid maroon #0F5AAE">оптовая компания</div>
-              <div style="font-size:37px; letter-spacing:1px; line-height:15px;  margin-top:10px; border-bottom:2px solid maroon #0F5AAE">складской комплекс</div>
+              <div style="font-size:22px; letter-spacing:1px; font-style:italic;  margin-top:15px;  border-bottom:2px solid maroon #0F5AAE">оптовая компания</div>
+              <div style="font-size:37px; letter-spacing:1px; line-height:15px;  margin-top:15px; border-bottom:2px solid maroon #0F5AAE">складской комплекс</div>
               
     
             
@@ -76,7 +76,7 @@
          </a>
          
         
-        <div id="header2">
+       <%-- <div id="header2">
   <div style=" margin-top:10px; width:200px"> <a href=#><img src="images/job1.png" data-thumb="images/job1.png" alt="" title="#htmlcaption"/></a></div>
         <span style="font-size:15px;">
         <a href="javascript:location.href='Registration.aspx'">Регистрация</a>&#160|&#160
@@ -86,12 +86,45 @@
         LogoutPageUrl="./WebForm1.aspx" 
         LogoutAction="Redirect" /> </span>
 
-        <%--font-size:33px;--%>
-            <%--<div style="font-size:20px; margin-top:5px;"><strong>_______</strong></div>--%><%--font-size:20px;--%>
-         </div>
+         </div>--%>
          <div id="header1">
-            
-             <div id="PhoneDiv" style="font-size:20px; height:50px; margin-top:15px; margin-left:0px; letter-spacing:0px;">
+
+             <div id="PhoneDiv">
+
+                 <span>
+
+                     <a class="PhoneDivElements" style="color: rgba(15,90,174,0.9)" href="javascript:location.href='Registration.aspx'">Принимаем заказы по телефону 311-611-(173)</a>&#160&#160|&#160
+
+                     <a class="PhoneDivElements" style="color: rgba(15,90,174,0.9);" href="javascript:location.href='Registration.aspx'">Регистрация</a>&#160&#160|&#160
+
+                    <asp:LoginStatus ID="LoginStatus2" runat="server" class="PhoneDivElements" style="color: rgba(15,90,174,0.9);"
+                        LoginText="Войти"
+                        LogoutText="Выйти"
+                        LogoutPageUrl="./WebForm1.aspx"
+                        LogoutAction="Redirect" />
+
+                 </span>
+
+
+
+             </div>
+
+             <div id ="SearchDiv">
+                 <div>
+                     <div style="float: left; width: 290px; height: 28px; border-left: 1px solid #CCCCCC; border-top: 1px solid #CCCCCC; border-bottom: 1px solid #CCCCCC">
+                     </div>
+                     <div id="SearchDivButton" style="float: left; width: 60px; height: 30px; background-image: url(images/search.png)">
+                     </div>
+
+                 </div>
+                 <div>
+                     <div>
+                         
+                     </div>
+                 </div>
+             </div>
+             
+           <%--  <div style="font-size:20px; height:50px; margin-top:15px; margin-left:0px; letter-spacing:0px;">
                
                
                   <div style=" margin-left:10px; margin-top:3px;">
@@ -100,7 +133,7 @@
                   </div>
                  
                  <div style="float:left; font-size:20px; letter-spacing:3px;"><strong></strong></div>
-              </div>
+              </div>--%>
 
             <%--<div style="font-size:12px; margin-top:23px;">
                 <strong>
@@ -412,7 +445,12 @@
         $(window).load(function () {
             $('#slider').nivoSlider();
         });
+        $('#SearchDivButton').click(function () {
+            alert('id1');
+        });
+
     </script>
+
 
 
      </form>
