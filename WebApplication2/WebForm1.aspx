@@ -142,11 +142,11 @@
     </div>
 
 
-     <div id="DivOfMenu">
+     <%--<div id="DivOfMenu">--%>
      <div class="menu">
         <ul>
             
-            <li class="delimiter"></li>
+            <%--<li class="delimiter"></li>--%>
             <li class="menu2"  "><%--style="background-image:url(menu3.jpg);id="leftmenubutton"--%>
                 <a href="WebForm1.aspx" style="color:white;"><b>О компании</b></a>
             </li>
@@ -162,7 +162,7 @@
             <li class="delimiter"></li>
             <li class="menu2">
                 <a href="Luxe.aspx" id="rightmenubutton"><b>Контакты</b></a></li>
-            <li class="delimiter"></li>
+            <%--<li class="delimiter"></li>--%>
             <%--<li class="menu2" >
                 <a href="Contacts.aspx"><b>Контакты</b></a></li>
             <li class="delimiter"></li>
@@ -178,7 +178,7 @@
 
         </ul>
     </div>
-     </div>
+    <%-- </div>--%>
        <div id="DivOfMainContent">
     
         <div id="maincontent">
