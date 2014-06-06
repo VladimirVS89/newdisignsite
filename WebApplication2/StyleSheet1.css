@@ -117,18 +117,47 @@ body
 }
 .bodydiv
 {
-    background-image:url("images/background3.jpg"); //no-repeat top
+    background-image:url("images/background4.jpg"); //no-repeat top
    background-color:#FFFFFF;
    margin:0 auto; 
    height:auto;
    margin-top:0px;
    background-position:top;
-   background-repeat:repeat;/*repeat-y;*/
+   background-repeat:no-repeat;/*repeat-y;*/
    min-height:100%;
   
+
+   
+  
+}
+#BorderForShadowDiv{
+    margin:0 auto; 
+   height:auto;
+   margin-top:0px;
+   background-position:top;
+
+   min-height:100%;
+
+   background-color:white;
+
+     width:1000px;
+}
+
+#ShadowDiv{
+     margin:0 auto; 
+   height:auto;
+   margin-top:0px;
+   background-position:top;
+
+   min-height:100%;
+
+     width:964px;
+   -moz-box-shadow:0px 0px 44px -10px #0F5AAE;
+    -webkit-box-shadow:0px 0px 44px -10px #0F5AAE;
+    box-shadow: 0px 0px 44px -10px #0F5AAE; 
 }
 #header
-{text-shadow: white 1px 0px,
+{/*text-shadow: white 1px 0px,
   white 1px 1px,
    white 0px 1px,
    white -1px 1px,
@@ -143,7 +172,7 @@ body
    white 0 0 3px,
    white 0 0 3px,
    white 0 0 3px,
-   white 0 0 3px;
+   white 0 0 3px;*/
     
     width:972px;/*1298px;*/
     width:964px;
@@ -163,9 +192,9 @@ body
     behavior: url(css/PIE.htc);
   /*  text-shadow: 2px 3px 1px #0F5AAE;*/
 
-  -moz-box-shadow:0px 0px 44px -10px #0F5AAE;
+  /*-moz-box-shadow:0px 0px 44px -10px #0F5AAE;
     -webkit-box-shadow:0px 0px 44px -10px #0F5AAE;
-    box-shadow: 0px 0px 44px -10px #0F5AAE;
+    box-shadow: 0px 0px 44px -10px #0F5AAE;*/
 
      /*font-family: 'Avenir';*/
      font-family: 'sochi2014light'; 
@@ -366,14 +395,16 @@ position:absolute;
     -webkit-box-shadow:0px -20px 26px -22px #555555;
     box-shadow: 0px -20px 26px -22px #555555;*/
   clear:both;
-  z-index:100;
+    z-index:100;
   position:relative;
+
+  // 
 }
 #maincontent
 {
     width:964px;
     height: 100%;
-    min-height:500px;
+    min-height:1000px;
     overflow:auto;
     margin:0px auto;
    // margin-top:0px;
@@ -393,14 +424,18 @@ position:absolute;
     padding: 0px; /* Поля вокруг текста */  
     position:relative;
     color: black;
-    
-    -moz-box-shadow:0px 20px 44px -10px #0F5AAE;
-    -webkit-box-shadow:0px 20px 44px -10px #0F5AAE;
-    box-shadow: 0px 20px 44px -10px #0F5AAE;
+  
+    /*-moz-box-shadow:0px 0px 44px -10px #0F5AAE;
+    -webkit-box-shadow:0px 0px 44px -10px #0F5AAE;
+    box-shadow: 0px 0px 44px -10px #0F5AAE;*/
 
     behavior: url(css/PIE.htc);	
     display:block;
     //z-index:1;
+
+    overflow:  visible;
+
+  
    
 }
 #SliderDiv{
@@ -413,7 +448,7 @@ position:absolute;
     margin:0px auto;
     margin-top:0px;
     margin-bottom:-5px;
-    
+        
     -moz-box-shadow:0px 0px 44px -10px #0F5AAE;
     -webkit-box-shadow:0px 0px 44px -10px #0F5AAE;
     box-shadow: 0px 0px 44px -10px #0F5AAE;
@@ -431,9 +466,13 @@ position:absolute;
 }
 .menu
 {
+    
     border-top: 1px solid black;
+    /*border-left: 1px solid black;*/
+    /*border-right: 1px solid black;*/
      background:url("menu1.jpg") repeat-x top;
     margin:0px auto;
+    margin-left:0px;
     font-family: MyCustomFont;
      font-family: 'sochi2014light'; 
     width:964px;
@@ -482,8 +521,8 @@ position:absolute;
 .menu ul
 {
     margin:0;
-    margin-left:2px;
-    width:970px;
+    //margin-left:-5px;
+    width:964px;
     height:50px;
     padding:0px;
     /*font-family:"Trebuchet MS";*/
@@ -558,6 +597,14 @@ li.menu22
     margin-left:0px;
     background:none;
 }
+
+#TextOnMainPage{
+     width:450px;
+     margin-left: 100px;
+     text-align:justify;
+     line-height: 2;
+}
+
 #divsort
 {
     width:785px;
