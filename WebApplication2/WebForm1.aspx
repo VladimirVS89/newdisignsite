@@ -47,11 +47,11 @@
         <div id="rightuzor" style="float:right; width:150px; height:188px;  overflow:visible; positition:relative; margin-right:0px; margin-top:0px; "> <img src="uzor1 copy2.png" /></div>
         --%>
         <div class="bodydiv">
-        
-        <%--<div id="BorderForShadowDiv">--%>
+
+            <%--<div id="BorderForShadowDiv">--%>
             <div id="ShadowDiv">
 
-            <%--<div id="rightpart">
+                <%--<div id="rightpart">
             <div class="parttop">
                 Just beginning
             </div>
@@ -67,20 +67,20 @@
                 Ye! Ye!
             </div>
         </div>--%>
-            <div id="header">
-                <a href="WebForm1.aspx">
-                    <div id="name">
+                <div id="header">
+                    <a href="WebForm1.aspx">
+                        <div id="name">
 
-                        <div style="font-size: 22px; letter-spacing: 1px; font-style: italic; margin-top: 15px; border-bottom: 2px solid maroon #0F5AAE">оптовая компания</div>
-                        <div style="font-size: 37px; letter-spacing: 1px; line-height: 15px; margin-top: 15px; border-bottom: 2px solid maroon #0F5AAE">складской комплекс</div>
-
-
-
-                    </div>
-                </a>
+                            <div style="font-size: 22px; letter-spacing: 1px; font-style: italic; margin-top: 15px; border-bottom: 2px solid maroon #0F5AAE">оптовая компания</div>
+                            <div style="font-size: 37px; letter-spacing: 1px; line-height: 15px; margin-top: 15px; border-bottom: 2px solid maroon #0F5AAE">складской комплекс</div>
 
 
-                <%-- <div id="header2">
+
+                        </div>
+                    </a>
+
+
+                    <%-- <div id="header2">
   <div style=" margin-top:10px; width:200px"> <a href=#><img src="images/job1.png" data-thumb="images/job1.png" alt="" title="#htmlcaption"/></a></div>
         <span style="font-size:15px;">
         <a href="javascript:location.href='Registration.aspx'">Регистрация</a>&#160|&#160
@@ -91,13 +91,13 @@
         LogoutAction="Redirect" /> </span>
 
          </div>--%>
-                <div id="header1">
+                    <div id="header1">
 
-                    <div id="PhoneDiv">
+                        <div id="PhoneDiv">
 
-                        <span>
+                            <span>
 
-                            <a class="PhoneDivElements" style="color: rgba(15,90,174,0.9)" href="javascript:location.href='Registration.aspx'">Принимаем заказы по телефону 311-611-(173)</a>&#160&#160|&#160
+                                <a class="PhoneDivElements" style="color: rgba(15,90,174,0.9)" href="javascript:location.href='Registration.aspx'">Принимаем заказы по телефону 311-611-(173)</a>&#160&#160|&#160
 
                      <a class="PhoneDivElements" style="color: rgba(15,90,174,0.9);" href="javascript:location.href='Registration.aspx'">Регистрация</a>&#160&#160|&#160
 
@@ -107,26 +107,26 @@
                         LogoutPageUrl="./WebForm1.aspx"
                         LogoutAction="Redirect" />
 
-                        </span>
+                            </span>
 
 
 
-                    </div>
+                        </div>
 
-                    <div id="SearchAndJobDiv" style="">
-                        <div>
-                            <div id="SearchField" style="margin-top: 13px; float: left; width: 287px; height: 28px;">
+                        <div id="SearchAndJobDiv" style="">
+                            <div>
+                                <div id="SearchField" style="margin-top: 13px; float: left; width: 287px; height: 28px;">
+                                </div>
+                                <div id="SearchDivButton" style="margin-top: 13px; float: left; width: 60px; height: 30px;">
+                                </div>
                             </div>
-                            <div id="SearchDivButton" style="margin-top: 13px; float: left; width: 60px; height: 30px;">
+                            <div style="margin-top: 8px; float: left; margin-left: 33px;">
+                                <a href="#">
+                                    <img src="images/job3.jpg" data-thumb="images/job1.png" alt="" title="#htmlcaption" /></a>
                             </div>
                         </div>
-                        <div style="margin-top: 8px; float: left; margin-left: 33px;">
-                            <a href="#">
-                                <img src="images/job3.jpg" data-thumb="images/job1.png" alt="" title="#htmlcaption" /></a>
-                        </div>
-                    </div>
 
-                    <%--  <div style="font-size:20px; height:50px; margin-top:15px; margin-left:0px; letter-spacing:0px;">
+                        <%--  <div style="font-size:20px; height:50px; margin-top:15px; margin-left:0px; letter-spacing:0px;">
                
                
                   <div style=" margin-left:10px; margin-top:3px;">
@@ -137,106 +137,116 @@
                  <div style="float:left; font-size:20px; letter-spacing:3px;"><strong></strong></div>
               </div>--%>
 
-                    <%--<div style="font-size:12px; margin-top:23px;">
+                        <%--<div style="font-size:12px; margin-top:23px;">
                 <strong>
                     <a style="" id="contact" href=#>city37@city37.ru</a>
                 </strong>
             </div>--%>
+                    </div>
                 </div>
-            </div>
 
 
 
-            <div id="DivOfMainContent">
-                
-                <div id="maincontent">
-                    <%--<div id="DivOfMenu">--%>
-                    <div class="menu">
-                        <ul>
+                <div id="DivOfMainContent">
 
-                            <%--<li class="delimiter"></li>--%>
-                            <%--style="background-image:url(menu3.jpg);id="leftmenubutton"--%>
-                            <li class="menu2">
-                                <a href="WebForm1.aspx" style="color: white;"><b>О компании</b></a>
-                            </li>
-                            <li class="delimiter"></li>
-                            <li class="menu2">
-                                <a href="New.aspx" class="shadow"><b>Каталог товаров</b></a></li>
-                            <li class="delimiter"></li>
-                            <li class="menu2">
-                                <a href="Pop.aspx"><b>Партнерам</b></a></li>
-                            <li class="delimiter"></li>
-                            <li class="menu2">
-                                <a href="Sale.aspx"><b>Арендаторам</b></a></li>
-                            <li class="delimiter"></li>
-                            <li class="menu2">
-                                <a href="Luxe.aspx" id="rightmenubutton"><b>Контакты</b></a></li>
-                            <%--<li class="delimiter"></li>--%>
-                            <%--<li class="menu2" >
+                    <div id="maincontent">
+                        <%--<div id="DivOfMenu">--%>
+                        <div class="menu">
+                            <ul>
+
+                                <%--<li class="delimiter"></li>--%>
+                                <%--style="background-image:url(menu3.jpg);id="leftmenubutton"--%>
+                                <li class="menu2">
+                                    <a href="WebForm1.aspx" style="color: white;"><b>О компании</b></a>
+                                </li>
+                                <li class="delimiter"></li>
+                                <li class="menu2">
+                                    <a href="New.aspx" class="shadow"><b>Каталог товаров</b></a></li>
+                                <li class="delimiter"></li>
+                                <li class="menu2">
+                                    <a href="Pop.aspx"><b>Партнерам</b></a></li>
+                                <li class="delimiter"></li>
+                                <li class="menu2">
+                                    <a href="Sale.aspx"><b>Арендаторам</b></a></li>
+                                <li class="delimiter"></li>
+                                <li class="menu2">
+                                    <a href="Luxe.aspx" id="rightmenubutton"><b>Контакты</b></a></li>
+                                <%--<li class="delimiter"></li>--%>
+                                <%--<li class="menu2" >
                 <a href="Contacts.aspx"><b>Контакты</b></a></li>
             <li class="delimiter"></li>
             <li class="menu2" id="rightmenubutton">
                 <a href="Basket.aspx"><b>Корзина</b></a></li>--%>
 
-                            <%--<li>
+                                <%--<li>
             <div style="width:223px; height:50px; background-color:#FF1F02;">
              <div class="ya-site-form ya-site-form_inited_no" onclick="return {'bg': '#FF1F02', 'target': '_self', 'language': 'ru', 'suggest': true, 'tld': 'ru', 'site_suggest': true, 'action': 'Contacts.aspx', 'webopt': false, 'fontsize': 12, 'arrow': false, 'fg': '#000000', 'searchid': '1900730', 'logo': 'ww', 'websearch': false, 'type': 3}"><form action="http://yandex.ru/sitesearch" method="get" target="_self"><input type="hidden" name="searchid" value="1900730" /><input type="hidden" name="l10n" value="ru" /><input type="hidden" name="reqenc" value="" /><input type="text" name="text" value="" /><input type="submit" value="Найти" /></form></div><style type="text/css">.ya-page_js_yes .ya-site-form_inited_no { display: none; }</style><script type="text/javascript">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      (function (w, d, c) { var s = d.createElement('script'), h = d.getElementsByTagName('script')[0], e = d.documentElement; (' ' + e.className + ' ').indexOf(' ya-page_js_yes ') === -1 && (e.className += ' ya-page_js_yes'); s.type = 'text/javascript'; s.async = true; s.charset = 'utf-8'; s.src = (d.location.protocol === 'https:' ? 'https:' : 'http:') + '//site.yandex.net/v2.0/js/all.js'; h.parentNode.insertBefore(s, h); (w[c] || (w[c] = [])).push(function () { Ya.Site.Form.init() }) })(window, document, 'yandex_site_callbacks');</script>
               <span style="font-size:small; width:223px;">Поиск по сайту </span></div>
               </li>--%>
-                        </ul>
-                    </div>
-                    <%-- </div>--%>
+                            </ul>
+                        </div>
+                        <%-- </div>--%>
 
 
 
 
 
-                    <div>
+                        <div>
 
 
 
-                        <div id="mainpart">
+                            <div id="mainpart">
 
 
-                            <div id="SliderDiv">
+                                <div id="SliderDiv">
 
 
-                                <div class="slider-wrapper theme-default">
-                                    <div id="slider" class="nivoSlider">
-                                        <%--  <img src="images/toystory.jpg" data-thumb="images/toystory.jpg" alt="" />
+                                    <div class="slider-wrapper theme-default">
+                                        <div id="slider" class="nivoSlider">
+                                            <%--  <img src="images/toystory.jpg" data-thumb="images/toystory.jpg" alt="" />
                 <a href="http://dev7studios.com"><img src="images/up.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" /></a>
                 <img src="images/walle.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
                 <img src="images/nemo.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />--%>
-                                        <a href="http://dev7studios.com">
-                                            <img src="images/royal_canin2.jpg" data-thumb="images/royal_canin2.jpg" alt="" title="Станьте одним из наших партнеров" /></a>
-                                        <a href="http://dev7studios.com">
-                                            <img src="images/mars1.jpg" data-thumb="images/mars1.jpg" alt="" title="Станьте одним из наших партнеров" /></a>
-                                        <a href="http://dev7studios.com">
-                                            <img src="images/MacCoffee2.jpg" data-thumb="images/MacCoffee2.jpg" alt="" title="Станьте одним из наших партнеров" /></a>
-                                        <a href="http://dev7studios.com">
-                                            <img src="images/ozerskiy_suvenir_two1.png" data-thumb="images/ozerskiy_suvenir1.jpg" alt="" title="Станьте одним из наших партнеров" /></a>
-                                        <a href="http://dev7studios.com">
-                                          <%--  <img src="images/emarko1.jpg" data-thumb="images/emarko1.jpg" alt="" title="Станьте одним из наших партнеров" /></a>
+                                            <a href="http://dev7studios.com">
+                                                <img src="images/royal_canin2.jpg" data-thumb="images/royal_canin2.jpg" alt="" title="Станьте одним из наших партнеров" /></a>
+                                            <a href="http://dev7studios.com">
+                                                <img src="images/mars1.jpg" data-thumb="images/mars1.jpg" alt="" title="Станьте одним из наших партнеров" /></a>
+                                            <a href="http://dev7studios.com">
+                                                <img src="images/MacCoffee2.jpg" data-thumb="images/MacCoffee2.jpg" alt="" title="Станьте одним из наших партнеров" /></a>
+                                            <a href="http://dev7studios.com">
+                                                <img src="images/ozerskiy_suvenir_two1.png" data-thumb="images/ozerskiy_suvenir1.jpg" alt="" title="Станьте одним из наших партнеров" /></a>
+                                            <a href="http://dev7studios.com">
+                                                <%--  <img src="images/emarko1.jpg" data-thumb="images/emarko1.jpg" alt="" title="Станьте одним из наших партнеров" /></a>
                                         <a href="http://dev7studios.com">--%>
-                                            <img src="images/rieber1.png" data-thumb="images/rieber1.png" alt="" title="Станьте одним из наших партнеров" /></a>
+                                                <img src="images/rieber1.png" data-thumb="images/rieber1.png" alt="" title="Станьте одним из наших партнеров" /></a>
+                                        </div>
+                                        <div id="htmlcaption" class="nivo-html-caption">
+                                            <strong>Станьте одним из наших партнеров</strong> <a href="#">a link</a>. 
+                                        </div>
                                     </div>
-                                    <div id="htmlcaption" class="nivo-html-caption">
-                                        <strong>Станьте одним из наших партнеров</strong> <a href="#">a link</a>. 
-                                    </div>
+
                                 </div>
 
-                            </div>
+                                <div>
+                                    <div id="TextOfMainPage">
+                                        <p><strong>Компания Складской комплекс</strong> - одна из крупнейших оптовых компаний Ивановского региона, основным видом деятельности которой является дистрибьюция и логистика продовольственных и непродовольственных товаров.</p>
+                                        <p>За время своего существования Компания Складской комплекс зарекомендовала себя как надежный, стабильный партнер, ориентированный на долгосрочные и взаимовыгодные отношения.</p>
+                                    </div>
+                                    <div id="ImageOfMainPage">
+                                        <div>
+                                            <img style="width: 380px; visibility: hidden;" src="images/foto36.jpg" data-thumb="images/foto36.jpg" alt="" title="Станьте одним из наших партнеров" /></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <%--<div id="ArendaOfMainPage">
+                                    <p>Компания Складской комплекс предоставляет в аренду складские помещения, более подробная информация находиться в разделе АРЕНДАТОРАМ.</p>
+                                </div>--%>
 
 
-                            <div id="TextOnMainPage">
-                               <p> Компания Складской комплекс - одна из крупнейших оптовых компаний Ивановского региона, основным видом деятельности которой является дистрибьюция и логистика продовольственных и непродовольственных товаров.</p>
-                               <p>За время своего существования Компания Складской комплекс зарекомендовала себя как надежный, стабильный партнер, ориентированный на долгосрочные и взаимовыгодные отношения.</p>
-                               <p>Компания Складской комплекс предоставляет в аренду складские помещения, более подробная информация находиться в разделе АРЕНДАТОРАМ.</p>
-                            </div>
-                                
 
 
-                            <%--<asp:SiteMapPath ID="SiteMapPath1" runat="server"> 
+
+                                <%--<asp:SiteMapPath ID="SiteMapPath1" runat="server"> 
                 <PathSeparatorTemplate> 
                  
                 </PathSeparatorTemplate> 
@@ -250,8 +260,8 @@
             </asp:SiteMapPath> --%>
 
 
-                            <%-- SelectCommand="SELECT * FROM [Thing] WHERE ((color=@color) AND (brand=@brand) AND (size=@size))" --%>
-                            <%--    <asp:SqlDataSource ID="SqlDataSource3" runat="server" 
+                                <%-- SelectCommand="SELECT * FROM [Thing] WHERE ((color=@color) AND (brand=@brand) AND (size=@size))" --%>
+                                <%--    <asp:SqlDataSource ID="SqlDataSource3" runat="server" 
                 ConnectionString="<%$ ConnectionStrings:newConnectionString %>" 
                 
                
@@ -297,7 +307,7 @@
                 ConnectionString="<%$ ConnectionStrings:newConnectionString %>" 
                 SelectCommand="SELECT * FROM [Size]">
             </asp:SqlDataSource>
-                            --%>
+                                --%>
 
 
 
@@ -305,9 +315,9 @@
 
 
 
-                            <div class="listviewdiv">
+                                <div class="listviewdiv">
 
-                                <%--   <asp:ListView ID="ListView" DataSourceID="SqlDataSource3" GroupItemCount="4" runat="server" > 
+                                    <%--   <asp:ListView ID="ListView" DataSourceID="SqlDataSource3" GroupItemCount="4" runat="server" > 
                 <LayoutTemplate>
                   <table id="tbl" runat="server">
                     <tr runat="server" id="groupPlaceholder"/>
@@ -361,10 +371,10 @@
               </table>
           </EmptyDataTemplate>
                </asp:ListView>--%>
-                            </div>
+                                </div>
 
 
-                            <%--  <div class="gallery">
+                                <%--  <div class="gallery">
                 <a tabindex="1" class="zoom"><img src="wear/2.jpg"/></a>
                 <a tabindex="1" class="zoom"><img src="wear/3.jpg"/></a>
                 <a tabindex="1" class="zoom"><img src="wear/4.jpg"/></a>
@@ -386,12 +396,12 @@
                 Ye! Ye!
             </div>
        
-                            --%>
-                        </div>
+                                --%>
+                            </div>
 
-                        <%--</ContentTemplate>
+                            <%--</ContentTemplate>
         </asp:UpdatePanel>--%>
-                        <%--<div id="rightcolumn">
+                            <%--<div id="rightcolumn">
             <div class="columntop">
             adasdasd
             
@@ -403,11 +413,11 @@
             asdasd
             </div> 
         </div>--%>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <%--       <div id="centerpart">
+                <%--       <div id="centerpart">
             <div id="centertop"">
                 go!go!
             </div>
@@ -429,16 +439,19 @@
 
 
 
-            <%--<div id="rasporka"></div>
-    
-     
-  
-   <div id="footer">
-    
-    </div>--%></div>
+                <div id="rasporka"></div>
 
-        <%--</div>--%>
-        </div> <%--BodyDiv--%>
+
+
+                <div id="footer">
+                </div>
+
+            </div>
+
+            <%--</div>--%>
+        </div>
+        <%--BodyDiv--%>
+
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="sample/js/plugins.js"></script>
