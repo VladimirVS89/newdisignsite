@@ -208,7 +208,7 @@
                 <img src="images/walle.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
                 <img src="images/nemo.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />--%>
                                             <a href="http://dev7studios.com">
-                                                <img src="images/royal_canin2.jpg" data-thumb="images/royal_canin2.jpg" alt="" title="Станьте одним из наших партнеров"/></a>
+                                                <img src="images/royal_canin2.jpg" data-thumb="images/royal_canin2.jpg" alt="" title="Станьте одним из наших партнеров" /></a>
                                             <a href="http://dev7studios.com">
                                                 <img src="images/mars1.jpg" data-thumb="images/mars1.jpg" alt="" title="Станьте одним из наших партнеров" /></a>
                                             <a href="http://dev7studios.com">
@@ -226,22 +226,23 @@
                                     </div>
 
                                 </div>
-                                <%--<div style="width: 100%; overflow: auto;">--%>
-                                    
+                                
+                                <div id="LeftColumnOfMainContent">   <%--<div id="LeftColumnOfMainContent" style="width: 100%; overflow: auto;">--%>
+
                                     <div id="TextOfMainPage">
-                                        <p><span style="font-size:20px;"><strong>Компания Складской комплекс</strong></span> - одна из крупнейших оптовых компаний Ивановского региона, основным видом деятельности которой является дистрибьюция и логистика продовольственных и непродовольственных товаров.</p>
+                                        <p><span style="font-size: 15px;"><strong>Компания Складской комплекс</strong></span> - одна из крупнейших оптовых компаний Ивановского региона, основным видом деятельности которой является дистрибьюция и логистика продовольственных и непродовольственных товаров.</p>
                                         <p>За время своего существования Компания Складской комплекс зарекомендовала себя как надежный, стабильный партнер, ориентированный на долгосрочные и взаимовыгодные отношения.</p>
                                     </div>
-                                    
+
                                     <div id="ImageOfMainPage">
                                         <%--<div>--%>
-                                            <img src="images/foto36.jpg" data-thumb="images/foto36.jpg" alt="" title="Станьте одним из наших партнеров" />
+                                        <img src="images/foto36.jpg" data-thumb="images/foto36.jpg" alt="" title="Вид на основной склад и оффис" />
                                         <%--</div>--%>
-                                   </div>
+                                    </div>
 
-                                <%--</div>--%>
-                                <div id="PokupatelOfMainPage">
-                                В Компании Складской комплекс вы можете приобрести широкий ассортимент продукции для своей торговой точки.
+
+                                    <div id="PokupatelOfMainPage">
+                                        В Компании Складской комплекс вы можете приобрести широкий ассортимент продукции для своей торговой точки.
 
 Наш представитель придет к вам, когда вы пожелаете, и совместно с вами сделает заказ на ту продукцию, которая вам нужна и то количество, которое вам необходимо. С помощью коммуникатора сразу же отправит заказ в офис.
 
@@ -256,7 +257,16 @@
 Для покупателей мы предоставляем торговое оборудование.
 
 С предоставленным ассортиментом компании вы можете ознакомиться в разделе КАТАЛОГ.
+                                    </div>
+                                    
+
                                 </div>
+
+                                <div id="RightColumnOfMainContent">
+                                    <%--<p><strong>Наши услуги:</strong></p>--%>
+                                    <img src="images/BannerArenda.gif" data-thumb="images/BannerArenda.gif" alt="" title="Станьте одним из наших партнеров" />
+                                </div>
+
                                 <div id="ArendaOfMainPage">
                                     <p>Компания Складской комплекс предоставляет в аренду складские и офисные помещения, более подробная информация находиться в разделе АРЕНДАТОРАМ.</p>
                                 </div>
@@ -458,13 +468,15 @@
 
 
 
-                <div id="rasporka"></div>
+                
+
+            </div>
+
+            <div id="rasporka"></div>
 
 
 
-                <div id="footer">
-                </div>
-
+            <div id="footer">
             </div>
 
             <%--</div>--%>
