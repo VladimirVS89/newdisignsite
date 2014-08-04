@@ -29,8 +29,14 @@
     <link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 
-
     <script src="sample/js/vendor/modernizr-2.6.2.min.js"></script>
+
+    <link rel="stylesheet" href="css3gallery/css/reset.css" media="screen" />
+    <link rel="stylesheet" href="css3gallery/css/style.css" media="screen" />
+    <link rel="stylesheet" href="css3gallery/css/css3_3d.css" media="screen" />
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/modernizr.js"></script>
 </head>
 <body>
 
@@ -157,11 +163,11 @@
                                 <%--<li class="delimiter"></li>--%>
                                 <%--style="background-image:url(menu3.jpg);id="leftmenubutton"--%>
                                 <li class="menu2">
-                                    <a href="WebForm1.aspx" style="color: white;"><b>О компании</b></a>
+                                    <a href="WebForm1.aspx"><b>О компании</b></a>
                                 </li>
                                 <li class="delimiter"></li>
-                                <li class="menu2">
-                                    <a href="Сatalog.aspx" class="shadow"><b>Каталог товаров</b></a></li>
+                                <li class="menu2" style="background-image: url(menu3.jpg);">
+                                    <a href="Catalog.aspx" class="shadow" style="color: white; margin-top: 1px;"><b>Каталог товаров</b></a></li>
                                 <li class="delimiter"></li>
                                 <li class="menu2">
                                     <a href="Pop.aspx"><b>Партнерам</b></a></li>
@@ -198,44 +204,289 @@
                             <div id="mainpart">
 
 
-                               
-                                
-                                <div id="LeftColumnOfMainContent">   <%--<div id="LeftColumnOfMainContent" style="width: 100%; overflow: auto;">--%>
+                                <div id="container">
+                                    <!--[if lte IE 8]>
+                                    <noscript>
+                                    <style>
+                                    #information li { overflow: visible; position: relative; margin: 0 auto; margin-bottom: 25px; background: #fff; width: 600px; padding: 30px; height: auto; list-style: none; }	
+                                    #information li div a.close { position: relative; background: transparent; padding: 0; color: #0090e2; font-size: 12px; font-weight: normal; left: 0; top: 0; }	
+                                    iframe, .backface { display: none; }
+ 
+                                    </style>
+                                    </noscript>
+                                    <![endif]-->
 
-                                    <div id="TextOfMainPage">
-                                        <p><span style="font-size: 15px;"><strong>Компания Складской комплекс</strong></span> - одна из крупнейших оптовых компаний Ивановского региона, основным видом деятельности которой является дистрибьюция и логистика продовольственных и непродовольственных товаров.</p>
-                                        <p>За время своего существования Компания Складской комплекс зарекомендовала себя как надежный, стабильный партнер, ориентированный на долгосрочные и взаимовыгодные отношения.</p>
+                                    <h2 class="title" style="font-family:'sochi2014light',Verdana,sans-serif; margin-top:10px; letter-spacing: 2px; font-weight:bolder; text-shadow: 1px 1px 1px rgba(0,0,0,0.2);">Каталог товаров</h2><%--<span>Каталог товаров</span>--%>
+
+                                    <p style="width: 880px; padding: 20px 30px 0 00px;  font-family:Verdana,sans-serif; text-align:left;  text-indent: 50px; text-shadow: 1px 1px 1px rgba(0,0,0,0.2); line-height: 1.8;">В данном разделе вы можете найти интересующие вас товары и узнать цены скачав прайс-лист. Для вашего удобства все товары сгруппированы по производителю.</p>
+
+                                    <ul id="grid" class="group">
+                                        <li>
+                                            <div class="details">
+                                                <h3>Mars</h3>
+                                                <a class="more" href="#info1">прайс лист</a>
+                                            </div>
+                                            <a class="more" href="#info1">
+                                                <img src="imagesOfCatalog/марс.jpg" /></a>
+                                        </li>
+                                        <li>
+                                            <div class="details">
+                                                <h3>Мир детства</h3>
+                                                <a class="more" href="#info2">прайс лист</a>
+                                            </div>
+                                            <a href="#info2">
+                                                <img src="imagesOfCatalog/мирдетства.jpg" /></a>
+                                        </li>
+                                        <li>
+                                            <div class="details">
+                                                <h3>MacCoffee</h3>
+                                                <a class="more" href="#info2">прайс лист</a>
+                                            </div>
+                                            <a href="#info2">
+                                                <img src="imagesOfCatalog/маккофе.jpg" /></a>
+                                        </li>
+                                        <li class="end">
+                                            <div class="details">
+                                                <h3>Royal Canin</h3>
+                                                <a class="more" href="#info3">прайс лист</a>
+                                            </div>
+                                            <a href="#info3">
+                                                <img src="imagesOfCatalog/royalcanin.jpg" /></a>
+                                        </li>
+                                        <li>
+                                            <div class="details">
+                                                <h3>Озерский сувенир</h3>
+                                                <a class="more" href="#info4">прайс лист</a>
+                                            </div>
+                                            <a href="#info4">
+                                                <img src="imagesOfCatalog/озерскийсувенир.jpg" /></a>
+                                        </li>
+                                        <li>
+                                            <div class="details">
+                                                <h3>Золотая рыбка</h3>
+                                                <a class="more" href="#info4">прайс лист</a>
+                                            </div>
+                                            <a href="#info4">
+                                                <img src="imagesOfCatalog/золотаярыбка.jpg" /></a>
+                                        </li>
+                                         <li>
+                                            <div class="details">
+                                                <h3>Америя</h3>
+                                                <a class="more" href="#info4">прайс лист</a>
+                                            </div>
+                                            <a href="#info4">
+                                                <img src="imagesOfCatalog/америя.jpg" /></a>
+                                        </li>
+                                        <li class="end">
+                                            <div class="details">
+                                                <h3>Нео продукты</h3>
+                                                <a class="more" href="#info6">прайс лист</a>
+                                            </div>
+                                            <a href="#info6">
+                                                <img src="imagesOfCatalog/неопродукты.jpg" /></a>
+                                        </li>
+                                        <li>
+                                            <div class="details">
+                                                <h3>Ижмолоко</h3>
+                                                <a class="more" href="#info7">прайс лист</a>
+                                            </div>
+                                            <a href="#info7">
+                                                <img src="imagesOfCatalog/ижмолоко.jpg" /></a>
+                                        </li>
+                                        <li>
+                                            <div class="details">
+                                                <h3>Kovis</h3>
+                                                <a class="more" href="#info8">прайс лист</a>
+                                            </div>
+                                            <a href="#info8">
+                                                <img src="imagesOfCatalog/ковис.jpg" /></a>
+                                        </li>
+                                        <li>
+                                            <div class="details">
+                                                <h3>Золотой сад</h3>
+                                                <a class="more" href="#info8">прайс лист</a>
+                                            </div>
+                                            <a href="#info8">
+                                                <img src="imagesOfCatalog/золотойсад.jpg" /></a>
+                                        </li>
+                                        <li class="end">
+                                            <div class="details">
+                                                <h3>Silver Statue</h3>
+                                                <a class="more" href="#info9">прайс лист</a>
+                                            </div>
+                                            <a href="#info9">
+                                                <img src="imagesOfCatalog/statue2.jpg" /></a>
+                                        </li>
+                                    </ul>
+
+                                    <ul id="information">
+                                        <li id="info1">
+                                            <div>
+                                                <h3>Lanterns</h3>
+                                                <p>These lanterns were spotted in Melaka (Malay: Melaka, dubbed The Historic State or Negeri Bersejarah among locals) which is the third smallest Malaysian state, after Perlis and Penang. It is located in the southern region of the Malay Peninsula, on the Straits of Malacca. It borders Negeri Sembilan to the north and the state of Johor to the south. The capital is Malacca City, which is 148 km south east of Malaysia's capital city Kuala Lumpur, 235 km south east to Johor's largest city Johor Bahru and 95 km south east to Johor's second largest city Batu Pahat. This historical city centre has been listed as a UNESCO World Heritage Site since 7 July 2008.</p>
+                                                <p><a href="http://instagr.am/p/CYJ_Z/">View the full image on Instagram</a></p>
+                                                <a href="#" class="close">x</a>
+                                            </div>
+                                            <span class="backface"></span>
+                                        </li>
+                                        <li id="info2">
+                                            <div>
+                                                <h3>Tree</h3>
+                                                <p>Just a tree in a park.</p>
+                                                <p><a href="http://instagr.am/p/B0kVX/">View the full image on Instagram</a></p>
+                                                <a href="#" class="close">x</a>
+                                            </div>
+                                        </li>
+                                        <li id="info3">
+                                            <div>
+                                                <h3>Cable Car</h3>
+                                                <p>The Langkawi Cable Car is a major attractions in Langkawi Island, Kedah, Malaysia. It provides an aerial link from Burau Bay Resort at Teluk Burau to the peak of Gunung Machinchang, the location of the Langkawi Sky Bridge. The total length is 2.2 km (1.4 miles). It was officially opened on 2003.</p>
+                                                <p><a href="http://instagr.am/p/CY4j8/">View the full image on Instagram</a></p>
+                                                <a href="#" class="close">x</a>
+                                            </div>
+                                        </li>
+                                        <li id="info4">
+                                            <div>
+                                                <h3>London Eye</h3>
+                                                <p>The London Eye is the tallest Ferris wheel in Europe, and the most popular paid tourist attraction in the United Kingdom, visited by over 3.5 million people annually. When erected in 1999, it was the tallest Ferris wheel in the world, until surpassed first by the 160 m (520 ft) Star of Nanchang in 2006, and then the 165 m (541 ft) Singapore Flyer in 2008. It is still described by its operators as "the world's tallest cantilevered observation wheel" (as the wheel is supported by an A-frame on one side only, unlike the Nanchang and Singapore wheels).</p>
+                                                <p><a href="http://instagr.am/p/mxsX/">View the full image on Instagram</a></p>
+                                                <a href="#" class="close">x</a>
+                                            </div>
+                                        </li>
+                                        <li id="info5">
+                                            <div>
+                                                <h3>Golden Statue</h3>
+                                                <p>Standing at 42.7 meter (140.09 ft) high, the world's tallest statue of Murugan, a Hindu deity, is located outside Batu Caves, near the city of Kuala Lumpur, Malaysia. The statue, which cost approximately Rupees 24 million, is made of 1550 cubic metres of concrete, 250 tonnes of steel bars and 300 litres of gold paint brought in from neighboring Thailand.</p>
+                                                <p>
+                                                    <iframe width="600" height="175" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=3.2374,+101.683906&amp;aq=&amp;sll=53.800651,-4.064941&amp;sspn=17.916772,46.538086&amp;ie=UTF8&amp;t=k&amp;ll=3.237697,101.68396&amp;spn=0.003214,0.006427&amp;z=17&amp;output=embed"></iframe>
+                                                </p>
+                                                <p><a href="http://instagr.am/p/CNbxa/">View the full image on Instagram</a></p>
+                                                <a href="#" class="close">x</a>
+                                            </div>
+                                        </li>
+                                        <li id="info6">
+                                            <div>
+                                                <h3>Under the Bridge</h3>
+                                                <p>
+                                                    <iframe width="600" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=51.48465,-0.278703&amp;aq=&amp;sll=51.484216,-0.278982&amp;sspn=0.004597,0.011362&amp;ie=UTF8&amp;ll=51.484884,-0.278263&amp;spn=0.008017,0.025706&amp;z=15&amp;output=embed"></iframe>
+                                                </p>
+                                                <p><a href="http://instagr.am/p/CwSkH/">View the full image on Instagram</a></p>
+                                                <a href="#" class="close">x</a>
+                                            </div>
+                                        </li>
+                                        <li id="info7">
+                                            <div>
+                                                <h3>Pregnant Maiden</h3>
+                                                <p><a href="http://instagr.am/p/CzsJ9/">View the full image on Instagram</a></p>
+                                                <a href="#" class="close">x</a>
+                                            </div>
+                                        </li>
+                                        <li id="info8">
+                                            <div>
+                                                <h3>Clouds of Doom</h3>
+                                                <p><a href="http://instagr.am/p/CHc8O/">View the full image on Instagram</a></p>
+                                                <a href="#" class="close">x</a>
+                                            </div>
+                                        </li>
+                                        <li id="info9">
+                                            <div>
+                                                <h3>Silver Statue</h3>
+                                                <p><a href="http://instagr.am/p/CHcjD/">View the full image on Instagram</a></p>
+                                                <a href="#" class="close">x</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <p style="text-align: center; margin-bottom: 50px;">Created by <a href="http://tkenny.co.uk">Tom Kenny</a> for <a href="http://inspectelement.com">Inspect Element</a>
+                                        <br />
+                                        Add me on Instagram: tkenny
+                                        <br />
+                                        <a class="ig more" href="http://instagrid.me/tkenny/">View all my Instagram photos on Instagrid</a></p>
+
+                                    <div id="carbonads-container">
+                                        <div class="carbonad">
+                                            <div id="carbon"></div>
+                                            <script type="text/javascript">var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = "http://engine.carbonads.com/z/12113/carbon_2_1_0_HORIZ"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script>
+                                        </div>
                                     </div>
-
-                                    <div id="ImageOfMainPage">
-                                        <%--<div>--%>
-                                        <img src="images/foto36.jpg" data-thumb="images/foto36.jpg" alt="" title="Вид на основной склад и оффис" />
-                                        <%--</div>--%>
-                                    </div>
-
-
-                                    <div id="PokupatelOfMainPage">
-                                        В Компании Складской комплекс вы можете приобрести широкий ассортимент продукции для своей торговой точки.
-
-Наш представитель придет к вам, когда вы пожелаете, и совместно с вами сделает заказ на ту продукцию, которая вам нужна и то количество, которое вам необходимо. С помощью коммуникатора сразу же отправит заказ в офис.
-
-Наша служба доставки привезет заказанный вами товар непосредственно в вашу торговую точку в удобное для вас время.
-
-Компания работает по любой удобной для вас форме оплаты.
-
-Для наших постоянных клиентов предоставляем отсрочку платежа.
-
-Компания предоставляет полный пакет сопровождающих документов на всю поставленную продукцию.
-
-Для покупателей мы предоставляем торговое оборудование.
-
-С предоставленным ассортиментом компании вы можете ознакомиться в разделе <a href="#" style="text-decoration:solid;">каталог товаров</a>.
-                                    </div>
-                                    
 
                                 </div>
 
-                               
+
+
+
+                                <%--       <div id="DivOfTableOfCatalog">
+                                    
+
+                                    <table id="TableOfCatalog" border="1">
+                                        <caption>Таблица размеров обуви</caption>
+                                        <tr>
+                                            <td><img src="ImagesOfCatalog/royalcanin.jpg" title="Royal Canin" /></td>
+                                            <td>Горино</td>
+                                            <td><img src="ImagesOfCatalog/ижмолоко.jpg" title="Ижмолоко" /></td>
+                                            <td><img src="ImagesOfCatalog/золотаярыбка.png" title="Золотая рыбка" /></td>
+                                        </tr>
+                                        <tr>
+                                            <td><img src="ImagesOfCatalog/неопродукты.jpg" title="Нео продукты" /></td>
+                                            <td><img src="ImagesOfCatalog/америя.png" title="Америя" /></td>
+                                            <td><img src="ImagesOfCatalog/маккофе.jpg" title="MacCoffee" /></td>
+                                            <td><img src="ImagesOfCatalog/марс.png" title="MARS" /></td>
+                                        </tr>
+                                        <tr>
+                                            <td><img src="ImagesOfCatalog/озерскийсувенир.png" title="Озерский Сувенир" /></td>
+                                            <td>Оластен</td>
+                                            <td><img src="ImagesOfCatalog/озерскийсувенир.png" title="Озерский Сувенир" /></td>
+                                            <td>23,5</td>
+                                        </tr>
+                                        <tr>
+                                            <td>36,5</td>
+                                            <td>5</td>
+                                            <td>38</td>
+                                            <td>24</td>
+                                        </tr>
+                                        <tr>
+                                            <td>37</td>
+                                            <td>5,5</td>
+                                            <td>38⅔</td>
+                                            <td>24,5</td>
+                                        </tr>
+                                        <tr>
+                                            <td>38</td>
+                                            <td>6</td>
+                                            <td>39⅓</td>
+                                            <td>25</td>
+                                        </tr>
+                                        <tr>
+                                            <td>38,5</td>
+                                            <td>6,5</td>
+                                            <td>40</td>
+                                            <td>25,5</td>
+                                        </tr>
+                                        <tr>
+                                            <td>39</td>
+                                            <td>7</td>
+                                            <td>40⅔</td>
+                                            <td>25,5–26</td>
+                                        </tr>
+                                        <tr>
+                                            <td>40</td>
+                                            <td>7,5</td>
+                                            <td>41⅓</td>
+                                            <td>26</td>
+                                        </tr>
+                                        <tr>
+                                            <td>40,5</td>
+                                            <td>8</td>
+                                            <td>42</td>
+                                            <td>26,5</td>
+                                        </tr>
+               
+                                    </table>
+
+
+                                </div>
+                                --%>
+
 
 
 
@@ -428,14 +679,6 @@
                 
             </div>
         </div>--%>
-
-
-
-
-
-
-                
-
             </div>
 
             <div id="rasporka"></div>
@@ -481,6 +724,13 @@
 
         </script>
 
+       
+         <script>  if (!Modernizr.csstransforms) {
+      $(document).ready(function () {
+          $(".close").text("Back to top");
+      });
+  }
+        </script>
 
 
     </form>
