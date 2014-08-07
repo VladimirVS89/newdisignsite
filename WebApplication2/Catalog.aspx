@@ -203,6 +203,27 @@
 
                             <div id="mainpart">
 
+                              <h2 class="title" style="font-family: 'sochi2014light',Verdana,sans-serif; margin: 5px 0px 20px 0px; letter-spacing: 2px; font-weight: bolder; text-shadow: 1px 1px 1px rgba(0,0,0,0.2);">Каталог товаров</h2>
+                                   <%--<span>Каталог товаров</span>--%>
+                                <img src="images/downblockshadow.png" />
+                                <div style="width: 965px; height: 195px; margin: 20px 0px 40px 0px;">
+                                    <div style="margin: 0px 0px 0px 0px; padding: 40px 40px 40px 20px; float: left; background-color: rgba(0,0,0,0.6); color: white; -webkit-border-top-right-radius: 5px; -webkit-border-bottom-right-radius: 5px; -moz-border-radius-topright: 5px; -moz-border-radius-bottomright: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;">
+                                        <img style="float: left; margin: 0px 25px 0px 20px;" src="icons/dolly.png" />
+                                        <div style="float: right; font-size: 13px; width: 280px; padding: -5px 0px 0 0px; font-family: Verdana,sans-serif; text-align: justify; text-shadow: 1px 1px 1px rgba(0,0,0,0.2); line-height: 1.8; font-weight: bold; vertical-align: central;">
+                                            В данном разделе вы можете найти интересующие вас товары и узнать цены, скачав прайс-лист. Для вашего удобства все товары сгруппированы по производителю.
+                                        </div>
+
+                                    </div>
+                                    <div style="margin: 0px 0px 0px 0px; padding: 40px 40px 63px 20px; float: right; background-color: rgba(0,0,0,0.6); color: white; -webkit-border-top-left-radius: 5px; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-topleft: 5px; -moz-border-radius-bottomleft: 5px; border-top-left-radius: 5px; border-bottom-left-radius: 5px;">
+                                        <img style="float: left; margin: 0px 25px 0px 20px;" src="icons/compose.png" />
+                                        <div style="float: right; font-size: 13px; width: 280px; padding: -5px 0px 0 0px; font-family: Verdana,sans-serif; text-align: justify; text-shadow: 1px 1px 1px rgba(0,0,0,0.2); line-height: 1.8; font-weight: bold; vertical-align: central;">
+                                            Для заказа позвоните по номеру 12341(234) и наш менеджер примет ваш заказ и согласует удобные для вас сроки доставки.
+                                        </div>
+
+                                    </div>
+                                    
+
+                                </div><img src="images/downblockshadow.png" />
 
                                 <div id="container">
                                     <!--[if lte IE 8]>
@@ -216,16 +237,23 @@
                                     </noscript>
                                     <![endif]-->
 
-                                    <h2 class="title" style="font-family:'sochi2014light',Verdana,sans-serif; margin-top:10px; letter-spacing: 2px; font-weight:bolder; text-shadow: 1px 1px 1px rgba(0,0,0,0.2);">Каталог товаров</h2><%--<span>Каталог товаров</span>--%>
-
-                                    <p style="width: 880px; padding: 20px 30px 0 00px;  font-family:Verdana,sans-serif; text-align:left;  text-indent: 50px; text-shadow: 1px 1px 1px rgba(0,0,0,0.2); line-height: 1.8; margin:0px;">
-                                        В данном разделе вы можете найти интересующие вас товары и узнать цены скачав прайс-лист. Для вашего удобства все товары сгруппированы по производителю.
-                                    </p>
-                                    <p style="width: 880px; padding: 20px 30px 0 00px;  font-family:Verdana,sans-serif; text-align:left;  text-indent: 50px; text-shadow: 1px 1px 1px rgba(0,0,0,0.2); line-height: 1.8; margin:0px;">
-                                        Для заказа позвоните по номеру 12341(234) и наш менеджер примет ваш заказ и согласует удобные для вас сроки доставки.
-                                    </p>
-
-                                    <ul id="grid" class="group">
+                                    <ul id="grid" class="group" style="clear: both;">
+                                        <li>
+                                            <div class="details">
+                                                <h3>Royal Canin</h3>
+                                                <a class="more" href="PricesOfCatalog/royalcanin.zip">прайс лист</a>
+                                            </div>
+                                            <a href="PricesOfCatalog/royalcanin.zip">
+                                                <img src="imagesOfCatalog/royalcanin.jpg" /></a>
+                                        </li>
+                                         <li>
+                                            <div class="details">
+                                                <h3>MacCoffee</h3>
+                                                <a class="more" href="PricesOfCatalog/makkofe.zip">прайс лист</a>
+                                            </div>
+                                            <a href="PricesOfCatalog/makkofe.zip">
+                                                <img src="imagesOfCatalog/маккофе.jpg" /></a>
+                                        </li>
                                         <li>
                                             <div class="details">
                                                 <h3>Mars</h3>
@@ -234,31 +262,7 @@
                                             <a class="more" href="PricesOfCatalog/mars.zip">
                                                 <img src="imagesOfCatalog/марс.jpg" /></a>
                                         </li>
-                                        <li>
-                                            <div class="details">
-                                                <h3>Мир детства</h3>
-                                                <a class="more" href="PricesOfCatalog/olasten.zip">прайс лист</a>
-                                            </div>
-                                            <a href="PricesOfCatalog/olasten.zip">
-                                                <img src="imagesOfCatalog/мирдетства.jpg" /></a>
-                                        </li>
-                                        <li>
-                                            <div class="details">
-                                                <h3>MacCoffee</h3>
-                                                <a class="more" href="PricesOfCatalog/makkofe.zip">прайс лист</a>
-                                            </div>
-                                            <a href="PricesOfCatalog/makkofe.zip">
-                                                <img src="imagesOfCatalog/маккофе.jpg" /></a>
-                                        </li>
-                                        <li class="end">
-                                            <div class="details">
-                                                <h3>Royal Canin</h3>
-                                                <a class="more" href="PricesOfCatalog/royalcanin.zip">прайс лист</a>
-                                            </div>
-                                            <a href="PricesOfCatalog/royalcanin.zip">
-                                                <img src="imagesOfCatalog/royalcanin.jpg" /></a>
-                                        </li>
-                                        <li>
+                                         <li class="end">
                                             <div class="details">
                                                 <h3>Озерский сувенир</h3>
                                                 <a class="more" href="PricesOfCatalog/ozerck_suvenir.zip">прайс лист</a>
@@ -268,19 +272,27 @@
                                         </li>
                                         <li>
                                             <div class="details">
-                                                <h3>Золотая рыбка</h3>
-                                                <a class="more" href="PricesOfCatalog/gold_fish.zip">прайс лист</a>
+                                                <h3>Ижмолоко</h3>
+                                                <a class="more" href="PricesOfCatalog/izhmoloko.zip">прайс лист</a>
                                             </div>
-                                            <a href="PricesOfCatalog/gold_fish.zip">
-                                                <img src="imagesOfCatalog/золотаярыбка.jpg" /></a>
+                                            <a href="PricesOfCatalog/izhmoloko.zip">
+                                                <img src="imagesOfCatalog/ижмолоко.jpg" /></a>
                                         </li>
                                          <li>
                                             <div class="details">
-                                                <h3>Америя</h3>
-                                                <a class="more" href="PricesOfCatalog/ameria.zip">прайс лист</a>
+                                                <h3>Польское морож.</h3>
+                                                <a class="more" href="PricesOfCatalog/pol_morogenoe.zip">прайс лист</a>
                                             </div>
-                                            <a href="PricesOfCatalog/ameria.zip">
-                                                <img src="imagesOfCatalog/америя.jpg" /></a>
+                                            <a href="PricesOfCatalog/pol_morogenoe.zip">
+                                                <img src="imagesOfCatalog/польскоемороженое.jpg" /></a>
+                                        </li>
+                                        <li>
+                                            <div class="details">
+                                                <h3>Kovis</h3>
+                                                <a class="more" href="PricesOfCatalog/kovis.zip">прайс лист</a>
+                                            </div>
+                                            <a href="PricesOfCatalog/kovis.zip">
+                                                <img src="imagesOfCatalog/ковис.jpg" /></a>
                                         </li>
                                         <li class="end">
                                             <div class="details">
@@ -292,19 +304,19 @@
                                         </li>
                                         <li>
                                             <div class="details">
-                                                <h3>Ижмолоко</h3>
-                                                <a class="more" href="PricesOfCatalog/izhmoloko.zip">прайс лист</a>
+                                                <h3>Америя</h3>
+                                                <a class="more" href="PricesOfCatalog/ameria.zip">прайс лист</a>
                                             </div>
-                                            <a href="PricesOfCatalog/izhmoloko.zip">
-                                                <img src="imagesOfCatalog/ижмолоко.jpg" /></a>
+                                            <a href="PricesOfCatalog/ameria.zip">
+                                                <img src="imagesOfCatalog/америя.jpg" /></a>
                                         </li>
                                         <li>
                                             <div class="details">
-                                                <h3>Kovis</h3>
-                                                <a class="more" href="PricesOfCatalog/kovis.zip">прайс лист</a>
+                                                <h3>Мир детства</h3>
+                                                <a class="more" href="PricesOfCatalog/olasten.zip">прайс лист</a>
                                             </div>
-                                            <a href="PricesOfCatalog/kovis.zip">
-                                                <img src="imagesOfCatalog/ковис.jpg" /></a>
+                                            <a href="PricesOfCatalog/olasten.zip">
+                                                <img src="imagesOfCatalog/мирдетства.jpg" /></a>
                                         </li>
                                         <li>
                                             <div class="details">
@@ -333,10 +345,10 @@
                                         <li>
                                             <div class="details">
                                                 <h3>Dr.Oetker</h3>
-                                                <a class="more" href="PricesOfCatalog/vologda.zip">прайс лист</a>
+                                                <a class="more" href="PricesOfCatalog/oetker.zip">прайс лист</a>
                                             </div>
-                                            <a href="PricesOfCatalog/vologda.zip">
-                                                <img src="imagesOfCatalog/оеткер.jpg"/></a>
+                                            <a href="PricesOfCatalog/oetker.zip">
+                                                <img src="imagesOfCatalog/оеткер.jpg" /></a>
                                         </li>
                                         <li>
                                             <div class="details">
@@ -344,7 +356,7 @@
                                                 <a class="more" href="PricesOfCatalog/permskaya.zip">прайс лист</a>
                                             </div>
                                             <a href="PricesOfCatalog/permskaya.zip">
-                                                <img src="imagesOfCatalog/пермскаякф.jpg"/></a>
+                                                <img src="imagesOfCatalog/пермскаякф.jpg" /></a>
                                         </li>
                                         <li class="end">
                                             <div class="details">
@@ -357,10 +369,10 @@
                                         <li>
                                             <div class="details">
                                                 <h3>Санта Бремор</h3>
-                                                <a class="more" href="PricesOfCatalog/permskaya.zip">прайс лист</a>
+                                                <a class="more" href="PricesOfCatalog/santabremor.zip">прайс лист</a>
                                             </div>
-                                            <a href="PricesOfCatalog/permskaya.zip">
-                                                <img src="imagesOfCatalog/сантабремор.jpg"/></a>
+                                            <a href="PricesOfCatalog/santabremor.zip">
+                                                <img src="imagesOfCatalog/сантабремор.jpg" /></a>
                                         </li>
                                         <li>
                                             <div class="details">
@@ -368,15 +380,15 @@
                                                 <a class="more" href="PricesOfCatalog/ferrero.zip">прайс лист</a>
                                             </div>
                                             <a href="PricesOfCatalog/ferrero.zip">
-                                                <img src="imagesOfCatalog/ферреро.jpg"/></a>
+                                                <img src="imagesOfCatalog/ферреро.jpg" /></a>
                                         </li>
                                         <li>
                                             <div class="details">
-                                                <h3>Польское морож.</h3>
-                                                <a class="more" href="PricesOfCatalog/pol_morogenoe.zip">прайс лист</a>
+                                                <h3>Золотая рыбка</h3>
+                                                <a class="more" href="PricesOfCatalog/gold_fish.zip">прайс лист</a>
                                             </div>
-                                            <a href="PricesOfCatalog/pol_morogenoe.zip">
-                                                <img src="imagesOfCatalog/польскоемороженое.jpg"/></a>
+                                            <a href="PricesOfCatalog/gold_fish.zip">
+                                                <img src="imagesOfCatalog/золотаярыбка.jpg" /></a>
                                         </li>
                                         <li class="end">
                                             <div class="details">
@@ -392,7 +404,7 @@
                                                 <a class="more" href="PricesOfCatalog/chipita.zip">прайс лист</a>
                                             </div>
                                             <a href="PricesOfCatalog/chipita.zip">
-                                                <img src="imagesOfCatalog/чипита.jpg"/></a>
+                                                <img src="imagesOfCatalog/чипита.jpg" /></a>
                                         </li>
                                         <li>
                                             <div class="details">
@@ -400,7 +412,7 @@
                                                 <a class="more" href="PricesOfCatalog/morozprodukt.zip">прайс лист</a>
                                             </div>
                                             <a href="PricesOfCatalog/morozprodukt.zip">
-                                                <img src="imagesOfCatalog/морозпродукт.jpg"/></a>
+                                                <img src="imagesOfCatalog/морозпродукт.jpg" /></a>
                                         </li>
                                         <li>
                                             <div class="details">
@@ -408,7 +420,7 @@
                                                 <a class="more" href="PricesOfCatalog/akulchev.zip">прайс лист</a>
                                             </div>
                                             <a href="PricesOfCatalog/akulchev.zip">
-                                                <img src="imagesOfCatalog/акульчев.jpg"/></a>
+                                                <img src="imagesOfCatalog/акульчев.jpg" /></a>
                                         </li>
                                         <li class="end">
                                             <div class="details">
@@ -424,7 +436,7 @@
                                                 <a class="more" href="PricesOfCatalog/legrand.zip">прайс лист</a>
                                             </div>
                                             <a href="PricesOfCatalog/legrand.zip">
-                                                <img src="imagesOfCatalog/лэндгрант.jpg"/></a>
+                                                <img src="imagesOfCatalog/лэндгрант.jpg" /></a>
                                         </li>
                                         <li>
                                             <div class="details">
@@ -432,7 +444,7 @@
                                                 <a class="more" href="PricesOfCatalog/kraft.zip">прайс лист</a>
                                             </div>
                                             <a href="PricesOfCatalog/kraft.zip">
-                                                <img src="imagesOfCatalog/крафт.jpg"/></a>
+                                                <img src="imagesOfCatalog/крафт.jpg" /></a>
                                         </li>
                                         <li>
                                             <div class="details">
@@ -440,7 +452,7 @@
                                                 <a class="more" href="PricesOfCatalog/nestle.zip">прайс лист</a>
                                             </div>
                                             <a href="PricesOfCatalog/nestle.zip">
-                                                <img src="imagesOfCatalog/нестле.jpg"/></a>
+                                                <img src="imagesOfCatalog/нестле.jpg" /></a>
                                         </li>
                                         <li class="end">
                                             <div class="details">
@@ -456,7 +468,7 @@
                                                 <a class="more" href="PricesOfCatalog/orehi.zip">прайс лист</a>
                                             </div>
                                             <a href="PricesOfCatalog/orehi.zip">
-                                                <img src="imagesOfCatalog/орехи.jpg"/></a>
+                                                <img src="imagesOfCatalog/орехи.jpg" /></a>
                                         </li>
                                         <li>
                                             <div class="details">
@@ -464,7 +476,7 @@
                                                 <a class="more" href="PricesOfCatalog/fryazinskaya.zip">прайс лист</a>
                                             </div>
                                             <a href="PricesOfCatalog/fryazinskaya.zip">
-                                                <img src="imagesOfCatalog/фрязинскаякф.jpg"/></a>
+                                                <img src="imagesOfCatalog/фрязинскаякф.jpg" /></a>
                                         </li>
                                         <li>
                                             <div class="details">
@@ -472,7 +484,7 @@
                                                 <a class="more" href="PricesOfCatalog/ruskart.zip">прайс лист</a>
                                             </div>
                                             <a href="PricesOfCatalog/ruskart.zip">
-                                                <img src="imagesOfCatalog/русскаякартошка.jpg"/></a>
+                                                <img src="imagesOfCatalog/русскаякартошка.jpg" /></a>
                                         </li>
                                         <li class="end">
                                             <div class="details">
@@ -496,7 +508,7 @@
                                                 <a class="more" href="PricesOfCatalog/emarko.zip">прайс лист</a>
                                             </div>
                                             <a href="PricesOfCatalog/emarko.zip">
-                                                <img src="imagesOfCatalog/риберэндсан.jpg"/></a>
+                                                <img src="imagesOfCatalog/риберэндсан.jpg" /></a>
                                         </li>
                                         <li>
                                             <div class="details">
@@ -504,7 +516,7 @@
                                                 <a class="more" href="PricesOfCatalog/tea.zip">прайс лист</a>
                                             </div>
                                             <a href="PricesOfCatalog/tea.zip">
-                                                <img src="imagesOfCatalog/чай.jpg"/></a>
+                                                <img src="imagesOfCatalog/чай.jpg" /></a>
                                         </li>
                                         <li class="end">
                                             <div class="details">
@@ -595,11 +607,13 @@
                                         </li>
                                     </ul>
 
-                                    <p style="text-align: center; margin-bottom: 50px;">Created by <a href="http://tkenny.co.uk">Tom Kenny</a> for <a href="http://inspectelement.com">Inspect Element</a>
+                                    <p style="text-align: center; margin-bottom: 50px;">
+                                        Created by <a href="http://tkenny.co.uk">Tom Kenny</a> for <a href="http://inspectelement.com">Inspect Element</a>
                                         <br />
                                         Add me on Instagram: tkenny
                                         <br />
-                                        <a class="ig more" href="http://instagrid.me/tkenny/">View all my Instagram photos on Instagrid</a></p>
+                                        <a class="ig more" href="http://instagrid.me/tkenny/">View all my Instagram photos on Instagrid</a>
+                                    </p>
 
                                     <div id="carbonads-container">
                                         <div class="carbonad">
@@ -922,8 +936,8 @@
 
         </script>
 
-       
-         <script>  if (!Modernizr.csstransforms) {
+
+        <script>  if (!Modernizr.csstransforms) {
       $(document).ready(function () {
           $(".close").text("Back to top");
       });
