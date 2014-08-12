@@ -122,7 +122,9 @@
                         <div id="SearchAndJobDiv" style="">
                             <div>
                                 <div id="SearchField" style="margin-top: 13px; float: left; width: 287px; height: 28px;">
+                                    <asp:TextBox ID="TextBox1" runat="server" Width="284px" Height="26px" BorderStyle="None" BorderWidth="0" CausesValidation="False"></asp:TextBox>
                                 </div>
+
                                 <div id="SearchDivButton" style="margin-top: 13px; float: left; width: 60px; height: 30px;">
                                 </div>
                             </div>
@@ -173,10 +175,10 @@
                                     <a href="Pop.aspx"><b>Партнерам</b></a></li>
                                 <li class="delimiter"></li>
                                 <li class="menu2">
-                                    <a href="Sale.aspx"><b>Арендаторам</b></a></li>
+                                    <a href="Renters.aspx"><b>Арендаторам</b></a></li>
                                 <li class="delimiter"></li>
                                 <li class="menu2">
-                                    <a href="Luxe.aspx" id="rightmenubutton"><b>Контакты</b></a></li>
+                                    <a href="Contacts.aspx" id="rightmenubutton"><b>Контакты</b></a></li>
                                 <%--<li class="delimiter"></li>--%>
                                 <%--<li class="menu2" >
                 <a href="Contacts.aspx"><b>Контакты</b></a></li>
@@ -203,18 +205,18 @@
 
                             <div id="mainpart">
 
-                              <h2 class="title" style="font-family: 'sochi2014light',Verdana,sans-serif; margin: 5px 0px 20px 0px; letter-spacing: 2px; font-weight: bolder; text-shadow: 1px 1px 1px rgba(0,0,0,0.2);">Каталог товаров</h2>
+                              <h2 class="title" style="font-family: 'sochi2014light',Verdana,sans-serif; margin: 0px 0px 10px 0px; letter-spacing: 2px; font-weight: bolder; text-shadow: 1px 1px 1px rgba(0,0,0,0.2);">Каталог товаров</h2>
                                    <%--<span>Каталог товаров</span>--%>
                                 <img src="images/downblockshadow.png" />
-                                <div style="width: 965px; height: 195px; margin: 20px 0px 40px 0px;">
-                                    <div style="height: 155px; margin: 0px 0px 0px 0px; padding: 40px 40px 0px 20px; float: left; background-color: rgba(0,0,0,0.6); color: white; -webkit-border-top-right-radius: 5px; -webkit-border-bottom-right-radius: 5px; -moz-border-radius-topright: 5px; -moz-border-radius-bottomright: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; -webkit-box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px; -moz-box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px; box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px;">
+                                <div style="width: 965px; height: 195px; margin: 5px 0px 20px 0px;">
+                                    <div style="height: 155px; margin: 0px 0px 0px 0px; padding: 40px 40px 0px 20px; float: left; background-color: rgba(0,0,0,0.87); color: white; -webkit-border-top-right-radius: 5px; -webkit-border-bottom-right-radius: 5px; -moz-border-radius-topright: 5px; -moz-border-radius-bottomright: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; -webkit-box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px; -moz-box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px; box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px;">
                                         <img style="float: left; margin: 0px 30px 0px 20px;" src="icons/dolly.png" />
                                         <div style="float: right; font-size: 13px; width: 280px; padding: -5px 0px 0 0px; font-family: Verdana,sans-serif; text-align: justify; text-shadow: 1px 1px 1px rgba(0,0,0,0.2); line-height: 1.8; font-weight: bold; vertical-align: central;">
                                             В данном разделе вы можете найти интересующие вас товары и узнать цены, скачав прайс-лист. Для вашего удобства все товары сгруппированы по производителю.
                                         </div>
 
                                     </div>
-                                    <div style="height: 155px; margin: 0px 0px 0px 0px; padding: 40px 40px 0px 20px; float: right; background-color: rgba(0,0,0,0.6); color: white; -webkit-border-top-left-radius: 5px; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-topleft: 5px; -moz-border-radius-bottomleft: 5px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; -webkit-box-shadow: rgba(0, 0, 0, 0.3) -1px 1px 1px; -moz-box-shadow: rgba(0, 0, 0, 0.3) -1px 1px 1px; box-shadow: rgba(0, 0, 0, 0.3) -1px 1px 1px;">
+                                    <div style="height: 155px; margin: 0px 0px 0px 0px; padding: 40px 40px 0px 20px; float: right; background-color: rgba(0,0,0,0.87); color: white; -webkit-border-top-left-radius: 5px; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-topleft: 5px; -moz-border-radius-bottomleft: 5px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; -webkit-box-shadow: rgba(0, 0, 0, 0.3) -1px 1px 1px; -moz-box-shadow: rgba(0, 0, 0, 0.3) -1px 1px 1px; box-shadow: rgba(0, 0, 0, 0.3) -1px 1px 1px;">
                                         <img style="float: left; margin: 0px 30px 0px 20px;" src="icons/compose.png" />
                                         <div style="float: right; font-size: 13px; width: 280px; padding: 0px 0px 0 0px; font-family: Verdana,sans-serif; text-align: justify; text-shadow: 1px 1px 1px rgba(0,0,0,0.2); line-height: 1.8; font-weight: bold; vertical-align: central;">
                                             Для заказа позвоните по номеру 12341(234) и наш менеджер примет ваш заказ и согласует удобные для вас сроки доставки.

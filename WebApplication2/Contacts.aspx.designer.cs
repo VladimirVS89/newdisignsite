@@ -10,7 +10,7 @@
 namespace WebApplication2 {
     
     
-    public partial class Catalog {
+    public partial class Contacts {
         
         /// <summary>
         /// form1 элемент управления.
