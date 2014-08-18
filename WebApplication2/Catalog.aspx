@@ -205,7 +205,7 @@
 
                             <div id="mainpart">
 
-                              <h2 class="title" style="font-family: 'sochi2014light',Verdana,sans-serif; margin: 0px 0px 10px 0px; letter-spacing: 2px; font-weight: bolder; text-shadow: 1px 1px 1px rgba(0,0,0,0.2);">Каталог товаров</h2>
+                              <h2 class="title" style="font-size:29px; font-family: 'sochi2014light',Verdana,sans-serif; margin: 0px 0px 10px 0px; letter-spacing: 2px; font-weight: bolder; text-shadow: 1px 1px 1px rgba(0,0,0,0.2);">Каталог товаров</h2>
                                    <%--<span>Каталог товаров</span>--%>
                                 <img src="images/downblockshadow.png" />
                                 <div style="width: 965px; height: 195px; margin: 5px 0px 20px 0px;">
@@ -418,21 +418,13 @@
                                         </li>
                                         <li>
                                             <div class="details">
-                                                <h3>Акульчев</h3>
-                                                <a class="more" href="PricesOfCatalog/akulchev.zip">прайс лист</a>
-                                            </div>
-                                            <a href="PricesOfCatalog/akulchev.zip">
-                                                <img src="imagesOfCatalog/акульчев.jpg" /></a>
-                                        </li>
-                                        <li class="end">
-                                            <div class="details">
                                                 <h3>Консервация</h3>
                                                 <a class="more" href="PricesOfCatalog/konservaciya.zip">прайс лист</a>
                                             </div>
                                             <a href="PricesOfCatalog/konservaciya.zip">
                                                 <img src="imagesOfCatalog/консервация.jpg" /></a>
                                         </li>
-                                        <li>
+                                        <li  class="end">
                                             <div class="details">
                                                 <h3>Лэнд Грант</h3>
                                                 <a class="more" href="PricesOfCatalog/legrand.zip">прайс лист</a>
@@ -456,7 +448,7 @@
                                             <a href="PricesOfCatalog/nestle.zip">
                                                 <img src="imagesOfCatalog/нестле.jpg" /></a>
                                         </li>
-                                        <li class="end">
+                                        <li>
                                             <div class="details">
                                                 <h3>Об. кондитеры</h3>
                                                 <a class="more" href="PricesOfCatalog/ob_konditer.zip">прайс лист</a>
@@ -464,7 +456,7 @@
                                             <a href="PricesOfCatalog/ob_konditer.zip">
                                                 <img src="imagesOfCatalog/объединенныекондитеры.jpg" /></a>
                                         </li>
-                                        <li>
+                                        <li  class="end">
                                             <div class="details">
                                                 <h3>Орехи</h3>
                                                 <a class="more" href="PricesOfCatalog/orehi.zip">прайс лист</a>
@@ -488,7 +480,7 @@
                                             <a href="PricesOfCatalog/ruskart.zip">
                                                 <img src="imagesOfCatalog/русскаякартошка.jpg" /></a>
                                         </li>
-                                        <li class="end">
+                                        <li>
                                             <div class="details">
                                                 <h3>Русский продукт</h3>
                                                 <a class="more" href="PricesOfCatalog/rusprodukt.zip">прайс лист</a>
@@ -496,15 +488,7 @@
                                             <a href="PricesOfCatalog/rusprodukt.zip">
                                                 <img src="imagesOfCatalog/русскийпродукт.jpg" /></a>
                                         </li>
-                                        <li>
-                                            <div class="details">
-                                                <h3>Fazer</h3>
-                                                <a class="more" href="PricesOfCatalog/facer.zip">прайс лист</a>
-                                            </div>
-                                            <a href="PricesOfCatalog/facer.zip">
-                                                <img src="imagesOfCatalog/фазер.jpg" /></a>
-                                        </li>
-                                        <li>
+                                        <li class="end">
                                             <div class="details">
                                                 <h3>Rieber & Son</h3>
                                                 <a class="more" href="PricesOfCatalog/emarko.zip">прайс лист</a>
@@ -520,7 +504,7 @@
                                             <a href="PricesOfCatalog/tea.zip">
                                                 <img src="imagesOfCatalog/чай.jpg" /></a>
                                         </li>
-                                        <li class="end">
+                                        <li>
                                             <div class="details">
                                                 <h3>Штольверк</h3>
                                                 <a class="more" href="PricesOfCatalog/shtolverk.zip">прайс лист</a>

@@ -18,8 +18,8 @@
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-    <link rel="stylesheet" href="sample/css/normalize.css"/>
-    <link rel="stylesheet" href="sample/css/main.css"/>
+    <link rel="stylesheet" href="sample/css/normalize.css" />
+    <link rel="stylesheet" href="sample/css/main.css" />
     <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
 
     <link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen" />
@@ -50,30 +50,12 @@
 
     <form id="form1" runat="server">
 
-        <%-- <div id="leftuzor" style="float:left; overflow:visible; width:150px; height:188px;   positition:relative; margin-left:0px; margin-top:0px; "> <img  src="uzor1 copy.png" /></div>
-        <div id="rightuzor" style="float:right; width:150px; height:188px;  overflow:visible; positition:relative; margin-right:0px; margin-top:0px; "> <img src="uzor1 copy2.png" /></div>
-        --%>
+
         <div class="bodydiv">
 
-            <%--<div id="BorderForShadowDiv">--%>
             <div id="ShadowDiv">
 
-                <%--<div id="rightpart">
-            <div class="parttop">
-                Just beginning
-            </div>
-            <div class="main">
-                <div class="mainleft"><img class="expando" src="wear/6.jpg" width="180" height="240" /></div>
-                <div class="mainright"><img class="expando" src="wear/7.jpg" width="180" height="240" /></div>
-            </div>
-            <div class="main">
-                <div class="mainleft"><img class="expando" src="wear/8.jpg" width="180" height="240" /></div>
-                <div class="mainright"><img class="expando" src="wear/9.jpg" width="180" height="240" /></div>
-            </div>
-            <div class="parttop">
-                Ye! Ye!
-            </div>
-        </div>--%>
+
                 <div id="header">
                     <a href="WebForm1.aspx">
                         <div id="name">
@@ -87,17 +69,7 @@
                     </a>
 
 
-                    <%-- <div id="header2">
-  <div style=" margin-top:10px; width:200px"> <a href=#><img src="images/job1.png" data-thumb="images/job1.png" alt="" title="#htmlcaption"/></a></div>
-        <span style="font-size:15px;">
-        <a href="javascript:location.href='Registration.aspx'">Регистрация</a>&#160|&#160
-        <asp:LoginStatus ID="LoginStatus1" runat="server"
-        LoginText="Войти" 
-        LogoutText="Выйти" 
-        LogoutPageUrl="./WebForm1.aspx" 
-        LogoutAction="Redirect" /> </span>
 
-         </div>--%>
                     <div id="header1">
 
                         <div id="PhoneDiv">
@@ -173,33 +145,79 @@
                                 <li class="menu2">
                                     <a href="Pop.aspx"><b>Партнерам</b></a></li>
                                 <li class="delimiter"></li>
-                                <li class="menu2" style="background-image: url(menu3.jpg);">
-                                    <a href="Renters.aspx" class="shadow" style="color: white; margin-top: 1px;"><b>Арендаторам</b></a></li>
-                                <li class="delimiter"></li>
                                 <li class="menu2">
-                                    <a href="Contacts.aspx" id="rightmenubutton"><b>Контакты</b></a></li>
+                                    <a href="Renters.aspx"><b>Арендаторам</b></a></li>
+                                <li class="delimiter"></li>
+                                <li class="menu2" style="background-image: url(menu3.jpg);">
+                                    <a href="Contacts.aspx" id="rightmenubutton" class="shadow" style="color: white; margin-top: 1px;"><b>Контакты</b></a></li>
 
                             </ul>
                         </div>
 
-                        <div>
+
+                        <div id="mainpart">
+                            <h2 class="title" style="font-size: 29px; font-family: 'sochi2014light',Verdana,sans-serif; margin: 0px 0px 10px 0px; letter-spacing: 2px; font-weight: bolder; text-shadow: 1px 1px 1px rgba(0,0,0,0.2);">Контакты</h2>
+                            <img src="images/downblockshadow.png" />
+                            <div id="LeftColumnOfMainContent">
+                                <%--<div id="LeftColumnOfMainContent" style="width: 100%; overflow: auto;">--%>
+
+                                <div id="TextOfMainPage">
+                                    <p style="text-indent: 0px;">
+                                        <span style="font-size: 15px;"><strong>Вы всегда сможете связаться с нами в удобное для вас время.</strong></span>
+                                    </p>
+
+                                    <p style="text-indent: 0px;"><span style="font-size: 15px;"><strong>По телефонам:</strong></span></p>
+                                    <div style="text-indent: 0px; margin: 0px 0px 0px 40px;">
+
+                                        <p>8 (4932) 311 611 (основной)</p>
+
+                                        <p>8 ( 4932 ) 311 611, 8 (961) 119 7970, 8 (961) 118 2200 (отдел аренды)</p>
+
+                                    </div>
+
+                                    <p style="text-indent: 0px;">
+                                        <span style="font-size: 15px;"><strong>Адрес: </strong></span>
+                                    </p>
+                                    <p style="text-indent: 0px; margin: 0px 0px 0px 40px;">
+                                        Россия, Ивановская область, г. Иваново, 153020, ул. Окуловой, д. 70.
+
+                                        телефон / факс 8 ( 4932 ) 311 - 611
+
+                                        Отдел аренды: менеджер Елена написать письмо
+
+                                        телефоны отдела аренды: 8 ( 4932 ) 311 - 611, 8-961-119-79-70, 8-961-118-22-00
+                                    </p>
+
+                                    <p style="text-indent: 0px;"><span style="font-size: 15px;"><strong>Контакты:</strong></span></p>
+                                    <div style="text-indent: 0px; margin: 0px 0px 0px 40px;">
+
+                                        <p>Секретарь - <a href="mailto:secretar@city37.ru?subject=Письмо от посетителя сайта">secretar@city37.ru</a></p>
+
+                                        <p>Отдел закупок - <a href="mailto:irina.gudova@city37.ru?subject=Письмо от посетителя сайта">irina.gudova@city37.ru</a></p>
+
+                                        <p>Отдел продаж - <a href="mailto:vjacheslav.efremov@city37.ru?subject=Письмо от посетителя сайта">vjacheslav.efremov@city37.ru</a></p>
+
+                                        <p>Отдел кадров - <a href="mailto:tatjana.lisina@city37.ru?subject=Письмо от посетителя сайта">tatjana.lisina@city37.ru</a></p>
+                                   
+                                    </div>
+                                    <p style="text-indent: 0px;"><span style="font-size: 15px;"><strong>Расположение на карте:</strong></span></p>
+                                </div>
 
 
 
-                            <div id="mainpart">
-
-                                <img src="images/downblockshadow.png" />
-
-
-                               
-                                  <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=gcFJWGMx7eqFdH5qD7P2Er8yzjTuJq11&width=600&height=450"></script>
-
+                                <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=N1Tn-g2unXloOZTWfYDsVSV2sooS9Ktf&width=570&height=450"></script>
 
                             </div>
-
+                            <div id="RightColumnOfMainContent">
+                                <%--<p><strong>Наши услуги:</strong></p>--%>
+                                <img src="images/BannerArenda.gif" data-thumb="images/BannerArenda.gif" alt="" title="Станьте одним из наших партнеров" style="-webkit-box-shadow: rgba(0, 0, 0, 0.3)  0px 6px 5px -4px; -moz-box-shadow: rgba(0, 0, 0, 0.3)  0px 6px 5px -4px; box-shadow: rgba(0, 0, 0, 0.3)  0px 6px 5px -4px;" />
+                            </div>
 
                         </div>
+
                     </div>
+
+
                 </div>
 
 
@@ -247,13 +265,6 @@
             });
 
         </script>
-
-
-    
-
-       
-
-
     </form>
 </body>
 </html>
