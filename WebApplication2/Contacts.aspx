@@ -14,7 +14,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title></title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width">
+    <%--, initial-scale=1--%>
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
@@ -162,6 +163,7 @@
                                 <%--<div id="LeftColumnOfMainContent" style="width: 100%; overflow: auto;">--%>
 
                                 <div id="TextOfMainPage">
+                                    
                                     <p style="text-indent: 0px;">
                                         <span style="font-size: 15px;"><strong>Вы всегда сможете связаться с нами в удобное для вас время.</strong></span>
                                     </p>
@@ -171,24 +173,11 @@
 
                                         <p>8 (4932) 311 611 (основной)</p>
 
-                                        <p>8 ( 4932 ) 311 611, 8 (961) 119 7970, 8 (961) 118 2200 (отдел аренды)</p>
+                                        <p>8 (961) 119 7970, 8 (961) 118 2200 (телефоны отдела аренды)</p>
 
                                     </div>
 
-                                    <p style="text-indent: 0px;">
-                                        <span style="font-size: 15px;"><strong>Адрес: </strong></span>
-                                    </p>
-                                    <p style="text-indent: 0px; margin: 0px 0px 0px 40px;">
-                                        Россия, Ивановская область, г. Иваново, 153020, ул. Окуловой, д. 70.
-
-                                        телефон / факс 8 ( 4932 ) 311 - 611
-
-                                        Отдел аренды: менеджер Елена написать письмо
-
-                                        телефоны отдела аренды: 8 ( 4932 ) 311 - 611, 8-961-119-79-70, 8-961-118-22-00
-                                    </p>
-
-                                    <p style="text-indent: 0px;"><span style="font-size: 15px;"><strong>Контакты:</strong></span></p>
+                                    <p style="text-indent: 0px;"><span style="font-size: 15px;"><strong>По электронной почте:</strong></span></p>
                                     <div style="text-indent: 0px; margin: 0px 0px 0px 40px;">
 
                                         <p>Секретарь - <a href="mailto:secretar@city37.ru?subject=Письмо от посетителя сайта">secretar@city37.ru</a></p>
@@ -198,15 +187,26 @@
                                         <p>Отдел продаж - <a href="mailto:vjacheslav.efremov@city37.ru?subject=Письмо от посетителя сайта">vjacheslav.efremov@city37.ru</a></p>
 
                                         <p>Отдел кадров - <a href="mailto:tatjana.lisina@city37.ru?subject=Письмо от посетителя сайта">tatjana.lisina@city37.ru</a></p>
-                                   
+
+                                        <p>Отдел аренды - <a href="mailto:elena.arhipova@city37.ru?subject=Письмо от посетителя сайта">elena.arhipova@city37.ru</a></p>
+
                                     </div>
+                                    
+                                    <p style="text-indent: 0px;">
+                                        <span style="font-size: 15px;"><strong>Адрес: </strong></span>
+                                    </p>
+                                    <p style="text-indent: 0px; margin: 0px 0px 0px 40px;">
+                                        Россия, Ивановская область, г. Иваново, 153020, ул. Окуловой, д. 70.
+                                    </p>
+                                    
                                     <p style="text-indent: 0px;"><span style="font-size: 15px;"><strong>Расположение на карте:</strong></span></p>
+                                   
                                 </div>
+                                 <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=N1Tn-g2unXloOZTWfYDsVSV2sooS9Ktf&width=570&height=450"></script>
 
 
 
-                                <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=N1Tn-g2unXloOZTWfYDsVSV2sooS9Ktf&width=570&height=450"></script>
-
+                               
                             </div>
                             <div id="RightColumnOfMainContent">
                                 <%--<p><strong>Наши услуги:</strong></p>--%>

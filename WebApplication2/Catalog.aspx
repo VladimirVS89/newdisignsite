@@ -14,7 +14,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title></title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width"><%--, initial-scale=1"--%>
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
@@ -122,7 +122,7 @@
                         <div id="SearchAndJobDiv" style="">
                             <div>
                                 <div id="SearchField" style="margin-top: 13px; float: left; width: 287px; height: 28px;">
-                                    <asp:TextBox ID="TextBox1" runat="server" Width="284px" Height="26px" BorderStyle="None" BorderWidth="0" CausesValidation="False"></asp:TextBox>
+                                    <asp:TextBox ID="TextBox1" runat="server" Width="287px" Height="26px" BorderStyle="None" BorderWidth="0" CausesValidation="False"></asp:TextBox>
                                 </div>
 
                                 <div id="SearchDivButton" style="margin-top: 13px; float: left; width: 60px; height: 30px;">
@@ -893,7 +893,7 @@
         </div>
         <%--BodyDiv--%>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+       <%-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="sample/js/plugins.js"></script>
         <script src="sample/js/main.js"></script>
@@ -908,9 +908,9 @@
                 r.parentNode.insertBefore(e, r)
             }(window, document, 'script', 'ga'));
             ga('create', 'UA-XXXXX-X'); ga('send', 'pageview');
-        </script>
+        </script>--%>
 
-        <script type="text/javascript" src="nivo-slider/scripts/jquery-1.9.0.min.js"></script>
+      <%--  <script type="text/javascript" src="nivo-slider/scripts/jquery-1.9.0.min.js"></script>
         <script type="text/javascript" src="nivo-slider/jquery.nivo.slider.js"></script>
         <script type="text/javascript">
             $(window).load(function () {
@@ -920,7 +920,7 @@
                 alert('id1');
             });
 
-        </script>
+        </script>--%>
 
 
         <script>  if (!Modernizr.csstransforms) {
