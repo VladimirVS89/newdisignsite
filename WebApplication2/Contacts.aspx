@@ -23,22 +23,14 @@
     <link rel="stylesheet" href="sample/css/main.css" />
     <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
 
-    <link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="nivo-slider/themes/light/light.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="nivo-slider/themes/dark/dark.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="nivo-slider/themes/bar/bar.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-
-    <script src="sample/js/vendor/modernizr-2.6.2.min.js"></script>
-
     <link rel="stylesheet" href="css3gallery/css/reset.css" media="screen" />
     <link rel="stylesheet" href="css3gallery/css/style.css" media="screen" />
     <link rel="stylesheet" href="css3gallery/css/css3_3d.css" media="screen" />
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-    <script type="text/javascript" src="js/modernizr.js"></script>
-    <script type="text/javascript" src="Panarama/swfobject.js"></script>
+
+    <script type="text/javascript" src="//vk.com/js/api/openapi.js?115"></script>
 </head>
 <body>
 
@@ -96,7 +88,7 @@
                         <div id="SearchAndJobDiv" style="">
                             <div>
                                 <div id="SearchField" style="margin-top: 13px; float: left; width: 287px; height: 28px;">
-                                    <asp:TextBox ID="TextBox1" runat="server" Width="284px" Height="26px" BorderStyle="None" BorderWidth="0" CausesValidation="False"></asp:TextBox>
+                                    <asp:TextBox ID="TextBox1" runat="server" Width="287px" Height="26px" BorderStyle="None" BorderWidth="0" CausesValidation="False"></asp:TextBox>
                                 </div>
 
                                 <div id="SearchDivButton" style="margin-top: 13px; float: left; width: 60px; height: 30px;">
@@ -162,7 +154,7 @@
                             <div id="LeftColumnOfMainContent">
                                 <%--<div id="LeftColumnOfMainContent" style="width: 100%; overflow: auto;">--%>
 
-                                <div id="TextOfMainPage">
+                                <div class="TextOfMainPage">
                                     
                                     <p style="text-indent: 0px;">
                                         <span style="font-size: 15px;"><strong>Вы всегда сможете связаться с нами в удобное для вас время.</strong></span>
@@ -211,6 +203,8 @@
                             <div id="RightColumnOfMainContent">
                                 <%--<p><strong>Наши услуги:</strong></p>--%>
                                 <img src="images/BannerArenda.gif" data-thumb="images/BannerArenda.gif" alt="" title="Станьте одним из наших партнеров" style="-webkit-box-shadow: rgba(0, 0, 0, 0.3)  0px 6px 5px -4px; -moz-box-shadow: rgba(0, 0, 0, 0.3)  0px 6px 5px -4px; box-shadow: rgba(0, 0, 0, 0.3)  0px 6px 5px -4px;" />
+                                <!-- VK Widget -->
+                                <div id="vk_groups" style="margin-top:20px;"></div>                            
                             </div>
 
                         </div>
@@ -265,6 +259,11 @@
             });
 
         </script>
+
+        <script type="text/javascript">
+            VK.Widgets.Group("vk_groups", { mode: 0, width: "240", height: "400", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6' }, 20003922);
+        </script>
+
     </form>
 </body>
 </html>
