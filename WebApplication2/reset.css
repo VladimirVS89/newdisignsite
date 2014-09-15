@@ -1,0 +1,100 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.4 
+2009-07-27
+Author: Richard Clark - http://richclarkdesign.com
+*/
+
+#container , #container div, #container span, #container object, #container iframe,
+#container h1, #container h2, #container h3, #container h4, #container h5, #container h6, #container p, #container blockquote, #container pre,
+#container abbr, #container address, #container cite, #container code,
+#container del, #container dfn, #container em, #container img, #container ins, #container kbd, #container q, #container samp,
+#container small, #container strong, #container sub, #container sup, #container var,
+#container b, #container i,
+#container dl, #container dt, #container dd, #container ol, #container ul, #container li,
+#container fieldset, #container form, #container label, #container legend,
+#container table, #container caption, #container tbody, #container tfoot, #container thead, #container tr, #container th, #container td,
+#container article, #container aside, #container dialog, #container figure, #container footer, #container header, 
+#container hgroup, #container menu, #container nav, #container section, #container menu,
+#container time, #container mark, #container audio, #container video {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+	font-weight: normal;
+}
+#container  {
+	line-height:1;
+}
+
+#container article, #container aside, #container dialog, #container figure, #container footer, #container header, 
+#container hgroup, #container nav, #container section { 
+	display:block;
+}
+
+#container nav ul {
+	list-style:none;
+}
+
+#container blockquote, #container q {
+	quotes:none;
+}
+
+#container blockquote:before, #container blockquote:after,
+#container q:before, #container q:after {
+	content:'';
+	content:none;
+}
+
+#container a {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+	outline: 0;
+}
+
+#container ins {
+	background-color:#ff9;
+	color:#000;
+	text-decoration:none;
+}
+
+#container mark {
+	background-color:#ff9;
+	color:#000;	
+	font-style:italic;
+	font-weight:bold;
+}
+
+#container del {
+	text-decoration: line-through;
+}
+
+#container abbr[title], #container dfn[title] {
+	border-bottom:1px dotted #000;
+	cursor:help;
+}
+
+#container table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+#container hr {
+    display:block;
+    height:1px;
+    border:0;	
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+#container input, #container select {
+	vertical-align:middle;
+}

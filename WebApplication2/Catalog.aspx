@@ -20,20 +20,23 @@
 
     <link rel="stylesheet" href="sample/css/normalize.css">
     <link rel="stylesheet" href="sample/css/main.css">
+
+    <link rel="stylesheet" href="css3gallery/css/gallery_reset.css" media="screen" />
+    <link rel="stylesheet" href="css3gallery/css/gallery_style.css" media="screen" />
+    <link rel="stylesheet" href="css3gallery/css/gallery_css3_3d.css" media="screen" />
+
     <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
 
-    <link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+    <%--<link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="nivo-slider/themes/light/light.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="nivo-slider/themes/dark/dark.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="nivo-slider/themes/bar/bar.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />--%>
 
     <script src="sample/js/vendor/modernizr-2.6.2.min.js"></script>
 
-    <link rel="stylesheet" href="css3gallery/css/reset.css" media="screen" />
-    <link rel="stylesheet" href="css3gallery/css/style.css" media="screen" />
-    <link rel="stylesheet" href="css3gallery/css/css3_3d.css" media="screen" />
+    
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
     <script type="text/javascript" src="js/modernizr.js"></script>
