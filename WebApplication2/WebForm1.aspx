@@ -14,23 +14,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title></title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width"><%--, initial-scale=1--%>
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <link rel="stylesheet" href="sample/css/normalize.css">
     <link rel="stylesheet" href="sample/css/main.css">
-    <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
+    
 
     <link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="nivo-slider/themes/light/light.css" type="text/css" media="screen" />
+   <%-- <link rel="stylesheet" href="nivo-slider/themes/light/light.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="nivo-slider/themes/dark/dark.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="nivo-slider/themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider/themes/bar/bar.css" type="text/css" media="screen" />--%>
     <link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+    <%--<link rel="stylesheet" href="style.css" type="text/css" media="screen" />--%>
 
+<link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
+    <%--<script src="sample/js/vendor/modernizr-2.6.2.min.js"></script>--%>
+    <script type="text/javascript" src="//vk.com/js/api/openapi.js?115"></script>
 
-    <script src="sample/js/vendor/modernizr-2.6.2.min.js"></script>
+     <%--<script src="sample/js/plugins.js"></script>
+        <script src="sample/js/main.js"></script>--%>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+     <%--<script type="text/javascript" src="nivo-slider/scripts/jquery-1.9.0.min.js"></script>--%>
+        <script type="text/javascript" src="nivo-slider/jquery.nivo.slider.js"></script>
+
 </head>
 <body>
 
@@ -116,12 +126,13 @@
                         <div id="SearchAndJobDiv" style="">
                             <div>
                                 <div id="SearchField" style="margin-top: 13px; float: left; width: 287px; height: 28px;">
+                                    <asp:TextBox ID="TextBox1" runat="server" Width="287px" Height="26px" BorderStyle="None" BorderWidth="0" CausesValidation="False"></asp:TextBox>
                                 </div>
                                 <div id="SearchDivButton" style="margin-top: 13px; float: left; width: 60px; height: 30px;">
                                 </div>
                             </div>
                             <div style="margin-top: 8px; float: left; margin-left: 33px;">
-                                <a href="#">
+                                <a href="Vacancies.html">
                                     <img src="images/job3.jpg" data-thumb="images/job1.png" alt="" title="#htmlcaption" /></a>
                             </div>
                         </div>
@@ -161,16 +172,16 @@
                                 </li>
                                 <li class="delimiter"></li>
                                 <li class="menu2">
-                                    <a href="New.aspx" class="shadow"><b>Каталог товаров</b></a></li>
+                                    <a href="Catalog.aspx" class="shadow"><b>Каталог товаров</b></a></li>
                                 <li class="delimiter"></li>
                                 <li class="menu2">
                                     <a href="Pop.aspx"><b>Партнерам</b></a></li>
                                 <li class="delimiter"></li>
                                 <li class="menu2">
-                                    <a href="Sale.aspx"><b>Арендаторам</b></a></li>
+                                    <a href="Renters.aspx"><b>Арендаторам</b></a></li>
                                 <li class="delimiter"></li>
                                 <li class="menu2">
-                                    <a href="Luxe.aspx" id="rightmenubutton"><b>Контакты</b></a></li>
+                                    <a href="Contacts.aspx" id="rightmenubutton"><b>Контакты</b></a></li>
                                 <%--<li class="delimiter"></li>--%>
                                 <%--<li class="menu2" >
                 <a href="Contacts.aspx"><b>Контакты</b></a></li>
@@ -226,12 +237,15 @@
                                     </div>
 
                                 </div>
+
+                                <img src="images/downblockshadow.png" />
                                 
                                 <div id="LeftColumnOfMainContent">   <%--<div id="LeftColumnOfMainContent" style="width: 100%; overflow: auto;">--%>
-
-                                    <div id="TextOfMainPage">
+                                    
+                                   
+                                    
+                                    <div class="TextOfMainPage">
                                         <p><span style="font-size: 15px;"><strong>Компания Складской комплекс</strong></span> - одна из крупнейших оптовых компаний Ивановского региона, основным видом деятельности которой является дистрибьюция и логистика продовольственных и непродовольственных товаров.</p>
-                                        <p>За время своего существования Компания Складской комплекс зарекомендовала себя как надежный, стабильный партнер, ориентированный на долгосрочные и взаимовыгодные отношения.</p>
                                     </div>
 
                                     <div id="ImageOfMainPage">
@@ -239,6 +253,12 @@
                                         <img src="images/foto36.jpg" data-thumb="images/foto36.jpg" alt="" title="Вид на основной склад и оффис" />
                                         <%--</div>--%>
                                     </div>
+
+                                    <div class="TextOfMainPage">
+                                        <p>За время своего существования Компания Складской комплекс зарекомендовала себя как надежный, стабильный партнер, ориентированный на долгосрочные и взаимовыгодные отношения.</p>
+                                    </div>
+
+
 
 
                                     <div id="PokupatelOfMainPage">
@@ -256,7 +276,7 @@
 
 Для покупателей мы предоставляем торговое оборудование.
 
-С предоставленным ассортиментом компании вы можете ознакомиться в разделе КАТАЛОГ.
+С предоставленным ассортиментом компании вы можете ознакомиться в разделе <a href="Catalog.aspx" style="text-decoration:solid;">каталог товаров</a>.
                                     </div>
                                     
 
@@ -264,12 +284,26 @@
 
                                 <div id="RightColumnOfMainContent">
                                     <%--<p><strong>Наши услуги:</strong></p>--%>
-                                    <img src="images/BannerArenda.gif" data-thumb="images/BannerArenda.gif" alt="" title="Станьте одним из наших партнеров" />
+                                    <img src="images/BannerArenda.gif" data-thumb="images/BannerArenda.gif" alt="" title="Станьте одним из наших партнеров" style="-webkit-box-shadow: 0px 6px 5px -4px rgba(0, 0, 0, 0.3) ; -moz-box-shadow: 0px 6px 5px -4px rgba(0, 0, 0, 0.3)  ; box-shadow:0px 6px 5px -4px rgba(0, 0, 0, 0.3)  ;" />
+                               
+                          
+
+                <!-- VK Widget -->
+                                <div id="vk_groups" style="margin:40px 0px 40px 0px;  -webkit-box-shadow: 0px 6px 5px -4px rgba(0, 0, 0, 0.3) ; -moz-box-shadow: 0px 6px 5px -4px rgba(0, 0, 0, 0.3)  ; box-shadow:0px 6px 5px -4px rgba(0, 0, 0, 0.3)  ;"></div>
+
+
+                                    
+                                    
                                 </div>
 
-                                <div id="ArendaOfMainPage">
-                                    <p>Компания Складской комплекс предоставляет в аренду складские и офисные помещения, более подробная информация находиться в разделе АРЕНДАТОРАМ.</p>
-                                </div>
+                                <img src="images/downblockshadow.png" />
+
+                                <%--<div class="HorizontalLine"></div>--%>
+
+                                <div id="Energoservice">
+                                    
+                                   
+                               </div>
 
 
 
@@ -478,17 +512,19 @@
 
             <div id="footer">
             </div>
+            <div id="footerCopyright">
+                <div id="TextOfFooterCopyright">© 2014 ООО Складской комплекс. Все права защищены.</div>
+            </div>
 
             <%--</div>--%>
         </div>
         <%--BodyDiv--%>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="sample/js/plugins.js"></script>
-        <script src="sample/js/main.js"></script>
+        
+      <%--  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+       
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+       
         <script>
             (function (b, o, i, l, e, r) {
                 b.GoogleAnalyticsObject = l; b[l] || (b[l] =
@@ -498,10 +534,9 @@
                 r.parentNode.insertBefore(e, r)
             }(window, document, 'script', 'ga'));
             ga('create', 'UA-XXXXX-X'); ga('send', 'pageview');
-        </script>
+        </script>--%> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 
-        <script type="text/javascript" src="nivo-slider/scripts/jquery-1.9.0.min.js"></script>
-        <script type="text/javascript" src="nivo-slider/jquery.nivo.slider.js"></script>
+       
         <script type="text/javascript">
             $(window).load(function () {
                 $('#slider').nivoSlider();
@@ -511,6 +546,11 @@
             });
 
         </script>
+
+
+        <script type="text/javascript">
+            VK.Widgets.Group("vk_groups", { mode: 0, width: "240", height: "400", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6' }, 20003922);
+</script>
 
 
 
