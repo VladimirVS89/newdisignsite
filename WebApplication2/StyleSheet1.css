@@ -621,17 +621,27 @@ li.menu22
     margin-right:40px;
     width:240px;
 }
-div.Vacance
+.DivOfVacance
+{
+    padding:25px 0 32px 0;
+    overflow:hidden;
+    width:900px;
+}
+.Vacance
 {
     float:left;
     width:530px;
     text-indent: 0px;
     margin: 0px 0px 0px 25px;
 }
+.Vacance p
+{
+    margin-bottom:0px;
+}
 .RightColumnOfVacancies
 {
     float:left;
-    margin:-20px 0px 20px 50px;
+    margin:0px 0px 0px 50px;
     padding:5px;
     margin-left:50px;
     width:250px;

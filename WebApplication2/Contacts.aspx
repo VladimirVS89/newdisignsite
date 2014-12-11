@@ -175,11 +175,11 @@
 
                                         <p>Секретарь - <a href="mailto:secretar@city37.ru?subject=Письмо от посетителя сайта">secretar@city37.ru</a></p>
 
-                                        <p>Отдел закупок - <a href="mailto:irina.gudova@city37.ru?subject=Письмо от посетителя сайта">irina.gudova@city37.ru</a></p>
+                                        <p>Отдел закупок - <a href="mailto:zakupka@city37.ru?subject=Письмо от посетителя сайта">zakupka@city37.ru</a></p>
 
                                         <p>Отдел продаж - <a href="mailto:vjacheslav.efremov@city37.ru?subject=Письмо от посетителя сайта">vjacheslav.efremov@city37.ru</a></p>
 
-                                        <p>Отдел кадров - <a href="mailto:tatjana.lisina@city37.ru?subject=Письмо от посетителя сайта">tatjana.lisina@city37.ru</a></p>
+                                        <p>Отдел кадров - <a href="mailto:kadr@city37.ru?subject=Письмо от посетителя сайта">kadr@city37.ru</a></p>
 
                                         <p>Отдел аренды - <a href="mailto:elena.arhipova@city37.ru?subject=Письмо от посетителя сайта">elena.arhipova@city37.ru</a></p>
 
