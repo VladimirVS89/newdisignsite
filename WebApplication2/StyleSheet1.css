@@ -87,8 +87,10 @@ input { outline: none; }
 table { border-collapse: collapse; border-spacing: 0; }
 img { border: 0; max-width: 100%; }*/
 
-a { text-decoration: none; }
+a { text-decoration: none;}
 a:hover { text-decoration: underline; }
+
+
 
 .HorizontalLine {
      color: #AAAAAB;
@@ -364,7 +366,7 @@ position:absolute;
 {
     width:964px;
     height: 100%;
-    min-height:1000px;
+    min-height:900px;
     overflow:auto;
     margin:0px auto;
    // margin-top:0px;
@@ -400,7 +402,8 @@ position:absolute;
 }
 #SliderDiv{
     position:relative;
-    font-family: 'sochi2014light'; 
+    font-family: 'sochi2014light';
+    height:456px; 
 
 }
 #DivOfMenu{
@@ -644,6 +647,38 @@ li.menu22
     margin:0px 0px 0px 50px;
     padding:5px;
     margin-left:50px;
+    width:250px;
+   // height:200px;
+    padding:0;
+    text-indent: 0px;
+    font-size: 12px;
+   // background-color:#46C27C;
+    border-radius:5px;
+}
+
+.DivOfPartners
+{
+    padding:25px 0 25px 0;
+    overflow:hidden;
+    width:900px;
+}
+.PartnersText
+{
+    float:left;
+    width:570px;
+    text-indent: 0px;
+    margin: 0px 0px 0px 0px;
+}
+.PartnersText p
+{
+    margin-bottom:0px;
+}
+.RightColumnOfPartners
+{
+    float:left;
+    margin:0px 0px 0px 50px;
+    padding:5px;
+    margin-left:45px;
     width:250px;
    // height:200px;
     padding:0;

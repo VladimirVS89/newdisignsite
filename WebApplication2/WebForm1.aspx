@@ -31,7 +31,7 @@
 
 <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
     <%--<script src="sample/js/vendor/modernizr-2.6.2.min.js"></script>--%>
-    <script type="text/javascript" src="//vk.com/js/api/openapi.js?115"></script>
+    
 
      <%--<script src="sample/js/plugins.js"></script>
         <script src="sample/js/main.js"></script>--%>
@@ -40,7 +40,7 @@
 
      <%--<script type="text/javascript" src="nivo-slider/scripts/jquery-1.9.0.min.js"></script>--%>
         <script type="text/javascript" src="nivo-slider/jquery.nivo.slider.js"></script>
-
+        
 </head>
 <body>
 
@@ -50,6 +50,15 @@
 
     <!-- Add your site or application content here -->
 
+    <script type="text/javascript">
+        $(window).load(function () {
+            $('#slider').nivoSlider();
+        });
+        $('#SearchDivButton').click(function () {
+            alert('id1');
+        });
+
+        </script>
 
     <form id="form1" runat="server">
 
@@ -107,11 +116,11 @@
 
                             <span>
 
-                                <a class="PhoneDivElements" style="color: rgba(15,90,174,0.9)" href="javascript:location.href='Registration.aspx'">Принимаем заказы по телефону 311-611-(173)</a>&#160&#160|&#160
+                                <a class="PhoneDivElements" style="color: rgba(15,90,174,0.9)" href="Catalog.aspx">Принимаем заказы по телефону 311-611-(147)</a>&#160&#160|&#160
 
                      <a class="PhoneDivElements" style="color: rgba(15,90,174,0.9);" href="javascript:location.href='Registration.aspx'">Регистрация</a>&#160&#160|&#160
 
-                    <asp:LoginStatus ID="LoginStatus2" runat="server" class="PhoneDivElements" Style="color: rgba(15,90,174,0.9);"
+                    <asp:LoginStatus ID="LoginStatus2" runat="server" class="PhoneDivElements" Style="color: rgba(15,90,174,0.9);"  
                         LoginText="Войти"
                         LogoutText="Выйти"
                         LogoutPageUrl="./WebForm1.aspx"
@@ -175,7 +184,7 @@
                                     <a href="Catalog.aspx" class="shadow"><b>Каталог товаров</b></a></li>
                                 <li class="delimiter"></li>
                                 <li class="menu2">
-                                    <a href="Pop.aspx"><b>Партнерам</b></a></li>
+                                    <a href="Partners.html"><b>Партнерам</b></a></li>
                                 <li class="delimiter"></li>
                                 <li class="menu2">
                                     <a href="Renters.aspx"><b>Арендаторам</b></a></li>
@@ -218,15 +227,15 @@
                 <a href="http://dev7studios.com"><img src="images/up.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" /></a>
                 <img src="images/walle.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
                 <img src="images/nemo.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />--%>
-                                            <a href="http://dev7studios.com">
+                                            <a href="Partners.html">
                                                 <img src="images/royal_canin2.jpg" data-thumb="images/royal_canin2.jpg" alt="" title="Станьте одним из наших партнеров" /></a>
-                                            <a href="http://dev7studios.com">
+                                            <a href="Partners.html">
                                                 <img src="images/mars1.jpg" data-thumb="images/mars1.jpg" alt="" title="Станьте одним из наших партнеров" /></a>
-                                            <a href="http://dev7studios.com">
+                                            <a href="Partners.html">
                                                 <img src="images/MacCoffee2.jpg" data-thumb="images/MacCoffee2.jpg" alt="" title="Станьте одним из наших партнеров" /></a>
-                                            <a href="http://dev7studios.com">
+                                            <a href="Partners.html">
                                                 <img src="images/ozerskiy_suvenir_two1.png" data-thumb="images/ozerskiy_suvenir1.jpg" alt="" title="Станьте одним из наших партнеров" /></a>
-                                            <a href="http://dev7studios.com">
+                                            <a href="Partners.html">
                                                 <%--  <img src="images/emarko1.jpg" data-thumb="images/emarko1.jpg" alt="" title="Станьте одним из наших партнеров" /></a>
                                         <a href="http://dev7studios.com">--%>
                                                 <img src="images/rieber1.png" data-thumb="images/rieber1.png" alt="" title="Станьте одним из наших партнеров" /></a>
@@ -284,8 +293,8 @@
 
                                 <div id="RightColumnOfMainContent">
                                     <%--<p><strong>Наши услуги:</strong></p>--%>
-                                    <img src="images/BannerArenda.gif" data-thumb="images/BannerArenda.gif" alt="" title="Станьте одним из наших партнеров" style="-webkit-box-shadow: 0px 6px 5px -4px rgba(0, 0, 0, 0.3) ; -moz-box-shadow: 0px 6px 5px -4px rgba(0, 0, 0, 0.3)  ; box-shadow:0px 6px 5px -4px rgba(0, 0, 0, 0.3)  ;" />
-                               
+                                    <a href="Renters.aspx"><img src="images/BannerArenda.gif" data-thumb="images/BannerArenda.gif" alt="" title="Сдаем в аренду" style="-webkit-box-shadow: 0px 6px 5px -4px rgba(0, 0, 0, 0.3) ; -moz-box-shadow: 0px 6px 5px -4px rgba(0, 0, 0, 0.3)  ; box-shadow:0px 6px 5px -4px rgba(0, 0, 0, 0.3)  ;" />
+                               </a>
                           
 
                 <!-- VK Widget -->
@@ -521,11 +530,11 @@
         <%--BodyDiv--%>
 
         
-      <%--  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <%--<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')--%>
        
 
        
-        <script>
+        <%--<script>
             (function (b, o, i, l, e, r) {
                 b.GoogleAnalyticsObject = l; b[l] || (b[l] =
                 function () { (b[l].q = b[l].q || []).push(arguments) }); b[l].l = +new Date;
@@ -537,17 +546,26 @@
         </script>--%> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 
        
+        
+
         <script type="text/javascript">
-            $(window).load(function () {
-                $('#slider').nivoSlider();
-            });
-            $('#SearchDivButton').click(function () {
-                alert('id1');
-            });
+        (function() {
+function async_load(){
+var s = document.createElement('script');
+s.type = 'text/javascript';
+s.async = true;
+s.src = 'http://vk.com/js/api/openapi.js?115';
+var x = document.getElementsByTagName('script')[0];
+x.parentNode.insertBefore(s, x);
+}
+if (window.attachEvent)
+window.attachEvent('onload', async_load);
+else
+window.addEventListener('load', async_load, false);
+        })();
+            </script>
 
-        </script>
-
-
+        <%--<script type="text/javascript" src="//vk.com/js/api/openapi.js?115"></script>--%>
         <script type="text/javascript">
             VK.Widgets.Group("vk_groups", { mode: 0, width: "240", height: "400", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6' }, 20003922);
 </script>

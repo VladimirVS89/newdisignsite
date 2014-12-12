@@ -106,7 +106,7 @@
 
                             <span>
 
-                                <a class="PhoneDivElements" style="color: rgba(15,90,174,0.9)" href="javascript:location.href='Registration.aspx'">Принимаем заказы по телефону 311-611-(173)</a>&#160&#160|&#160
+                                <a class="PhoneDivElements" style="color: rgba(15,90,174,0.9)" href="Catalog.aspx">Принимаем заказы по телефону 311-611-(147)</a>&#160&#160|&#160
 
                      <a class="PhoneDivElements" style="color: rgba(15,90,174,0.9);" href="javascript:location.href='Registration.aspx'">Регистрация</a>&#160&#160|&#160
 
@@ -175,7 +175,7 @@
                                     <a href="Catalog.aspx" class="shadow" style="color: white; margin-top: 1px;"><b>Каталог товаров</b></a></li>
                                 <li class="delimiter"></li>
                                 <li class="menu2">
-                                    <a href="Pop.aspx"><b>Партнерам</b></a></li>
+                                    <a href="Partners.html"><b>Партнерам</b></a></li>
                                 <li class="delimiter"></li>
                                 <li class="menu2">
                                     <a href="Renters.aspx"><b>Арендаторам</b></a></li>
@@ -222,7 +222,7 @@
                                     <div style="height: 155px; margin: 0px 0px 0px 0px; padding: 40px 40px 0px 20px; float: right; background-color: rgba(0,0,0,0.87); color: white; -webkit-border-top-left-radius: 5px; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-topleft: 5px; -moz-border-radius-bottomleft: 5px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; -webkit-box-shadow: rgba(0, 0, 0, 0.3) -1px 1px 1px; -moz-box-shadow: rgba(0, 0, 0, 0.3) -1px 1px 1px; box-shadow: rgba(0, 0, 0, 0.3) -1px 1px 1px;">
                                         <img style="float: left; margin: 0px 30px 0px 20px;" src="icons/compose.png" />
                                         <div style="float: right; font-size: 13px; width: 280px; padding: 0px 0px 0 0px; font-family: Verdana,sans-serif; text-align: justify; text-shadow: 1px 1px 1px rgba(0,0,0,0.2); line-height: 1.8; font-weight: bold; vertical-align: central;">
-                                            Для заказа позвоните по номеру 12341(234) и наш менеджер примет ваш заказ и согласует удобные для вас сроки доставки.
+                                            Для заказа позвоните по номеру 8(4932)-311-611 (Доб.: 147) и наш менеджер примет ваш заказ и согласует удобные для вас сроки доставки.
                                         </div>
 
                                     </div>
@@ -596,7 +596,7 @@
                                         </li>
                                     </ul>
 
-                                    <p style="text-align: center; margin-bottom: 50px;">
+                                   <%-- <p style="text-align: center; margin-bottom: 50px;">
                                         Created by <a href="http://tkenny.co.uk">Tom Kenny</a> for <a href="http://inspectelement.com">Inspect Element</a>
                                         <br />
                                         Add me on Instagram: tkenny
@@ -609,9 +609,10 @@
                                             <div id="carbon"></div>
                                             <script type="text/javascript">var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = "http://engine.carbonads.com/z/12113/carbon_2_1_0_HORIZ"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script>
                                         </div>
-                                    </div>
+                                    </div>--%>
 
                                 </div>
+                                <img src="images/downblockshadow.png" style="margin-bottom:40px;" />
 
 
 

@@ -69,7 +69,7 @@
 
                             <span>
 
-                                <a class="PhoneDivElements" style="color: rgba(15,90,174,0.9)" href="javascript:location.href='Registration.aspx'">Принимаем заказы по телефону 311-611-(173)</a>&#160&#160|&#160
+                                <a class="PhoneDivElements" style="color: rgba(15,90,174,0.9)" href="Catalog.aspx">Принимаем заказы по телефону 311-611-(147)</a>&#160&#160|&#160
 
                      <a class="PhoneDivElements" style="color: rgba(15,90,174,0.9);" href="javascript:location.href='Registration.aspx'">Регистрация</a>&#160&#160|&#160
 
@@ -137,7 +137,7 @@
                                     <a href="Catalog.aspx"><b>Каталог товаров</b></a></li>
                                 <li class="delimiter"></li>
                                 <li class="menu2">
-                                    <a href="Pop.aspx"><b>Партнерам</b></a></li>
+                                    <a href="Partners.html"><b>Партнерам</b></a></li>
                                 <li class="delimiter"></li>
                                 <li class="menu2">
                                     <a href="Renters.aspx"><b>Арендаторам</b></a></li>
@@ -203,8 +203,9 @@
                             </div>
                             <div id="RightColumnOfMainContent">
                                 <%--<p><strong>Наши услуги:</strong></p>--%>
-                                <img src="images/BannerArenda.gif" data-thumb="images/BannerArenda.gif" alt="" title="Станьте одним из наших партнеров" style="-webkit-box-shadow: rgba(0, 0, 0, 0.3)  0px 6px 5px -4px; -moz-box-shadow: rgba(0, 0, 0, 0.3)  0px 6px 5px -4px; box-shadow: rgba(0, 0, 0, 0.3)  0px 6px 5px -4px;" />
-                                <!-- VK Widget -->
+                                <a href="Renters.aspx"><img src="images/BannerArenda.gif" data-thumb="images/BannerArenda.gif" alt="" title="Сдаем в аренду" style="-webkit-box-shadow: rgba(0, 0, 0, 0.3)  0px 6px 5px -4px; -moz-box-shadow: rgba(0, 0, 0, 0.3)  0px 6px 5px -4px; box-shadow: rgba(0, 0, 0, 0.3)  0px 6px 5px -4px;" />
+                                </a>
+                                    <!-- VK Widget -->
                                 <div id="vk_groups" style="margin-top:20px;"></div>                            
                             </div>
 

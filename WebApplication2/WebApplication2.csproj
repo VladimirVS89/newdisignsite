@@ -63,6 +63,7 @@
     <Content Include="gallery_main.css" />
     <Content Include="gallery_style.css" />
     <Content Include="normalize.css" />
+    <Content Include="Partners.html" />
     <Content Include="Renters.aspx" />
     <Content Include="reset.css" />
     <Content Include="StyleSheet1.css" />
