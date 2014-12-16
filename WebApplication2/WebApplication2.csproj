@@ -58,7 +58,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Catalog.aspx" />
+    <Content Include="Company.html" />
     <Content Include="Contacts.aspx" />
+    <Content Include="Energoservice.html" />
     <Content Include="gallery_css3_3d.css" />
     <Content Include="gallery_main.css" />
     <Content Include="gallery_style.css" />

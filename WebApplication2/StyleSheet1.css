@@ -635,7 +635,7 @@ li.menu22
     float:left;
     width:530px;
     text-indent: 0px;
-    margin: 0px 0px 0px 25px;
+    margin: 0px 0px 0px 10px;
 }
 .Vacance p
 {
@@ -644,9 +644,8 @@ li.menu22
 .RightColumnOfVacancies
 {
     float:left;
-    margin:0px 0px 0px 50px;
+    margin:0px 0px 0px 60px;
     padding:5px;
-    margin-left:50px;
     width:250px;
    // height:200px;
     padding:0;
@@ -686,6 +685,135 @@ li.menu22
     font-size: 12px;
    // background-color:#46C27C;
     border-radius:5px;
+}
+
+#footer 
+{
+    position:static;
+    /*background-color:#0F5AAE;*/
+    background-color: rgba(0,0,0,0.87);
+    /*background-image:url("grass1.png");*/
+    background-repeat:no-repeat;
+    background-position:center;
+    
+    color:#0F5AAE;
+    height:300px;
+    width:100%;
+    min-width:964px;
+    margin:0 auto;
+    margin-top:-380px;
+    padding:0;
+    padding-top:0px;
+    
+    text-align:center;
+    margin-bottom:0;
+    
+    vertical-align: bottom;
+
+    font-family:Verdana,sans-serif;
+
+    /*border-top:solid;
+    border-color:gray;*/
+}
+
+#footerCopyright{
+     position:static;
+    /*background-color:#0F5AAE;*/
+    background-color:#FFFFFF;
+    /*background-image:url("grass1.png");*/
+    background-repeat:no-repeat;
+    background-position:center;
+    
+    color:#0F5AAE;
+    height:80px;
+    width:100%;
+    margin:0 auto;
+    margin-top:000px;
+    padding:0;
+    padding-top:0px;
+    
+    text-align:center;
+    margin-bottom:0;
+    
+    vertical-align: bottom;
+    
+
+    /*border-top:solid;
+    border-color:gray;*/
+
+}
+#TextOfFooterCopyright{
+    margin:0 auto;
+    width:600px;
+    padding-top:40px;
+    font-size:small;
+    color:black;
+    text-align:right;
+    font-family:Verdana,sans-serif;
+}
+
+#rasporka
+{
+    height:380px;
+    padding-top:0px;
+}
+
+#FooterColums
+{
+    width:900px;
+    height:100%;
+    margin: 0 auto;
+    padding-left:100px;
+    color:white;
+    display: inline-block;
+    vertical-align: middle;
+    cursor:default;  
+     
+}
+
+/*#footer:before { 
+  content: "";
+  display: inline-block;
+  min-height: inherit;
+  height: 100%;
+  vertical-align: middle;
+}*/
+
+#FooterColums .FoterColumn
+{
+    text-align: left;
+    margin-top:45px;  
+}
+
+#FooterColums .FoterColumn p
+{
+    font-size:14px;
+    color:#C4C4C4; 
+}
+
+#FooterColums .FoterColumn ul {
+    padding: 0; /* Убираем поля */
+    margin-left: 20px; /* Отступ слева */
+    font-size:14px;
+   }
+
+#FooterColums .FoterColumn li {
+    margin:5px 0 0;
+    list-style-type: square; /* Прячем исходные маркеры */
+    color:#FF7F7F;
+   }
+
+
+/*#FooterColums .FoterColumn li:before {
+    color: red; 
+    content: "\2666"; 
+    padding-right: 10px; 
+   }*/
+
+#FooterColums .FoterColumn a
+{
+    cursor:pointer;
+    color:white;
 }
 
 #Energoservice{
@@ -889,76 +1017,7 @@ div.divtdtext
     -moz-box-shadow: 0 0 1px 1px #555555;
     behavior: url(css/PIE.htc);    
 }           
-#footer 
-{
-    position:static;
-    /*background-color:#0F5AAE;*/
-    background-color: rgba(0,0,0,0.87);
-    /*background-image:url("grass1.png");*/
-    background-repeat:no-repeat;
-    background-position:center;
-    
-    color:#0F5AAE;
-    height:300px;
-    width:100%;
-    min-width:964px;
-    margin:0 auto;
-    margin-top:-380px;
-    padding:0;
-    padding-top:0px;
-    
-    text-align:center;
-    margin-bottom:0;
-    
-    vertical-align: bottom;
 
-    font-family:Verdana,sans-serif;
-
-    /*border-top:solid;
-    border-color:gray;*/
-}
-
-#footerCopyright{
-     position:static;
-    /*background-color:#0F5AAE;*/
-    background-color:#FFFFFF;
-    /*background-image:url("grass1.png");*/
-    background-repeat:no-repeat;
-    background-position:center;
-    
-    color:#0F5AAE;
-    height:80px;
-    width:100%;
-    margin:0 auto;
-    margin-top:000px;
-    padding:0;
-    padding-top:0px;
-    
-    text-align:center;
-    margin-bottom:0;
-    
-    vertical-align: bottom;
-    
-
-    /*border-top:solid;
-    border-color:gray;*/
-
-}
-#TextOfFooterCopyright{
-    margin:0 auto;
-    width:600px;
-    padding-top:40px;
-    font-size:small;
-    color:black;
-    text-align:right;
-    font-family:Verdana,sans-serif;
-}
-
-#rasporka
-{
-    height:380px;
-    padding-top:0px;
-}
 
 #DivOfTableOfCatalog{
     margin:0 auto;

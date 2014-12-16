@@ -520,6 +520,55 @@
 
 
             <div id="footer">
+
+                <div id="FooterColums">
+
+                    <div id="LeftColumnOfFooter" class="FoterColumn" style="float: left; width: 300px;">
+                        <p>О компании</p>
+                        <ul>
+                            <li>
+                                <a href="WebForm1.aspx">О нас</a>
+                            </li>
+                            <li>
+                                <a href="Partners.html">Партнерам</a>
+                            </li>
+                            <li>
+                                <a href="Contacts.aspx">Контакты</a>
+                            </li>
+                            <li>
+                                <a href="Vacancies.html">Вакансии</a>
+                            </li>
+                        </ul> 
+
+                    </div>
+                    <div id="CentralColumnOfFooter" class="FoterColumn" style="float: left; width: 300px;">
+                        <p>Арендаторам</p>
+                        <ul>
+                            <li>
+                                <a href="Renters.aspx">Схема проезда</a>
+                            </li>
+                            <li>
+                                <a href="Renters.aspx">Склады</a>
+                            </li>
+                            <li>
+                                <a href="Renters.aspx">Офис</a>
+                            </li>
+                            
+                        </ul> 
+
+                    </div>
+                    <div id="RightColumnOfFooter" class="FoterColumn" style="float: left; width: 300px;">
+                        <p>Дополнительные услуги</p>
+                        <ul>
+                            <li>
+                                <a href="Energoservice.html">Энергосервис</a>
+                            </li>
+                        </ul> 
+
+                    </div>
+                    
+                </div>
+
             </div>
             <div id="footerCopyright">
                 <div id="TextOfFooterCopyright">© 2014 ООО Складской комплекс. Все права защищены.</div>

@@ -1,0 +1,428 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width"><!--, initial-scale=1-->
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="sample/css/normalize.css">
+    <link rel="stylesheet" href="sample/css/main.css">
+
+
+    <link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+    <!--
+    <link rel="stylesheet" href="nivo-slider/themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider/themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider/themes/bar/bar.css" type="text/css" media="screen" />-->
+    <link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+    <!--
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />-->
+
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
+    <!--
+    <script src="sample/js/vendor/modernizr-2.6.2.min.js"></script>-->
+
+
+    <!--
+    <script src="sample/js/plugins.js"></script>
+    <script src="sample/js/main.js"></script>-->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <!--
+    <script type="text/javascript" src="nivo-slider/scripts/jquery-1.9.0.min.js"></script>-->
+    <script type="text/javascript" src="nivo-slider/jquery.nivo.slider.js"></script>
+
+</head>
+<body>
+
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!-- Add your site or application content here -->
+
+    <script type="text/javascript">
+        $(window).load(function () {
+            $('#slider').nivoSlider();
+        });
+        $('#SearchDivButton').click(function () {
+            alert('id1');
+        });
+
+    </script>
+
+    <form id="form1" runat="server">
+
+   
+        <div class="bodydiv">
+
+          
+                <div id="ShadowDiv">
+
+    
+                    <div id="header">
+                        <a href="WebForm1.aspx">
+                            <div id="name">
+
+                                <div style="font-size: 22px; letter-spacing: 1px; font-style: italic; margin-top: 15px; border-bottom: 2px solid maroon #0F5AAE">оптовая компания</div>
+                                <div style="font-size: 37px; letter-spacing: 1px; line-height: 15px; margin-top: 15px; border-bottom: 2px solid maroon #0F5AAE">складской комплекс</div>
+
+
+
+                            </div>
+                        </a>
+
+
+              
+                        <div id="header1">
+
+                            <div id="PhoneDiv">
+
+                                <span>
+
+                                    <a class="PhoneDivElements" style="color: rgba(15,90,174,0.9)" href="Catalog.aspx">Принимаем заказы по телефону 311-611-(147)</a>&#160&#160|&#160
+
+                                    <a class="PhoneDivElements" style="color: rgba(15,90,174,0.9);" href="">Регистрация</a>&#160&#160|&#160
+
+                                    <asp:LoginStatus ID="LoginStatus2" runat="server" class="PhoneDivElements" Style="color: rgba(15,90,174,0.9);"
+                                                     LoginText="Войти"
+                                                     LogoutText="Выйти"
+                                                     LogoutPageUrl="./WebForm1.aspx"
+                                                     LogoutAction="Redirect" />
+                                    <a id="LoginStatus2" class="PhoneDivElements" href="#" style="color: rgba(15,90,174,0.9);">Войти</a>
+                                </span>
+
+
+
+                            </div>
+
+                            <div id="SearchAndJobDiv" style="">
+                                <div>
+                                    <div id="SearchField" style="margin-top: 13px; float: left; width: 287px; height: 28px;">
+                                        <asp:TextBox ID="TextBox1" runat="server" Width="287px" Height="26px" BorderStyle="None" BorderWidth="0" CausesValidation="False"></asp:TextBox>
+                                    </div>
+                                    <div id="SearchDivButton" style="margin-top: 13px; float: left; width: 60px; height: 30px;">
+                                    </div>
+                                </div>
+                                <div style="margin-top: 8px; float: left; margin-left: 33px;">
+                                    <a href="Vacancies.html">
+                                        <img src="images/job3.jpg" data-thumb="images/job1.png" alt="" title="#htmlcaption" />
+                                    </a>
+                                </div>
+                            </div>
+
+             
+                        </div>
+                    </div>
+
+
+
+                    <div id="DivOfMainContent">
+
+                        <div id="maincontent">
+                     
+                             <div class="menu">
+                                    <ul>
+
+                                  
+                                        <li class="menu2">
+                                            <a href="WebForm1.aspx" style="color: white;"><b>О компании</b></a>
+                                        </li>
+                                        <li class="delimiter"></li>
+                                        <li class="menu2">
+                                            <a href="Catalog.aspx" class="shadow"><b>Каталог товаров</b></a>
+                                        </li>
+                                        <li class="delimiter"></li>
+                                        <li class="menu2">
+                                            <a href="Partners.html"><b>Партнерам</b></a>
+                                        </li>
+                                        <li class="delimiter"></li>
+                                        <li class="menu2">
+                                            <a href="Renters.aspx"><b>Арендаторам</b></a>
+                                        </li>
+                                        <li class="delimiter"></li>
+                                        <li class="menu2">
+                                            <a href="Contacts.aspx" id="rightmenubutton"><b>Контакты</b></a>
+                                        </li>
+                                    
+                                    </ul>
+                                </div>
+                                
+
+
+
+
+
+                            <div>
+
+
+
+                                <div id="mainpart">
+
+
+                                    <div id="SliderDiv">
+
+
+                                        <div class="slider-wrapper theme-default">
+                                            <div id="slider" class="nivoSlider">
+                                                <!--  <img src="images/toystory.jpg" data-thumb="images/toystory.jpg" alt="" />
+                                                <a href="http://dev7studios.com"><img src="images/up.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" /></a>
+                                                <img src="images/walle.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
+                                                <img src="images/nemo.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />-->
+                                                <a href="Partners.html">
+                                                    <img src="images/royal_canin2.jpg" data-thumb="images/royal_canin2.jpg" alt="" title="Станьте одним из наших партнеров" />
+                                                </a>
+                                                <a href="Partners.html">
+                                                    <img src="images/mars1.jpg" data-thumb="images/mars1.jpg" alt="" title="Станьте одним из наших партнеров" />
+                                                </a>
+                                                <a href="Partners.html">
+                                                    <img src="images/MacCoffee2.jpg" data-thumb="images/MacCoffee2.jpg" alt="" title="Станьте одним из наших партнеров" />
+                                                </a>
+                                                <a href="Partners.html">
+                                                    <img src="images/ozerskiy_suvenir_two1.png" data-thumb="images/ozerskiy_suvenir1.jpg" alt="" title="Станьте одним из наших партнеров" />
+                                                </a>
+                                                <a href="Partners.html">
+                                                    <!--  <img src="images/emarko1.jpg" data-thumb="images/emarko1.jpg" alt="" title="Станьте одним из наших партнеров" />
+                                                </a>
+                                                <a href="http://dev7studios.com">
+                                                    -->
+                                                    <img src="images/rieber1.png" data-thumb="images/rieber1.png" alt="" title="Станьте одним из наших партнеров" />
+                                                </a>
+                                            </div>
+                                            <div id="htmlcaption" class="nivo-html-caption">
+                                                <strong>Станьте одним из наших партнеров</strong> <a href="#">a link</a>.
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <img src="images/downblockshadow.png" />
+
+                                    <div id="LeftColumnOfMainContent">
+                                       
+
+
+
+                                            <div class="TextOfMainPage">
+                                                <p><span style="font-size: 15px;"><strong>Компания Складской комплекс</strong></span> - одна из крупнейших оптовых компаний Ивановского региона, основным видом деятельности которой является дистрибьюция и логистика продовольственных и непродовольственных товаров.</p>
+                                            </div>
+
+                                            <div id="ImageOfMainPage">
+                                                
+                                                    <img src="images/foto36.jpg" data-thumb="images/foto36.jpg" alt="" title="Вид на основной склад и оффис" />
+                                                
+                                            </div>
+
+                                            <div class="TextOfMainPage">
+                                                <p>За время своего существования Компания Складской комплекс зарекомендовала себя как надежный, стабильный партнер, ориентированный на долгосрочные и взаимовыгодные отношения.</p>
+                                            </div>
+
+
+
+
+                                            <div id="PokupatelOfMainPage">
+                                                В Компании Складской комплекс вы можете приобрести широкий ассортимент продукции для своей торговой точки.
+
+                                                Наш представитель придет к вам, когда вы пожелаете, и совместно с вами сделает заказ на ту продукцию, которая вам нужна и то количество, которое вам необходимо. С помощью коммуникатора сразу же отправит заказ в офис.
+
+                                                Наша служба доставки привезет заказанный вами товар непосредственно в вашу торговую точку в удобное для вас время.
+
+                                                Компания работает по любой удобной для вас форме оплаты.
+
+                                                Для наших постоянных клиентов предоставляем отсрочку платежа.
+
+                                                Компания предоставляет полный пакет сопровождающих документов на всю поставленную продукцию.
+
+                                                Для покупателей мы предоставляем торговое оборудование.
+
+                                                С предоставленным ассортиментом компании вы можете ознакомиться в разделе <a href="Catalog.aspx" style="text-decoration:solid;">каталог товаров</a>.
+                                            </div>
+
+
+                                        </div>
+
+                                        <div id="RightColumnOfMainContent">
+                                            
+
+                                            <a href="Renters.aspx">
+                                                <img src="images/BannerArenda.gif" data-thumb="images/BannerArenda.gif" alt="" title="Сдаем в аренду" style="-webkit-box-shadow: 0px 6px 5px -4px rgba(0, 0, 0, 0.3) ; -moz-box-shadow: 0px 6px 5px -4px rgba(0, 0, 0, 0.3)  ; box-shadow:0px 6px 5px -4px rgba(0, 0, 0, 0.3)  ;" />
+                                            </a>
+
+
+                                            
+                                            <div id="vk_groups" style="margin:40px 0px 40px 0px;  -webkit-box-shadow: 0px 6px 5px -4px rgba(0, 0, 0, 0.3) ; -moz-box-shadow: 0px 6px 5px -4px rgba(0, 0, 0, 0.3)  ; box-shadow:0px 6px 5px -4px rgba(0, 0, 0, 0.3)  ;"></div>
+
+
+
+
+                                        </div>
+
+                                        <img src="images/downblockshadow.png" />
+
+                                        
+
+                                        <div id="Energoservice">
+
+
+                                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                                        <div class="listviewdiv">
+
+                       
+                                        </div>
+
+
+                        
+                                    </div>
+
+     
+                                </div>
+                            </div>
+                        </div>
+
+                      
+
+
+
+
+
+
+
+
+                    </div>
+
+                    <div id="rasporka"></div>
+
+
+
+                    <div id="footer">
+
+                        <div id="FooterColums">
+
+                            <div id="LeftColumnOfFooter" class="FoterColumn" style="float: left; width: 300px;">
+                                <p>О компании</p>
+                                <ul>
+                                    <li>
+                                        <a href="WebForm1.aspx">О нас</a>
+                                    </li>
+                                    <li>
+                                        <a href="Partners.html">Партнерам</a>
+                                    </li>
+                                    <li>
+                                        <a href="Contacts.aspx">Контакты</a>
+                                    </li>
+                                    <li>
+                                        <a href="Vacancies.html">Вакансии</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div id="CentralColumnOfFooter" class="FoterColumn" style="float: left; width: 300px;">
+                                <p>Арендаторам</p>
+                                <ul>
+                                    <li>
+                                        <a href="Renters.aspx">Схема проезда</a>
+                                    </li>
+                                    <li>
+                                        <a href="Renters.aspx">Склады</a>
+                                    </li>
+                                    <li>
+                                        <a href="Renters.aspx">Офис</a>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+                            <div id="RightColumnOfFooter" class="FoterColumn" style="float: left; width: 300px;">
+                                <p>Дополнительные услуги</p>
+                                <ul>
+                                    <li>
+                                        <a href="Energoservice.html">Энергосервис</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div id="footerCopyright">
+                        <div id="TextOfFooterCopyright">© 2014 ООО Складской комплекс. Все права защищены.</div>
+                    </div>
+
+                    <!--
+                </div>-->
+            </div>
+            <!--BodyDiv-->
+
+
+            <!--
+            <script>
+window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')-->
+
+
+
+        <!--<script>
+            (function (b, o, i, l, e, r) {
+                b.GoogleAnalyticsObject = l; b[l] || (b[l] =
+                function () { (b[l].q = b[l].q || []).push(arguments) }); b[l].l = +new Date;
+                e = o.createElement(i); r = o.getElementsByTagName(i)[0];
+                e.src = '//www.google-analytics.com/analytics.js';
+                r.parentNode.insertBefore(e, r)
+            }(window, document, 'script', 'ga'));
+                ga('create', 'UA-XXXXX-X'); ga('send', 'pageview');
+            </script>--> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+
+
+
+
+            <script type="text/javascript">
+                (function() {
+                    function async_load(){
+                        var s = document.createElement('script');
+                        s.type = 'text/javascript';
+                        s.async = true;
+                        s.src = 'http://vk.com/js/api/openapi.js?115';
+                        var x = document.getElementsByTagName('script')[0];
+                        x.parentNode.insertBefore(s, x);
+                    }
+                    if (window.attachEvent)
+                        window.attachEvent('onload', async_load);
+                    else
+                        window.addEventListener('load', async_load, false);
+                })();
+            </script>
+
+            <!--
+            <script type="text/javascript" src="//vk.com/js/api/openapi.js?115"></script>-->
+            <script type="text/javascript">
+                VK.Widgets.Group("vk_groups", { mode: 0, width: "240", height: "400", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6' }, 20003922);
+            </script>
+
+
+
+    </form>
+</body>
+</html>
+
