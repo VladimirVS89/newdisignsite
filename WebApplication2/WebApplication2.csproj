@@ -58,8 +58,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Catalog.aspx" />
+    <Content Include="Catalog.html" />
     <Content Include="Company.html" />
     <Content Include="Contacts.aspx" />
+    <Content Include="Contacts.html" />
     <Content Include="Energoservice.html" />
     <Content Include="gallery_css3_3d.css" />
     <Content Include="gallery_main.css" />
@@ -67,6 +69,7 @@
     <Content Include="normalize.css" />
     <Content Include="Partners.html" />
     <Content Include="Renters.aspx" />
+    <Content Include="Renters.html" />
     <Content Include="reset.css" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Vacancies.html" />

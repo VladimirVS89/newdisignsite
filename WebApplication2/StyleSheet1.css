@@ -760,10 +760,10 @@ li.menu22
 
 #FooterColums
 {
-    width:900px;
+    width:800px;
     height:100%;
     margin: 0 auto;
-    padding-left:100px;
+    padding-left:20px;
     color:white;
     display: inline-block;
     vertical-align: middle;
@@ -782,7 +782,14 @@ li.menu22
 #FooterColums .FoterColumn
 {
     text-align: left;
-    margin-top:45px;  
+    margin-top:45px;
+    float: left;
+    width: 300px;  
+}
+
+#footer #RightColumnOfFooter
+{
+    width:200px;
 }
 
 #FooterColums .FoterColumn p
@@ -794,7 +801,7 @@ li.menu22
 #FooterColums .FoterColumn ul {
     padding: 0; /* Убираем поля */
     margin-left: 20px; /* Отступ слева */
-    font-size:14px;
+    font-size:15px;
    }
 
 #FooterColums .FoterColumn li {
