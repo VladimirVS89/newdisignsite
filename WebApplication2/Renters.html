@@ -32,6 +32,202 @@
     <script type="text/javascript" src="js/modernizr.js"></script>
     <!--<script type="text/javascript" src="Panarama/swfobject.js"></script>-->
 
+    <style>
+        /*стили фиксированного меню*/
+        .top-nav {
+            background: #555555;
+            box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.4);
+            left: 0;
+            opacity: 0.95;
+            padding: 8px;
+            position: fixed;
+            right: 0;
+            top: 0;
+            z-index: 9999;
+        }
+
+        .topnav-wrapper {
+            margin: 0 auto;
+            max-width: 980px;
+        }
+
+        .top-logo {
+            color: #ddd;
+            font: bold 16px/20px "Crete Round",serif;
+            padding-left: 10px;
+            text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+        }
+
+            .top-logo a {
+                color: #B8B8B8;
+                text-decoration: none;
+            }
+
+                .top-logo a:hover {
+                    color: #ddd;
+                }
+
+        .topnav-right {
+            float: right;
+        }
+
+        .right-menu {
+            margin: 0;
+            overflow: hidden;
+        }
+
+            .right-menu li {
+                float: left;
+                list-style-type: none;
+                margin: 0;
+            }
+
+                .right-menu li a {
+                    color: #B8B8B8;
+                    display: block;
+                    padding: 0.05em 0.75em;
+                    text-decoration: none;
+                    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+                }
+
+                    .right-menu li a:hover {
+                        color: #fff;
+                        text-shadow: none;
+                    }
+
+                .right-menu li span {
+                    font-size: 16px;
+                    line-height: 1.2;
+                }
+
+        #container {
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 25px 10px 0;
+        }
+
+        h1 {
+            padding: 50px 0;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        p {
+            margin: 0 0 5px;
+            line-height: 1.5;
+        }
+
+        .info {
+            color: rgba(78, 78, 78, 0.8);
+            width: 100%;
+            margin: 40px auto;
+            text-align: center;
+            font-weight: 300;
+        }
+
+            .info a {
+                color: #bbb;
+                text-decoration: none;
+            }
+
+                .info a:hover {
+                    color: #888;
+                }
+        /* Конец стилей демо-страницы */
+
+        /* Базовый контейнер табов */
+        .tabs {
+            min-width: 320px;
+            max-width: 900px;
+            padding: 0px;
+            margin: 0 auto;
+        }
+        /* Стили секций с содержанием */
+        section {
+            display: none;
+            padding: 15px;
+            background: #fff;
+            border: 1px solid #ddd;
+        }
+
+        .tabs input {
+            display: none;
+        }
+        /* Стили вкладок (табов) */
+        .tabs label {
+            display: inline-block;
+            margin: 0 0 -1px;
+            padding: 15px 25px;
+            font-weight: 600;
+            text-align: center;
+            color: #aaa;
+            border: 1px solid #ddd;
+            background: #f1f1f1;
+            border-radius: 3px 3px 0 0;
+        }
+            /* Шрифт-иконки от Font Awesome в формате Unicode */
+            /*.tabs label:before {
+                font-family: fontawesome;
+                font-weight: normal;
+                margin-right: 10px;
+            }
+
+            .tabs label[for*="1"]:before {
+                content: "\f19a";
+            }
+
+            .tabs label[for*="2"]:before {
+                content: "\f17a";
+            }
+
+            .tabs label[for*="3"]:before {
+                content: "\f13b";
+            }
+
+            .tabs label[for*="4"]:before {
+                content: "\f13c";
+            }*/
+            /* изменения стиля заголовков вкладок при наведении */
+            .tabs label:hover {
+                color: #888;
+                cursor: pointer;
+            }
+        /* стили для активной вкладки */
+        .tabs input:checked + label {
+            color: #555;
+            border: 1px solid #ddd;
+            border-top: 1px solid #009933;
+            border-bottom: 1px solid #fff;
+            background: #fff;
+        }
+        /* активация секций с помощью переключателя :checked */
+        #tab1:checked ~ #content1,
+        #tab2:checked ~ #content2,
+        #tab3:checked ~ #content3,
+        #tab4:checked ~ #content4,
+        #tab5:checked ~ #content5 {
+            display: block;
+        }
+        /* медиа запросы для различных типов носителей */
+        @media screen and (max-width: 680px) {
+            .tabs label {
+                font-size: 0;
+            }
+
+                .tabs label:before {
+                    margin: 0;
+                    font-size: 18px;
+                }
+        }
+
+        @media screen and (max-width: 400px) {
+            .tabs label {
+                padding: 15px;
+            }
+        }    
+    </style>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
 
 </head>
 <body>
@@ -153,18 +349,9 @@
 
                                 <img src="images/downblockshadow.png" />
 
-                                <div style="margin:0 auto">
-                                    <iframe class="paniframe" name="_pano" src="Panorama/MainWarehouse/понорама на сайт склад.html" frameborder="0" scrolling="no" height="550" width="965" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-                                </div>
 
-                                <h3 align="center">
-                                    <font color="#FF0000" face="Verdana, Arial, Helvetica, sans-serif">
-                                        Офис
-                                        в аренду 240 кв.м по цене 350 руб за 1 кв.м, телефония, высокоскоростной
-                                        интернет, евроремонт.
-                                    </font>
-                                </h3>
-                                <div style=" width:420px;margin:0 auto">
+                                
+                                <!--<div style=" width:420px;margin:0 auto">
                                     <div style="float:left;">
                                         <a href="foto/21.jpg" target="_blank">
                                             <img src="foto/21s.jpg" width="105" height="79" border="0">
@@ -185,90 +372,152 @@
                                             <img src="foto/24s.jpg" width="105" height="79" border="0">
                                         </a>
                                     </div>
-                                </div>
-                                <p align="center" style="text-align:center; clear:both;">
-                                    <font color="#0000FF" face="Verdana, Arial, Helvetica, sans-serif">
-                                        <em>
-                                            <strong>
-                                                <a href="img/shema/2.gif" target="_blank">
-                                                    Схема
-                                                    офисного помещения.
-                                                </a>
-                                            </strong>
-                                        </em>
-                                    </font>
-                                </p>
-                                <h2 align="center">
-                                    <font color="#0000FF">
-                                        <em>
-                                            Сдаем морозильные камеры
-                                            в аренду.
-                                        </em>
-                                    </font>
-                                </h2>
-                                <h3 align="center">
+                                </div>-->
+                            
+        
+                                <h2 class="titlesOfBlocks" align="center">
                                     Наша компания предлагает склады в аренду в г. Иваново.
-                                </h3>
-                                <ul style="text-align:left;">
-                                    <li>
-                                        Полуподземные неотапливаемые склады с бетонными полами (бывшие
-                                        овощехранилища), температура зимой опускается не ниже +2 градусов.
-                                    </li>
-                                    <li>
-                                        Возможность подключения и монтажа системы отопления рассматривается
-                                        индивидуально.
-                                    </li>
-                                    <li>Электроэнергия оплачивается отдельно. </li>
-                                    <li>В склад въезжает грузовая машина (Газель-фургон). </li>
-                                    <li>
-                                        Имеется возможность быстрой телефонизации и подключение к интернету.
-                                    </li>
-                                    <li>Подъезд к складам - асфальт. Территория контролируется службой безопасности.</li>
-                                    <li>Цена за 1 квадратный метр - 65 рублей, НДС не выделяется. </li>
+                                  </h2>
 
-                                </ul>
+                                    <div id="container">
+                                        <div class="tabs">
+                                            <input id="tab1" type="radio" name="tabs" checked>
+                                            <label for="tab1" title="Wordpress">Склад</label>
 
-                                <p>
-                                    <a href="foto/foto41.jpg" target="_blank">
-                                        <img src="foto/foto41s1.jpg" width="180" height="135" border="0">
-                                    </a>
-                                    <a href="foto/foto44.jpg" target="_blank">
-                                        <img src="foto/foto44s1.jpg" width="180" height="135" border="0">
+                                            <input id="tab2" type="radio" name="tabs">
+                                            <label for="tab2" title="Windows">Офис</label>
 
-                                    </a>
-                                </p>
-                                <p align="center"><span class="стиль1">Для просмотра схемы склада кликнуть по конкретному складу.</span></p>
-                                <p align="center">
-                                    <img src="img/shema/shema-sklad-60.gif" alt="" width="614" height="461" border="0" usemap="#Map" href="img/shema/sklad98.gif">
-                                    <map name="Map">
-                                        <area shape="rect" coords="17,137,149,181" href="img/shema/sklad4.gif" target="_blank" alt="">
-                                        <area shape="rect" coords="19,207,151,252" href="img/shema/sklad3.gif" target="_blank">
-                                        <area shape="rect" coords="180,207,312,252" href="img/shema/sklad2.gif" target="_blank">
-                                        <area shape="rect" coords="345,208,476,253" href="img/shema/sklad1.gif" target="_blank">
-                                        <area shape="rect" coords="19,278,228,327" href="img/shema/sklad67.gif" target="_blank">
-                                        <area shape="rect" coords="268,278,476,325" href="img/shema/sklad98.gif" target="_blank">
-                                    </map>
-                                </p>
-                                <p align="center">
-                                    <font face="Verdana, Arial, Helvetica, sans-serif">
-                                        <a href="img/shema/shema-proezda.gif" target="_blank">
-                                            <strong>
-                                                <em>
-                                                    Схема
-                                                    проезда
-                                                </em>
-                                            </strong>
-                                        </a>
-                                    </font>
-                                </p>
+                                            <input id="tab3" type="radio" name="tabs">
+                                            <label for="tab3" title="HTML5">Овощехранилище</label>
+
+                                            <input id="tab4" type="radio" name="tabs">
+                                            <label for="tab4" title="CSS3">Морозильные камеры</label>
+
+                                            <input id="tab5" type="radio" name="tabs">
+                                            <label for="tab5" title="CSS3">Территория</label>
+
+                                            <section id="content1">
+                                                <h2 class="titlesOfBlocks">Панорама склада.</h2>
+                                                <div style="width: 865px; margin: 0 auto; ">
+
+                                                    <iframe class="paniframe" name="_pano" src="Panorama/MainWarehouse/понорама на сайт склад.html" frameborder="0" scrolling="no" height="550" width="865" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+                                                </div>
+                                            </section>
+                                            <section id="content2">
+                      
+                                                <h2 class="titlesOfBlocks">Схема офиса.</h2>
+                                                <p align="center" style="text-align:center; clear:both;">
 
 
+                                                    <img src="img/shema/2.gif">
+
+
+                                                </p>
+                                                <h3 align="center">
+
+                                                    Офис
+                                                    в аренду 240 кв.м по цене 350 руб за 1 кв.м, телефония, высокоскоростной
+                                                    интернет, евроремонт.
+
+                                                </h3>
+                                            </section>
+                                            <section id="content3">
+                                                <h2 class="titlesOfBlocks">Схема складов.</h2>
+                                                <p align="center">
+                                                    <img src="img/shema/shema-sklad-60.gif" alt="" width="614" height="461" border="0" usemap="#Map" href="img/shema/sklad98.gif">
+                                                    <map name="Map">
+                                                        <area shape="rect" coords="17,137,149,181" href="img/shema/sklad4.gif" target="_blank" alt="">
+                                                        <area shape="rect" coords="19,207,151,252" href="img/shema/sklad3.gif" target="_blank">
+                                                        <area shape="rect" coords="180,207,312,252" href="img/shema/sklad2.gif" target="_blank">
+                                                        <area shape="rect" coords="345,208,476,253" href="img/shema/sklad1.gif" target="_blank">
+                                                        <area shape="rect" coords="19,278,228,327" href="img/shema/sklad67.gif" target="_blank">
+                                                        <area shape="rect" coords="268,278,476,325" href="img/shema/sklad98.gif" target="_blank">
+                                                    </map>
+                                                </p>
+                                                <ul style="text-align:left;">
+                                                    <li>
+                                                        Полуподземные неотапливаемые склады с бетонными полами (бывшие
+                                                        овощехранилища), температура зимой опускается не ниже +2 градусов.
+                                                    </li>
+                                                    <li>
+                                                        Возможность подключения и монтажа системы отопления рассматривается
+                                                        индивидуально.
+                                                    </li>
+                                                    <li>Электроэнергия оплачивается отдельно. </li>
+                                                    <li>В склад въезжает грузовая машина (Газель-фургон). </li>
+                                                    <li>
+                                                        Имеется возможность быстрой телефонизации и подключение к интернету.
+                                                    </li>
+                                                    <li>Подъезд к складам - асфальт. Территория контролируется службой безопасности.</li>
+                                                    <li>Цена за 1 квадратный метр - 65 рублей, НДС не выделяется. </li>
+
+                                                </ul>
+                                               
+                                            </section>
+                                            <section id="content4">
+                                                <p>
+                                                    Сдаем в аренду морозильные камеры
+                                                </p>
+
+
+
+                                            </section>
+
+                                            <section id="content5">
+
+                                                <h2 class="titlesOfBlocks">Схема проезда до базы.</h2>
+
+                                                <p align="center">
+
+                                                    <img src="img/shema/shema-proezda.gif">
+
+
+                                                </p>
+                                                <h2 class="titlesOfBlocks">Панорама территории базы.</h2>
+                                                <div style="width: 865px; margin: 0 auto; ">
+
+                                                    <iframe class="paniframe" name="_pano" src="Panorama/MainWarehouse/понорама на сайт склад.html" frameborder="0" scrolling="no" height="550" width="865" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+                                                </div>
+
+                                            </section>
+
+                                        </div>
+
+                                    </div>
 
 
 
 
-                                <img src="images/downblockshadow.png" />
-                            </div>
+                                    <!--<p>
+            <a href="foto/foto41.jpg" target="_blank">
+                <img src="foto/foto41s1.jpg" width="180" height="135" border="0">
+            </a>
+            <a href="foto/foto44.jpg" target="_blank">
+                <img src="foto/foto44s1.jpg" width="180" height="135" border="0">
+
+            </a>
+        </p>
+        <p align="center"><span class="стиль1">Для просмотра схемы склада кликнуть по конкретному складу.</span></p>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    <img src="images/downblockshadow.png" />
+</div>
 
 
                         </div>

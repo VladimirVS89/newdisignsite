@@ -1,4 +1,14 @@
 ﻿@font-face {
+    font-family: PTSans;
+    src: url("fonts/pt_sans-regular.ttf"); /* EOT file for IE */
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url("fonts/OpenSans-Regular.ttf"); /* EOT file for IE */
+}
+
+@font-face {
     font-family: MyCustomFont;
     src: url("fonts/PTC75F.ttf"); /* EOT file for IE */
 }
@@ -635,7 +645,7 @@ li.menu22 {
     margin-right: 0px;
     margin-left: 0px;
     background: none;
-    font-family: Verdana,sans-serif;
+    font-family: OpenSans,Verdana,sans-serif;
      text-rendering: optimizeSpeed;
 }
 
@@ -782,7 +792,7 @@ li.menu22 {
     text-align: center;
     margin-bottom: 0;
     vertical-align: bottom;
-    font-family: Verdana,sans-serif;
+    font-family: OpenSans,Verdana,sans-serif;
     /*border-top:solid;
     border-color:gray;*/
 }
@@ -1192,6 +1202,15 @@ th {
         padding: 3px; /* Поля вокруг содержимого таблицы */
         border: 1px solid #FF9B02; /* Параметры рамки */
     }
+
+section .titlesOfBlocks{
+    font-weight: 900;
+    text-align:left;
+    padding:50px 0px 10px 25px;
+}
+section .titlesOfBlocks:first-child{
+    padding-top:0px;
+}
 
 /*#1700FF
     
