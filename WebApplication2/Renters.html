@@ -131,6 +131,7 @@
             max-width: 900px;
             padding: 0px;
             margin: 0 auto;
+
         }
         /* Стили секций с содержанием */
         section {
@@ -138,6 +139,13 @@
             padding: 15px;
             background: #fff;
             border: 1px solid #ddd;
+            text-align:justify;
+            font-size:15px;
+        }
+
+        section p:first-child {
+            margin:20px 25px 25px 25px;
+            line-height:30px;
         }
 
         .tabs input {
@@ -199,7 +207,7 @@
             display: block;
         }
         /* медиа запросы для различных типов носителей */
-        @media screen and (max-width: 680px) {
+      /*   @media screen and (max-width: 680px) {
             .tabs label {
                 font-size: 0;
             }
@@ -214,9 +222,96 @@
             .tabs label {
                 padding: 15px;
             }
-        }    
+        }     */
     </style>
    <!--<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">-->
+
+    <script type="text/javascript">
+        function changeFrame() {
+            iframeElement = document.getElementById("mainWarehouseFrame");
+            PlugElement = document.getElementById("mainWarehousePlug");
+            iframeElement.src = "Panorama/MainWarehouse/warehouse.html";
+            iframeElement.style.display = "block";
+            PlugElement.style.display = "none";
+        }
+        
+        function changeOfficeFrame() {
+            iframeElement = document.getElementById("officeFrame");
+            PlugElement = document.getElementById("officePlug");
+            iframeElement.src = "Panorama/office/center.html";
+            iframeElement.style.display = "block";
+            PlugElement.style.display = "none";
+        }
+        function changeWarehouse1Frame() {
+            iframeElement = document.getElementById("Warehouse1Frame");
+            PlugElement = document.getElementById("Warehouse1Plug");
+            iframeElement.src = "Panorama/warehouseNumber1/warehouseNumber1.html";
+            iframeElement.style.display = "block";
+            PlugElement.style.display = "none";
+        }
+        function changeFreezerFrame() {
+            iframeElement = document.getElementById("freezerFrame");
+            PlugElement = document.getElementById("freezerPlug");
+            iframeElement.src = "Panorama/freezer/freezer.html";
+            iframeElement.style.display = "block";
+            PlugElement.style.display = "none";
+        }
+        function changeTerritoryFrame() {
+            iframeElement = document.getElementById("territoryFrame");
+            PlugElement = document.getElementById("territoryPlug");
+            iframeElement.src = "Panorama/territory/territory panorama.html";
+            iframeElement.style.display = "block";
+            PlugElement.style.display = "none";
+        }
+
+        var parseQueryString = function (strQuery) {
+            var strSearch = strQuery.substr(1),
+                strPattern = /([^=]+)=([^&]+)&?/ig,
+                arrMatch = strPattern.exec(strSearch),
+                objRes = {};
+            while (arrMatch != null) {
+                objRes[arrMatch[1]] = arrMatch[2];
+                arrMatch = strPattern.exec(strSearch);
+            }
+            return objRes;
+        }
+
+        function returnParsedQueryString() {
+            var queryStr = parseQueryString(window.location.search);
+            if (!$.isEmptyObject(queryStr)) {
+
+                tab = queryStr['tab'];
+                console.log(tab);
+                switch (tab) {
+
+                    case 'mainWarehouse': $("#tab1").attr('checked', 'checked');
+                        break;
+                    case 'office': $("#tab2").attr('checked', 'checked');
+                        break;
+                    case 'warehouse1': $("#tab3").attr('checked', 'checked');
+                        break;
+                    case 'freezer': $("#tab4").attr('checked', 'checked');
+                        break;
+                    case 'territory': $("#tab5").attr('checked', 'checked');
+                        break;
+                    
+                    default:;
+
+                }
+             
+                
+
+                
+
+                
+               
+            }
+            
+        }
+
+        
+        
+    </script>
 
 
 </head>
@@ -226,6 +321,8 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
     <!-- Add your site or application content here -->
+
+   
 
 
     <form id="form1" runat="server">
@@ -364,59 +461,65 @@
             </div>
         </div>-->
 
-                                <div id="LeftColumnOfMainContent" style=" width:750px; float:none; font-size:15px; text-indent:0px; margin-left:60px;">
+                                <div id="LeftColumnOfMainContent" style=" width:830px; float:none; font-size:15px; text-indent:0px; margin-left:60px; margin-bottom:10px;">
 
 
 
 
-                                    <div class="TextOfMainPage" style=" width: 750px; text-indent: 0px;">
+                                    <div class="TextOfMainPage" style=" width: 830px; text-indent: 0px;">
 
                                         <h2>Наша компания предлагает в аренду:</h2>
-                                        <ul>
+                                        <ul class="rentersList">
                                             <li>
-                                                Склад стелажного хранения (1 секция).
+                                                Склад стелажного хранения.
                                             </li>
                                             <li>
-                                                Офис 240 кв.м по цене 350 руб за 1 кв.м, телефония, высокоскоростной
-                                                интернет, евроремонт.
+                                                Офис.
                                             </li>
                                             <li>
-                                                Полуподземные склады (бывшие овощехранилища).
+                                                Полуподземные склады.
                                             </li>
                                             <li>
-                                                Морозильные камеры.
-                                            </li>
+                                                Морозильные и холодильные камеры.</li>
+                                            
                                         </ul>
                                     </div>
                                     </div>
 
-                                        <div id="container">
+                                        <div id="container" >
                                             <div class="tabs">
                                                 <input id="tab1" type="radio" name="tabs" checked>
-                                                <label for="tab1" title="Wordpress">Склад</label>
+                                                <label for="tab1" title="Склад">Склад</label>
 
                                                 <input id="tab2" type="radio" name="tabs">
-                                                <label for="tab2" title="Windows">Офис</label>
+                                                <label for="tab2" title="Офис">Офис</label>
 
                                                 <input id="tab3" type="radio" name="tabs">
-                                                <label for="tab3" title="HTML5">Овощехранилища</label>
+                                                <label for="tab3" title="Овощехранилища">Овощехранилища</label>
 
                                                 <input id="tab4" type="radio" name="tabs">
-                                                <label for="tab4" title="CSS3">Морозильные камеры</label>
+                                                <label for="tab4" title="Морозильные камеры">Морозильные камеры</label>
 
                                                 <input id="tab5" type="radio" name="tabs">
-                                                <label for="tab5" title="CSS3">Территория</label>
+                                                <label for="tab5" title="Территория">Территория</label>
 
                                                 <section id="content1">
+                                                    <p>Склад стелажного хранения (1 секция) площадью 1047 м² по цене 190 рублей за 1 м². Высота потолка 8,5 м.</p>
+                                                    <img src="images/downblockshadow.png" />
+
                                                     <h2 class="titlesOfBlocks">Панорама склада.</h2>
-                                                    <div style="width: 865px; margin: 0 auto; ">
-
-                                                        <iframe class="paniframe" name="_pano" src="Panorama/MainWarehouse/Warehouse.html" frameborder="0" scrolling="no" height="550" width="865" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
+                                                   
+                                                    <div class="divOfSectionRenters" >
+                                                        <img id="mainWarehousePlug" src="Panorama/MainWarehouse/plug.jpg" onclick="changeFrame()" height="540" width="865">
+                                                        <iframe id="mainWarehouseFrame" class="paniframe" name="_pano" src="" style="display:none" frameborder="0" scrolling="no" height="540" width="865" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                                                     </div>
+
                                                 </section>
                                                 <section id="content2">
-
+                                                    <p>Офис площадью 240 м² по цене 280 рублей за 1 м², телефония, высокоскоростной
+                                                    интернет, евроремонт.</p>
+                                                    <img src="images/downblockshadow.png" />
+                                                    
                                                     <h2 class="titlesOfBlocks">Схема офиса.</h2>
                                                     <p align="center" style="text-align:center; clear:both;">
 
@@ -427,16 +530,29 @@
                                                     </p>
 
                                                     <br />
-                                                    <br />
+                                                    
                                                     <img src="images/downblockshadow.png" />
                                                     <h2 class="titlesOfBlocks">Панорама офиса.</h2>
-                                                    <div style="width: 865px; margin: 0 auto; ">
 
-                                                        <iframe class="paniframe" name="_pano" src="Panorama/office/center.html" frameborder="0" scrolling="no" height="550" width="865" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
+                                                    <div class="divOfSectionRenters">
+                                                        <img id="officePlug" src="Panorama/office/plug.jpg" onclick="changeOfficeFrame()" height="540" width="865">
+                                                        <iframe id="officeFrame" class="paniframe" name="_pano" src="" style="display:none" frameborder="0" scrolling="no" height="540" width="865" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                                                     </div>
+                                                   
+                                               
                                                 </section>
                                                 <section id="content3">
+
+                                                    <p>
+                                                        Полуподземные неотапливаемые склады с бетонными полами (бывшие овощехранилища) площадью 840 м² по цене 65 рублей за 1 м².
+                                                        Температура зимой опускается не ниже +2°C.
+                                                        Возможность подключения и монтажа системы отопления рассматривается индивидуально.
+                                                        Электроэнергия оплачивается отдельно.
+                                                        В склад въезжает грузовая машина (Газель фургон). Подъезд к складам - асфальт.
+                                                        Имеется возможность быстрой телефонизации и подключение к интернету.
+                                                    </p>
+                                                    <img src="images/downblockshadow.png" />
+                                                  
                                                     <h2 class="titlesOfBlocks">Схема складов.</h2>
                                                     <p align="center">
                                                         <img src="img/shema/shema-sklad-60.gif" alt="" width="614" height="461" border="0" usemap="#Map" href="img/shema/sklad98.gif">
@@ -449,39 +565,71 @@
                                                             <area shape="rect" coords="268,278,476,325" href="img/shema/sklad98.gif" target="_blank">
                                                         </map>
                                                     </p>
-                                                    <ul style="text-align:left;">
-                                                        <li>
-                                                            Полуподземные неотапливаемые склады с бетонными полами (бывшие
-                                                            овощехранилища), температура зимой опускается не ниже +2 градусов.
-                                                        </li>
-                                                        <li>
-                                                            Возможность подключения и монтажа системы отопления рассматривается
-                                                            индивидуально.
-                                                        </li>
-                                                        <li>Электроэнергия оплачивается отдельно. </li>
-                                                        <li>В склад въезжает грузовая машина (Газель-фургон). </li>
-                                                        <li>
-                                                            Имеется возможность быстрой телефонизации и подключение к интернету.
-                                                        </li>
-                                                        <li>Подъезд к складам - асфальт. Территория контролируется службой безопасности.</li>
-                                                        <li>Цена за 1 квадратный метр - 65 рублей, НДС не выделяется. </li>
 
-                                                    </ul>
+                                                    <div id="LeftColumnOfMainContent" style=" width:750px; float:none; font-size:15px; text-indent:0px; margin-left:30px; margin-bottom:10px;">
 
-                                                    <h2 class="titlesOfBlocks">Панорама склада №1.</h2>
-                                                    <div style="width: 865px; margin: 0 auto; ">
 
-                                                        <iframe class="paniframe" name="_pano" src="Panorama/warehouseNumber1/warehouseNumber1.html" frameborder="0" scrolling="no" height="550" width="865" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
+
+                                                        <div class="TextOfMainPage" style=" width: 750px; text-indent: 0px;">
+
+
+                                                            <!--<ul class="rentersList" style="text-align:left; margin-left:0px;">
+                                                                <li>
+                                                                    Полуподземные неотапливаемые склады с бетонными полами (бывшие
+                                                                    овощехранилища), температура зимой опускается не ниже +2 градусов.
+                                                                </li>
+                                                                <li>
+                                                                    Возможность подключения и монтажа системы отопления рассматривается
+                                                                    индивидуально.
+                                                                </li>
+                                                                <li>Электроэнергия оплачивается отдельно. </li>
+                                                                <li>В склад въезжает грузовая машина (Газель-фургон). </li>
+                                                                <li>
+                                                                    Имеется возможность быстрой телефонизации и подключение к интернету.
+                                                                </li>
+                                                                <li>Подъезд к складам - асфальт. Территория контролируется службой безопасности.</li>
+                                                             
+
+                                                            </ul>-->
+
+                                                        </div>
+                                                            </div>
+
+                                                            <br />
+                                                            <img src="images/downblockshadow.png" />
+                                                    <h2 class="titlesOfBlocks">Схема склада №1.</h2>
+                                                    <p align="center">
+                                                        <img src="img/shema/sklad1.gif" alt="" width="865" border="0">
+                                                        
+                                                    </p>
+                                                    <br />
+                                                    <img src="images/downblockshadow.png" />
+
+                                                            <h2 class="titlesOfBlocks">Панорама склада №1.</h2>
+
+                                                    <div class="divOfSectionRenters">
+                                                        <img id="Warehouse1Plug" src="Panorama/warehouseNumber1/plug.jpg" onclick="changeWarehouse1Frame()" height="540" width="865">
+                                                        <iframe id="Warehouse1Frame" class="paniframe" name="_pano" src="" style="display:none" frameborder="0" scrolling="no" height="540" width="865" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                                                     </div>
 
                                                 </section>
                                                 <section id="content4">
+
+                                                    <p>
+                                                        Морозильные камеры площадью 222.5 м² и объемом 667.5 м³. Холодильные камеры площадью 376 м² и объемом 1176 м³. Цена 200 рублей за 1 м².
+                                                        Оплата за электроэнергию по счётчику. Дни работы понедельник - пятница с  5:00 до 22:00 часов, суббота с 7:00 до 13:00 часов, воскресенье выходной.
+
+                                                    </p>
+                                                    <img src="images/downblockshadow.png" />
+
                                                     <h2 class="titlesOfBlocks">Панорама морозильной камеры.</h2>
-                                                    <div style="width: 865px; margin: 0 auto; ">
+                                                    
+                                                    
 
-                                                        <iframe class="paniframe" name="_pano" src="Panorama/freezer/freezer.html" frameborder="0" scrolling="no" height="550" width="865" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
+                                                    <div class="divOfSectionRenters">
+                                                        <img id="freezerPlug" src="Panorama/freezer/plug.jpg" onclick="changeFreezerFrame()" height="540" width="865">
+                                                        <iframe id="freezerFrame" class="paniframe" name="_pano" src="" style="display:none" frameborder="0" scrolling="no" height="540" width="865" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                                                     </div>
 
 
@@ -489,7 +637,6 @@
                                                 </section>
 
                                                 <section id="content5">
-
                                                     <h2 class="titlesOfBlocks">Схема проезда до базы.</h2>
 
                                                     <p align="center">
@@ -500,11 +647,13 @@
                                                     <br /><br />
                                                     <img src="images/downblockshadow.png" />
                                                     <h2 class="titlesOfBlocks">Панорама территории базы.</h2>
-                                                    <div style="width: 865px; margin: 0 auto; ">
 
-                                                        <iframe class="paniframe" name="_pano" src="Panorama/territory/territory panorama.html" frameborder="0" scrolling="no" height="550" width="865" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
+                                                    <div class="divOfSectionRenters">
+                                                        <img id="territoryPlug" src="Panorama/territory/plug.jpg" onclick="changeTerritoryFrame()" height="540" width="865">
+                                                        <iframe id="territoryFrame" class="paniframe" name="_pano" src="" style="display:none" frameborder="0" scrolling="no" height="540" width="865" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                                                     </div>
+
+                                                    
 
                                                 </section>
 
@@ -585,13 +734,13 @@
                         <p>Арендаторам</p>
                         <ul>
                             <li>
-                                <a href="Renters.html">Схема проезда</a>
+                                <a href="Renters.html?tab=territory">Схема проезда</a>
                             </li>
                             <li>
-                                <a href="Renters.html">Склады</a>
+                                <a href="Renters.html?tab=warehouse1">Склады</a>
                             </li>
                             <li>
-                                <a href="Renters.html">Офис</a>
+                                <a href="Renters.html?tab=office">Офис</a>
                             </li>
 
                         </ul>
@@ -616,6 +765,15 @@
 
 
         </div>
+
+        <script type="text/javascript">
+
+            returnParsedQueryString()
+
+        </script>
+
+
+
         <!--BodyDiv-->
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

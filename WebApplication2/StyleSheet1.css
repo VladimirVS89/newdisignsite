@@ -655,7 +655,7 @@ li.menu22 {
 
 #LeftColumnOfMainContent {
     float: left;
-    font-size: small;
+    font-size: 14px;
     margin: 10px 0px 40px 60px;
 }
 
@@ -667,7 +667,7 @@ li.menu22 {
     line-height: 1.8;
     /*float:left;*/
     text-indent: 50px;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    /*text-shadow: 1px 1px 1px rgba(0,0,0,0.2);*/
     /*rgba(15,90,174,0.2)*/
 }
 
@@ -1206,23 +1206,30 @@ th {
 section .titlesOfBlocks{
     font-weight: 900;
     text-align:left;
-    padding:15px 0px 10px 25px;
+    padding:0px 0px 10px 25px;
 }
 section .titlesOfBlocks:first-child{
-    padding-top:0px;
+    padding-top:10px;
 }
 
-#mainpart ul {
+.rentersList ul {
     padding: 0; /* Убираем поля */
     margin-top: 30px;
     margin-left: 30px; /* Отступ слева */
-    font-size: 15px;
+    font-size: 14px;
     text-indent:0px;
 }
 
-#mainpart li {
-    margin: 20px 0;
+.rentersList li {
+    margin: 5px 0;
     list-style-type: square; /* Прячем исходные маркеры */
+}
+
+.divOfSectionRenters{
+    width: 865px;
+    height:540px;
+    margin: 0 auto;
+    background-color:black;
 }
 
 /*#1700FF
