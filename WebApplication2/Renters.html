@@ -264,6 +264,25 @@
             PlugElement.style.display = "none";
         }
 
+        function scrollToDiv(element, navheight) {
+            var offset = element.offset();
+            var offsetTop = offset.top;
+            var totalScroll = offsetTop - navheight;
+
+            $('body,html').animate({
+                scrollTop: totalScroll
+            }, 500);
+        }
+
+        function scroll() {
+            var el = "#container";
+            var elWrapped = $(el);
+
+            scrollToDiv(elWrapped, 0);
+
+            return false;
+        }
+
         var parseQueryString = function (strQuery) {
             var strSearch = strQuery.substr(1),
                 strPattern = /([^=]+)=([^&]+)&?/ig,
@@ -296,18 +315,12 @@
                         break;
                     
                     default:;
-
                 }
-             
-                
-
-                
-
-                
-               
+                scroll();
             }
-            
         }
+
+        
 
         
         
