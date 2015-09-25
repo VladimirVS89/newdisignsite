@@ -235,6 +235,7 @@ body {
 }
 
 .bodydiv {
+    background-attachment :fixed;
     background-image: url("images/background5.jpg");
     background-color: #FFFFFF;
     margin: 0 auto;
@@ -496,8 +497,8 @@ position:absolute;
 
 #SliderDiv {
     position: relative;
-    font-family: 'sochi2014light',"Myriad Pro Regular","Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif"; /*;*/
-    height: 456px;
+    font-family: OpenSans,"Myriad Pro Regular","Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif"; /*;*/
+    height: 454px;
 }
 
 #DivOfMenu {
@@ -829,6 +830,7 @@ li.menu22 {
 }
 
 #rasporka {
+    background-color:white;
     height: 380px;
     padding-top: 0px;
 }
@@ -1224,6 +1226,52 @@ section .titlesOfBlocks:first-child{
     margin: 5px 0;
     list-style-type: square; /* Прячем исходные маркеры */
 }
+
+.divOfSectionRenters{
+    width: 865px;
+    height:540px;
+    margin: 0 auto;
+    background-color:black;
+}
+
+ /* Parallax base styles
+  --------------------------------------------- */
+
+  .parallax {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 1px;
+    perspective: 1px;
+  }
+
+  .parallax__layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .parallax__layer--base {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+
+  .parallax__layer--back {
+    -webkit-transform: translateZ(-1px) scale(2);
+    transform: translateZ(-1px) scale(2);
+  }
+
+  #owl-example img{
+      width:964px
+  }
+
+   #owl-example .clickable{
+      margin-top:30px;
+  }
+
+
 
 /*#1700FF
     
