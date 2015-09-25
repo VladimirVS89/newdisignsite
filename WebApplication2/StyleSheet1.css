@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: OpenSans;
-    src: url("fonts/OpenSans-Regular.otf"); /* EOT file for IE */
+    src: url("fonts/OpenSans-Regular.ttf"); /* EOT file for IE */
 }
 
 @font-face {
@@ -362,6 +362,11 @@ text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;*/
     text-shadow: 1px 1px 1px rgba(15,90,174,0.1);
     
 }
+
+#name :first-child{
+    line-height:30px;
+}
+
 #header:first-child a:hover{
     text-decoration:none;
 }
@@ -543,9 +548,12 @@ position:absolute;
     // float:left;
     behavior: url(css/PIE.htc);
     display: block;
-    -moz-box-shadow: 0px 6px 7px -6px #0F5AAE;
+    -moz-box-shadow: 0px 0px 44px -10px #0F5AAE;
+    -webkit-box-shadow: 0px 0px 44px -10px #0F5AAE;
+    box-shadow: 0px 0px 44px -10px #0F5AAE;
+   /* -moz-box-shadow: 0px 6px 7px -6px #0F5AAE;
     -webkit-box-shadow: 0px 6px 7px -6px #0F5AAE;
-    box-shadow:0px 6px 7px -6px #0F5AAE ;  /* 0px 0px 44px -10px #0F5AAE*/
+    box-shadow:0px 6px 7px -6px #0F5AAE ;*/
     opacity: 0.95;
     position: relative;
     z-index: 10;
@@ -1263,13 +1271,21 @@ section .titlesOfBlocks:first-child{
     transform: translateZ(-1px) scale(2);
   }
 
-  #owl-example img{
-      width:964px
-  }
+#owl-example {
+    height: 440px;
+}
 
-   #owl-example .clickable{
-      margin-top:30px;
-  }
+#owl-example img {
+    width: 964px;
+}
+
+#owl-example .clickable {
+    margin-top: 30px;
+}
+
+#owl-example .owl-wrapper-outer{
+    height:384px;
+}
 
 
 
