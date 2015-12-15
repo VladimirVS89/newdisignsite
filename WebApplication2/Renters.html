@@ -263,6 +263,13 @@
             iframeElement.style.display = "block";
             PlugElement.style.display = "none";
         }
+        function changeNewWarehouseFrame() {
+            iframeElement = document.getElementById("NewWarehouseFrame");
+            PlugElement = document.getElementById("NewWarehousePlug");
+            iframeElement.src = "Panorama/NewWarehouse/NewWarehouse.html";
+            iframeElement.style.display = "block";
+            PlugElement.style.display = "none";
+        }
 
         function scrollToDiv(element, navheight) {
             var offset = element.offset();
@@ -484,13 +491,13 @@
                                         <h2>Наша компания предлагает в аренду:</h2>
                                         <ul class="rentersList">
                                             <li>
-                                                Склад стеллажного хранения.
+                                                Склад стеллажного хранения и малометражные (от 100 м²) складские помещения .
                                             </li>
                                             <li>
                                                 Офис.
                                             </li>
                                             <li>
-                                                Полуподземные склады.
+                                                Полуподземные склады (овощехранилища).
                                             </li>
                                             <li>
                                                 Морозильные и холодильные камеры.</li>
@@ -502,7 +509,7 @@
                                         <div id="container" >
                                             <div class="tabs">
                                                 <input id="tab1" type="radio" name="tabs" checked>
-                                                <label for="tab1" title="Склад">Склад</label>
+                                                <label for="tab1" title="Склад">Склады</label>
 
                                                 <input id="tab2" type="radio" name="tabs">
                                                 <label for="tab2" title="Офис">Офис</label>
@@ -515,7 +522,7 @@
 
                                                 <input id="tab5" type="radio" name="tabs">
                                                 <label for="tab5" title="Территория">Территория</label>
-
+                                                
                                                 <section id="content1">
                                                     <p>Склад стеллажного хранения (1 секция) площадью 1047 м² по цене 190 рублей за 1 м². Высота потолка 8,5 м.</p>
                                                     <img src="images/downblockshadow.png" />
@@ -526,6 +533,24 @@
                                                         <img id="mainWarehousePlug" src="Panorama/MainWarehouse/plug.jpg" onclick="changeFrame()" height="540" width="865">
                                                         <iframe id="mainWarehouseFrame" class="paniframe" name="_pano" src="" style="display:none" frameborder="0" scrolling="no" height="540" width="865" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                                                     </div>
+
+                                                    <br />
+
+                                                    <img src="images/downblockshadow.png" />
+
+                                                    <p>Складские помещения от 100 м², отапливаемые, после ремонта, кровля плотная-ризолин. Покрытые полимером, антипылевые, высокопрочные, износоустойчивые полы. Рольворота, освещение LED светильниками. Возможна сдача без отопления 150 рублей за 1 м².</p>
+
+                                                    <img src="images/downblockshadow.png" />
+
+                                                    <h2 class="titlesOfBlocks">Панорама нового склада.</h2>
+
+
+
+                                                    <div class="divOfSectionRenters">
+                                                        <img id="NewWarehousePlug" src="Panorama/NewWarehouse/plug.jpg" onclick="changeNewWarehouseFrame()" height="540" width="865">
+                                                        <iframe id="NewWarehouseFrame" class="paniframe" name="_pano" src="" style="display:none" frameborder="0" scrolling="no" height="540" width="865" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                                                    </div>
+
 
                                                 </section>
                                                 <section id="content2">
@@ -669,6 +694,7 @@
                                                     
 
                                                 </section>
+
 
                                             </div>
 
