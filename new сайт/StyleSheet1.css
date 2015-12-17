@@ -362,6 +362,11 @@ text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;*/
     text-shadow: 1px 1px 1px rgba(15,90,174,0.1);
     
 }
+
+#name :first-child{
+    line-height:30px;
+}
+
 #header:first-child a:hover{
     text-decoration:none;
 }
@@ -546,6 +551,9 @@ position:absolute;
     -moz-box-shadow: 0px 0px 44px -10px #0F5AAE;
     -webkit-box-shadow: 0px 0px 44px -10px #0F5AAE;
     box-shadow: 0px 0px 44px -10px #0F5AAE;
+   /* -moz-box-shadow: 0px 6px 7px -6px #0F5AAE;
+    -webkit-box-shadow: 0px 6px 7px -6px #0F5AAE;
+    box-shadow:0px 6px 7px -6px #0F5AAE ;*/
     opacity: 0.95;
     position: relative;
     z-index: 10;
@@ -826,7 +834,7 @@ li.menu22 {
     font-size: small;
     color: black;
     text-align: right;
-    font-family: Verdana,sans-serif;
+    font-family:OpenSans, Verdana,sans-serif;
 }
 
 #rasporka {
@@ -1214,6 +1222,13 @@ section .titlesOfBlocks:first-child{
     padding-top:10px;
 }
 
+section p{
+    /*margin-top:10px;*/
+    margin-left:25px;
+    margin-right:25px;
+    line-height: 30px;
+}
+
 .rentersList ul {
     padding: 0; /* Убираем поля */
     margin-top: 30px;
@@ -1263,13 +1278,25 @@ section .titlesOfBlocks:first-child{
     transform: translateZ(-1px) scale(2);
   }
 
-  #owl-example img{
-      width:964px
-  }
+#owl-example {
+    height: 440px;
+}
 
-   #owl-example .clickable{
-      margin-top:30px;
-  }
+#owl-example img {
+    width: 964px;
+}
+
+#owl-example .clickable {
+    margin-top: 30px;
+}
+
+#owl-example .owl-wrapper-outer{
+    height:384px;
+}
+
+.downblockshadow{
+    text-align:center;
+}
 
 
 
